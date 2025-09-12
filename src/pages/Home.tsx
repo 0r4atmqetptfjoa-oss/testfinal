@@ -1,49 +1,53 @@
+import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import ListRow from '@/components/ListRow';
+import { BookOpen, Globe, Shield, Library, Brain, Activity, BrainCircuit } from 'lucide-react';
+import { motion } from 'framer-motion';
 
-import React, { useMemo } from "react";
-import { useNavigate } from "react-router-dom";
-import { Play, BookOpen, Shield, Library, Activity, BrainCircuit } from "lucide-react";
-import ListRow from "@/components/ListRow";
-import PageHeader from "@/components/PageHeader";
-
-type ModuleItem = { icon: React.ReactNode; title: string; subtitle: string; route: string };
-
-export default function Home(){
+export default function Home() {
   const nav = useNavigate();
-  const selection = useMemo(()=>{
-    try { return JSON.parse(localStorage.getItem("userSelection") || "{}"); } catch { return {}; }
-  }, []);
+  const [selection, setSelection] = useState<any>(null);
 
-  const modules: ModuleItem[] = [
-    { icon: <BrainCircuit size={20}/>, title: "Antrenament Inteligent", subtitle: "Sesiune adaptivă ghidată de AI", route: "/adaptive-learning" },
-    { icon: <BookOpen size={20}/>, title: "Mod învățare", subtitle: "Rezumate și tematica completă", route: "/learning" },
-    { icon: <Shield size={20}/>, title: "Simulare Examen", subtitle: "30 legislație + 60 specialitate", route: "/exam" },
-    { icon: <Library size={20}/>, title: "Teste Generale", subtitle: "Filtre pe module și număr de itemi", route: "/all-tests" },
-    { icon: <Activity size={20}/>, title: "Pregătire Fizică", subtitle: "Antrenament 2km cu GPS", route: "/fitness" },
+  useEffect(() => {
+    const userSelection = localStorage.getItem('userSelection');
+    if (userSelection) {
+      setSelection(JSON.parse(userSelection));
+    } else {
+      nav('/');
+    }
+  }, [nav]);
+  
+  const iconProps = { size: 24, className: "text-violet-400" };
+
+  const modules = [
+    { to: '/learning', icon: <BookOpen {...iconProps} />, title: 'Mod Învățare', subtitle: 'Tematică și rezumate' },
+    { to: '/adaptive-learning', icon: <BrainCircuit {...iconProps} />, title: 'Antrenament Inteligent', subtitle: 'Sesiune de învățare adaptivă' },
+    { to: '/exam', icon: <Shield {...iconProps} />, title: 'Simulare Examen', subtitle: 'Testează-ți cunoștințele' },
+    { to: '/all-tests', icon: <Library {...iconProps} />, title: 'Teste Generale', subtitle: 'Exersează pe module' },
+    { to: '/english', icon: <Globe {...iconProps} />, title: 'Teste Engleză', subtitle: 'Îmbunătățește-ți vocabularul' },
+    { to: '/psychology', icon: <Brain {...iconProps} />, title: 'Evaluare Psihologică', subtitle: 'Teste de perspicacitate' },
+    { to: '/fitness', icon: <Activity {...iconProps} />, title: 'Pregătire Fizică', subtitle: 'Monitorizează-ți performanța' },
   ];
 
   return (
-    <div className="min-h-screen bg-gray-950 text-gray-200 p-4 max-w-3xl mx-auto space-y-4">
-      <PageHeader
-        title="Salut, Răzvan!"
-        subtitle={selection?.category ? (<span>{selection.category} • Filiera {selection.track} • {selection.branch}</span>) : "Bine ai revenit în platformă."}
-      />
+    <div className="p-4 space-y-6">
+      <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }}>
+        <h1 className="text-3xl font-bold text-gray-100">Salut, Aspirant!</h1>
+        {selection && (
+          <p className="text-gray-400 mt-1">Modul tău activ: <span className="font-semibold text-violet-400">{selection.branch}</span></p>
+        )}
+      </motion.div>
 
-      <div className="rounded-2xl border border-gray-700 bg-gray-900 p-4 flex items-center justify-between">
-        <div>
-          <div className="text-xl font-semibold">Continuă de unde ai rămas</div>
-          <div className="text-gray-400 text-sm">Reluăm ultimul modul învățat, exact la întrebarea următoare.</div>
-        </div>
-        <button
-          className="px-4 py-2 rounded-xl bg-gradient-to-r from-violet-500 to-purple-500 text-white hover:opacity-95"
-          onClick={()=> nav("/adaptive-learning")}
-        >
-          <div className="flex items-center gap-2"><Play size={18}/> Continuă</div>
-        </button>
-      </div>
-
-      <div className="space-y-2">
-        {modules.map((m) => (
-          <ListRow key={m.title} icon={m.icon} title={m.title} subtitle={m.subtitle} onClick={()=> nav(m.route)} />
+      <div className="space-y-3">
+        {modules.map((mod, index) => (
+          <ListRow 
+            key={mod.to}
+            to={mod.to}
+            icon={mod.icon}
+            title={mod.title}
+            subtitle={mod.subtitle}
+            delay={0.1 * index}
+          />
         ))}
       </div>
     </div>

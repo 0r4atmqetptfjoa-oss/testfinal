@@ -1,25 +1,38 @@
+import { ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
-import React from "react";
-import { motion } from "framer-motion";
-import { ChevronRight } from "lucide-react";
+interface ListRowProps {
+  icon: React.ReactNode;
+  title: string;
+  subtitle: string;
+  to: string;
+  delay?: number;
+}
 
-export default function ListRow({
-  icon, title, subtitle, onClick, right
-}: { icon?: React.ReactNode; title: string; subtitle?: string; onClick?: ()=>void; right?: React.ReactNode }){
+export default function ListRow({ icon, title, subtitle, to, delay = 0 }: ListRowProps) {
+  const nav = useNavigate();
+
   return (
     <motion.button
-      whileHover={{ scale: 1.03 }}
-      onClick={onClick}
-      className="w-full rounded-2xl border border-gray-700 bg-gray-900 p-4 text-left hover:border-violet-500 transition-colors"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay }}
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.98 }}
+      onClick={() => nav(to)}
+      className="w-full p-4 bg-gray-900 rounded-lg flex justify-between items-center text-left border border-transparent hover:border-violet-500 transition-colors"
     >
-      <div className="flex items-center gap-3">
-        {icon && <div className="p-2 rounded-lg bg-gray-800 border border-gray-700">{icon}</div>}
-        <div className="flex-1">
-          <div className="font-medium text-gray-200">{title}</div>
-          {subtitle && <div className="text-gray-400 text-sm">{subtitle}</div>}
+      <div className="flex items-center gap-4">
+        <div className="bg-gray-800 p-3 rounded-lg">
+          {icon}
         </div>
-        {right ?? <ChevronRight className="text-gray-500" />}
+        <div>
+          <p className="font-semibold text-gray-200">{title}</p>
+          <p className="text-sm text-gray-400">{subtitle}</p>
+        </div>
       </div>
+      <ChevronRight className="text-gray-500" />
     </motion.button>
   );
 }
