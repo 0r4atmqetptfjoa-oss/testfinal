@@ -1,20 +1,17 @@
-
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['./index.html','./src/**/*.{ts,tsx}'],
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {
-      colors: {
-        bg: 'var(--bg)',
-        card: 'var(--card)',
-        text: 'var(--text)',
-        muted: 'var(--muted)',
-        primary: 'var(--primary)',
-        accent: 'var(--accent)',
-        border: 'var(--border)',
-      },
-      borderRadius: { '2xl': '1.25rem' }
-    },
+    extend: {},
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('daisyui'),
+    require('@tailwindcss/typography'), // Asigură-te că această linie există
+  ],
+  daisyui: {
+    themes: ["dark"],
+  },
 }

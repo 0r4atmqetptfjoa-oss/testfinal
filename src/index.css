@@ -2,72 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-/* NEW PROFESSIONAL THEME by Gemini
-  Paletă de culori modernă, cu contrast ridicat, pentru lizibilitate maximă.
-*/
-
 :root {
-  --scale: 1;
-  /* --- TEMA DE ZI (LIGHT) --- */
-  --bg: #f8f9fa;       /* Un gri foarte deschis, odihnitor pentru ochi */
-  --card: #ffffff;     /* Carduri albe, curate */
-  --text: #212529;     /* Text principal - Negru intens, dar nu complet negru */
-  --muted: #6c757d;    /* Text secundar - Gri pentru contrast echilibrat */
-  --primary: #007bff;   /* Albastru vibrant pentru elementele principale */
-  --accent: #28a745;   /* Verde pentru succes și accente */
-  --border: #dee2e6;   /* O bordură subtilă */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-[data-theme='dark'] {
-  /* --- TEMA DE NOAPTE (DARK) --- */
-  --bg: #121212;       /* Un negru profund, standardul pentru teme dark */
-  --card: #1e1e1e;     /* Carduri care ies subtil în evidență */
-  --text: #e8eaed;     /* Text principal - Alb-gri, ușor de citit */
-  --muted: #9e9e9e;    /* Text secundar - Gri, cu contrast bun */
-  --primary: #8ab4f8;   /* Albastru deschis, optimizat pentru fundal întunecat */
-  --accent: #81c995;   /* Verde deschis pentru accente */
-  --border: #3c4043;   /* Bordură subtilă pentru modul dark */
-}
-
-/* Tranziție fluidă la schimbarea temei */
-*, ::before, ::after {
-  transition: background-color 0.3s ease, color 0.2s ease, border-color 0.3s ease;
-}
-
-/* Stiluri de bază pentru a asigura consistența */
 body {
-  background-color: var(--bg); /* Fundalul este acum o culoare solidă din tema selectată */
-  color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: calc(16px * var(--scale-factor, 1));
+  min-height: 100vh;
+  background-color: hsl(var(--b1));
+  color: hsl(var(--bc));
 }
 
-/* Cardurile vor avea acum un fundal solid, nu mai au nevoie de transparență */
 .card {
-  @apply bg-card border border-border rounded-2xl p-4;
+  /* Folosim variabile de culoare de la daisyUI */
+  background-color: hsl(var(--b2)); /* Fundal secundar */
+  border: 1px solid hsl(var(--b3)); /* O bordură subtilă */
 }
 
-.btn {
-  @apply px-4 py-2 rounded-lg font-semibold transition-opacity duration-200;
-}
-.btn:disabled {
-  @apply opacity-50 cursor-not-allowed;
-}
-
-.btn-primary {
-  @apply bg-primary text-white;
-}
-.btn-primary:hover {
-  @apply opacity-90;
+/* Stil pentru item-urile din liste, pentru a fi consistent */
+.card-item {
+  background-color: hsl(var(--b2));
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
 }
 
-.btn-ghost {
-  @apply bg-transparent border border-border text-text;
-}
-.btn-ghost:hover {
-  @apply bg-black/10 dark:bg-white/10;
-}
-
-.input {
-  @apply bg-card border border-border rounded-lg px-3 py-1.5 text-sm;
+.card-item:hover {
+  background-color: hsl(var(--b3));
+  border-color: hsl(var(--p)); /* Culoarea de accent la hover */
 }
