@@ -11,6 +11,7 @@ export default function Learning() {
 
   useEffect(() => {
     const fetchSummaries = async () => {
+      // Aici este magia: funcția citește selecția din localStorage și aduce datele corecte
       const data = await loadSpecialtySummaries();
       if (data.length === 0) {
         setError("Nu am găsit materiale de studiu pentru specialitatea selectată. Conținutul va fi adăugat în curând.");
