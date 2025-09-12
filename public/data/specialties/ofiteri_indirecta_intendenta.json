@@ -1,0 +1,602 @@
+[
+  {
+    "id": "OF_I_INT_001",
+    "question": "Întrebarea demo 1 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_002",
+    "question": "Întrebarea demo 2 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_003",
+    "question": "Întrebarea demo 3 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_004",
+    "question": "Întrebarea demo 4 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_005",
+    "question": "Întrebarea demo 5 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_006",
+    "question": "Întrebarea demo 6 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_007",
+    "question": "Întrebarea demo 7 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_008",
+    "question": "Întrebarea demo 8 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_009",
+    "question": "Întrebarea demo 9 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_010",
+    "question": "Întrebarea demo 10 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_011",
+    "question": "Întrebarea demo 11 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_012",
+    "question": "Întrebarea demo 12 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_013",
+    "question": "Întrebarea demo 13 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_014",
+    "question": "Întrebarea demo 14 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_015",
+    "question": "Întrebarea demo 15 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_016",
+    "question": "Întrebarea demo 16 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_017",
+    "question": "Întrebarea demo 17 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_018",
+    "question": "Întrebarea demo 18 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_019",
+    "question": "Întrebarea demo 19 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_020",
+    "question": "Întrebarea demo 20 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_021",
+    "question": "Întrebarea demo 21 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_022",
+    "question": "Întrebarea demo 22 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_023",
+    "question": "Întrebarea demo 23 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_024",
+    "question": "Întrebarea demo 24 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_025",
+    "question": "Întrebarea demo 25 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_026",
+    "question": "Întrebarea demo 26 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_027",
+    "question": "Întrebarea demo 27 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_028",
+    "question": "Întrebarea demo 28 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_029",
+    "question": "Întrebarea demo 29 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_030",
+    "question": "Întrebarea demo 30 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_031",
+    "question": "Întrebarea demo 31 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_032",
+    "question": "Întrebarea demo 32 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_033",
+    "question": "Întrebarea demo 33 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_034",
+    "question": "Întrebarea demo 34 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_035",
+    "question": "Întrebarea demo 35 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_036",
+    "question": "Întrebarea demo 36 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_037",
+    "question": "Întrebarea demo 37 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_038",
+    "question": "Întrebarea demo 38 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_039",
+    "question": "Întrebarea demo 39 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_040",
+    "question": "Întrebarea demo 40 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_041",
+    "question": "Întrebarea demo 41 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_042",
+    "question": "Întrebarea demo 42 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_043",
+    "question": "Întrebarea demo 43 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_044",
+    "question": "Întrebarea demo 44 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_045",
+    "question": "Întrebarea demo 45 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_046",
+    "question": "Întrebarea demo 46 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_047",
+    "question": "Întrebarea demo 47 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_048",
+    "question": "Întrebarea demo 48 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_049",
+    "question": "Întrebarea demo 49 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Intendență).",
+    "topic": "Intendență"
+  },
+  {
+    "id": "OF_I_INT_050",
+    "question": "Întrebarea demo 50 pentru Intendență?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Intendență).",
+    "topic": "Intendență"
+  }
+]

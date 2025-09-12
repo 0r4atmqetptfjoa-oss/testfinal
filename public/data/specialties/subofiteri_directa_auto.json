@@ -1,0 +1,602 @@
+[
+  {
+    "id": "SOF_D_AUT_001",
+    "question": "Întrebarea demo 1 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_002",
+    "question": "Întrebarea demo 2 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_003",
+    "question": "Întrebarea demo 3 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_004",
+    "question": "Întrebarea demo 4 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_005",
+    "question": "Întrebarea demo 5 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_006",
+    "question": "Întrebarea demo 6 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_007",
+    "question": "Întrebarea demo 7 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_008",
+    "question": "Întrebarea demo 8 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_009",
+    "question": "Întrebarea demo 9 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_010",
+    "question": "Întrebarea demo 10 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_011",
+    "question": "Întrebarea demo 11 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_012",
+    "question": "Întrebarea demo 12 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_013",
+    "question": "Întrebarea demo 13 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_014",
+    "question": "Întrebarea demo 14 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_015",
+    "question": "Întrebarea demo 15 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_016",
+    "question": "Întrebarea demo 16 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_017",
+    "question": "Întrebarea demo 17 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_018",
+    "question": "Întrebarea demo 18 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_019",
+    "question": "Întrebarea demo 19 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_020",
+    "question": "Întrebarea demo 20 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_021",
+    "question": "Întrebarea demo 21 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_022",
+    "question": "Întrebarea demo 22 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_023",
+    "question": "Întrebarea demo 23 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_024",
+    "question": "Întrebarea demo 24 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_025",
+    "question": "Întrebarea demo 25 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_026",
+    "question": "Întrebarea demo 26 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_027",
+    "question": "Întrebarea demo 27 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_028",
+    "question": "Întrebarea demo 28 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_029",
+    "question": "Întrebarea demo 29 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_030",
+    "question": "Întrebarea demo 30 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_031",
+    "question": "Întrebarea demo 31 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_032",
+    "question": "Întrebarea demo 32 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_033",
+    "question": "Întrebarea demo 33 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_034",
+    "question": "Întrebarea demo 34 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_035",
+    "question": "Întrebarea demo 35 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_036",
+    "question": "Întrebarea demo 36 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_037",
+    "question": "Întrebarea demo 37 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_038",
+    "question": "Întrebarea demo 38 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_039",
+    "question": "Întrebarea demo 39 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_040",
+    "question": "Întrebarea demo 40 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_041",
+    "question": "Întrebarea demo 41 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_042",
+    "question": "Întrebarea demo 42 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_043",
+    "question": "Întrebarea demo 43 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_044",
+    "question": "Întrebarea demo 44 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_045",
+    "question": "Întrebarea demo 45 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_046",
+    "question": "Întrebarea demo 46 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_047",
+    "question": "Întrebarea demo 47 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_048",
+    "question": "Întrebarea demo 48 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_049",
+    "question": "Întrebarea demo 49 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Auto).",
+    "topic": "Auto"
+  },
+  {
+    "id": "SOF_D_AUT_050",
+    "question": "Întrebarea demo 50 pentru Auto?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Auto).",
+    "topic": "Auto"
+  }
+]

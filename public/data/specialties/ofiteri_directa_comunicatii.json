@@ -1,0 +1,602 @@
+[
+  {
+    "id": "OF_D_COM_001",
+    "question": "Întrebarea demo 1 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_002",
+    "question": "Întrebarea demo 2 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_003",
+    "question": "Întrebarea demo 3 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_004",
+    "question": "Întrebarea demo 4 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_005",
+    "question": "Întrebarea demo 5 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_006",
+    "question": "Întrebarea demo 6 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_007",
+    "question": "Întrebarea demo 7 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_008",
+    "question": "Întrebarea demo 8 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_009",
+    "question": "Întrebarea demo 9 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_010",
+    "question": "Întrebarea demo 10 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_011",
+    "question": "Întrebarea demo 11 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_012",
+    "question": "Întrebarea demo 12 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_013",
+    "question": "Întrebarea demo 13 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_014",
+    "question": "Întrebarea demo 14 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_015",
+    "question": "Întrebarea demo 15 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_016",
+    "question": "Întrebarea demo 16 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_017",
+    "question": "Întrebarea demo 17 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_018",
+    "question": "Întrebarea demo 18 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_019",
+    "question": "Întrebarea demo 19 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_020",
+    "question": "Întrebarea demo 20 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_021",
+    "question": "Întrebarea demo 21 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_022",
+    "question": "Întrebarea demo 22 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_023",
+    "question": "Întrebarea demo 23 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_024",
+    "question": "Întrebarea demo 24 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_025",
+    "question": "Întrebarea demo 25 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_026",
+    "question": "Întrebarea demo 26 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_027",
+    "question": "Întrebarea demo 27 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_028",
+    "question": "Întrebarea demo 28 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_029",
+    "question": "Întrebarea demo 29 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_030",
+    "question": "Întrebarea demo 30 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_031",
+    "question": "Întrebarea demo 31 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_032",
+    "question": "Întrebarea demo 32 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_033",
+    "question": "Întrebarea demo 33 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_034",
+    "question": "Întrebarea demo 34 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_035",
+    "question": "Întrebarea demo 35 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_036",
+    "question": "Întrebarea demo 36 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_037",
+    "question": "Întrebarea demo 37 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_038",
+    "question": "Întrebarea demo 38 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_039",
+    "question": "Întrebarea demo 39 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_040",
+    "question": "Întrebarea demo 40 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_041",
+    "question": "Întrebarea demo 41 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_042",
+    "question": "Întrebarea demo 42 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_043",
+    "question": "Întrebarea demo 43 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_044",
+    "question": "Întrebarea demo 44 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_045",
+    "question": "Întrebarea demo 45 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_046",
+    "question": "Întrebarea demo 46 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_047",
+    "question": "Întrebarea demo 47 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_048",
+    "question": "Întrebarea demo 48 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_049",
+    "question": "Întrebarea demo 49 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  },
+  {
+    "id": "OF_D_COM_050",
+    "question": "Întrebarea demo 50 pentru Comunicații și Informatică?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Comunicații și Informatică).",
+    "topic": "Comunicații și Informatică"
+  }
+]

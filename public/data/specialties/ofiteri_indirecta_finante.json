@@ -1,0 +1,602 @@
+[
+  {
+    "id": "OF_I_FIN_001",
+    "question": "Întrebarea demo 1 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_002",
+    "question": "Întrebarea demo 2 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_003",
+    "question": "Întrebarea demo 3 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_004",
+    "question": "Întrebarea demo 4 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_005",
+    "question": "Întrebarea demo 5 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_006",
+    "question": "Întrebarea demo 6 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_007",
+    "question": "Întrebarea demo 7 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_008",
+    "question": "Întrebarea demo 8 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_009",
+    "question": "Întrebarea demo 9 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_010",
+    "question": "Întrebarea demo 10 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_011",
+    "question": "Întrebarea demo 11 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_012",
+    "question": "Întrebarea demo 12 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_013",
+    "question": "Întrebarea demo 13 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_014",
+    "question": "Întrebarea demo 14 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_015",
+    "question": "Întrebarea demo 15 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_016",
+    "question": "Întrebarea demo 16 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_017",
+    "question": "Întrebarea demo 17 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_018",
+    "question": "Întrebarea demo 18 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_019",
+    "question": "Întrebarea demo 19 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_020",
+    "question": "Întrebarea demo 20 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_021",
+    "question": "Întrebarea demo 21 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_022",
+    "question": "Întrebarea demo 22 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_023",
+    "question": "Întrebarea demo 23 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_024",
+    "question": "Întrebarea demo 24 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_025",
+    "question": "Întrebarea demo 25 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_026",
+    "question": "Întrebarea demo 26 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_027",
+    "question": "Întrebarea demo 27 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_028",
+    "question": "Întrebarea demo 28 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_029",
+    "question": "Întrebarea demo 29 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_030",
+    "question": "Întrebarea demo 30 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_031",
+    "question": "Întrebarea demo 31 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_032",
+    "question": "Întrebarea demo 32 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_033",
+    "question": "Întrebarea demo 33 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_034",
+    "question": "Întrebarea demo 34 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_035",
+    "question": "Întrebarea demo 35 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_036",
+    "question": "Întrebarea demo 36 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_037",
+    "question": "Întrebarea demo 37 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_038",
+    "question": "Întrebarea demo 38 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_039",
+    "question": "Întrebarea demo 39 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_040",
+    "question": "Întrebarea demo 40 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_041",
+    "question": "Întrebarea demo 41 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_042",
+    "question": "Întrebarea demo 42 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_043",
+    "question": "Întrebarea demo 43 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_044",
+    "question": "Întrebarea demo 44 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_045",
+    "question": "Întrebarea demo 45 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_046",
+    "question": "Întrebarea demo 46 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_047",
+    "question": "Întrebarea demo 47 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_048",
+    "question": "Întrebarea demo 48 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_049",
+    "question": "Întrebarea demo 49 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  },
+  {
+    "id": "OF_I_FIN_050",
+    "question": "Întrebarea demo 50 pentru Finanțe-Contabilitate?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Finanțe-Contabilitate).",
+    "topic": "Finanțe-Contabilitate"
+  }
+]

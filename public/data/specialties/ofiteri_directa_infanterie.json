@@ -1,0 +1,602 @@
+[
+  {
+    "id": "OF_D_INF_001",
+    "question": "Întrebarea demo 1 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_002",
+    "question": "Întrebarea demo 2 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_003",
+    "question": "Întrebarea demo 3 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_004",
+    "question": "Întrebarea demo 4 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_005",
+    "question": "Întrebarea demo 5 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_006",
+    "question": "Întrebarea demo 6 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_007",
+    "question": "Întrebarea demo 7 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_008",
+    "question": "Întrebarea demo 8 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_009",
+    "question": "Întrebarea demo 9 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_010",
+    "question": "Întrebarea demo 10 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_011",
+    "question": "Întrebarea demo 11 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_012",
+    "question": "Întrebarea demo 12 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_013",
+    "question": "Întrebarea demo 13 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_014",
+    "question": "Întrebarea demo 14 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_015",
+    "question": "Întrebarea demo 15 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_016",
+    "question": "Întrebarea demo 16 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_017",
+    "question": "Întrebarea demo 17 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_018",
+    "question": "Întrebarea demo 18 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_019",
+    "question": "Întrebarea demo 19 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_020",
+    "question": "Întrebarea demo 20 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_021",
+    "question": "Întrebarea demo 21 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_022",
+    "question": "Întrebarea demo 22 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_023",
+    "question": "Întrebarea demo 23 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_024",
+    "question": "Întrebarea demo 24 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_025",
+    "question": "Întrebarea demo 25 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_026",
+    "question": "Întrebarea demo 26 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_027",
+    "question": "Întrebarea demo 27 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_028",
+    "question": "Întrebarea demo 28 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_029",
+    "question": "Întrebarea demo 29 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_030",
+    "question": "Întrebarea demo 30 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_031",
+    "question": "Întrebarea demo 31 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_032",
+    "question": "Întrebarea demo 32 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_033",
+    "question": "Întrebarea demo 33 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_034",
+    "question": "Întrebarea demo 34 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_035",
+    "question": "Întrebarea demo 35 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_036",
+    "question": "Întrebarea demo 36 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_037",
+    "question": "Întrebarea demo 37 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_038",
+    "question": "Întrebarea demo 38 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_039",
+    "question": "Întrebarea demo 39 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_040",
+    "question": "Întrebarea demo 40 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_041",
+    "question": "Întrebarea demo 41 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_042",
+    "question": "Întrebarea demo 42 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_043",
+    "question": "Întrebarea demo 43 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_044",
+    "question": "Întrebarea demo 44 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_045",
+    "question": "Întrebarea demo 45 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_046",
+    "question": "Întrebarea demo 46 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_047",
+    "question": "Întrebarea demo 47 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_048",
+    "question": "Întrebarea demo 48 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_049",
+    "question": "Întrebarea demo 49 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  },
+  {
+    "id": "OF_D_INF_050",
+    "question": "Întrebarea demo 50 pentru Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership).",
+    "topic": "Infanterie - Tactică/Armament/Topografie/Regulamente/Leadership"
+  }
+]

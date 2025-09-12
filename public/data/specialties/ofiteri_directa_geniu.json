@@ -1,0 +1,602 @@
+[
+  {
+    "id": "OF_D_GEN_001",
+    "question": "Întrebarea demo 1 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_002",
+    "question": "Întrebarea demo 2 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_003",
+    "question": "Întrebarea demo 3 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_004",
+    "question": "Întrebarea demo 4 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_005",
+    "question": "Întrebarea demo 5 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_006",
+    "question": "Întrebarea demo 6 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_007",
+    "question": "Întrebarea demo 7 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_008",
+    "question": "Întrebarea demo 8 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_009",
+    "question": "Întrebarea demo 9 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_010",
+    "question": "Întrebarea demo 10 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_011",
+    "question": "Întrebarea demo 11 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_012",
+    "question": "Întrebarea demo 12 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_013",
+    "question": "Întrebarea demo 13 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_014",
+    "question": "Întrebarea demo 14 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_015",
+    "question": "Întrebarea demo 15 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_016",
+    "question": "Întrebarea demo 16 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_017",
+    "question": "Întrebarea demo 17 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_018",
+    "question": "Întrebarea demo 18 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_019",
+    "question": "Întrebarea demo 19 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_020",
+    "question": "Întrebarea demo 20 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_021",
+    "question": "Întrebarea demo 21 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_022",
+    "question": "Întrebarea demo 22 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_023",
+    "question": "Întrebarea demo 23 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_024",
+    "question": "Întrebarea demo 24 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_025",
+    "question": "Întrebarea demo 25 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_026",
+    "question": "Întrebarea demo 26 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_027",
+    "question": "Întrebarea demo 27 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_028",
+    "question": "Întrebarea demo 28 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_029",
+    "question": "Întrebarea demo 29 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_030",
+    "question": "Întrebarea demo 30 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_031",
+    "question": "Întrebarea demo 31 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_032",
+    "question": "Întrebarea demo 32 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_033",
+    "question": "Întrebarea demo 33 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_034",
+    "question": "Întrebarea demo 34 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_035",
+    "question": "Întrebarea demo 35 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_036",
+    "question": "Întrebarea demo 36 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_037",
+    "question": "Întrebarea demo 37 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_038",
+    "question": "Întrebarea demo 38 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_039",
+    "question": "Întrebarea demo 39 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_040",
+    "question": "Întrebarea demo 40 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_041",
+    "question": "Întrebarea demo 41 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_042",
+    "question": "Întrebarea demo 42 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_043",
+    "question": "Întrebarea demo 43 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_044",
+    "question": "Întrebarea demo 44 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_045",
+    "question": "Întrebarea demo 45 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_046",
+    "question": "Întrebarea demo 46 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_047",
+    "question": "Întrebarea demo 47 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_048",
+    "question": "Întrebarea demo 48 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_049",
+    "question": "Întrebarea demo 49 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  },
+  {
+    "id": "OF_D_GEN_050",
+    "question": "Întrebarea demo 50 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
+    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
+  }
+]

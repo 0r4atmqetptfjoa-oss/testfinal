@@ -1,0 +1,602 @@
+[
+  {
+    "id": "SOF_I_PM_001",
+    "question": "Întrebarea demo 1 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_002",
+    "question": "Întrebarea demo 2 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_003",
+    "question": "Întrebarea demo 3 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_004",
+    "question": "Întrebarea demo 4 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_005",
+    "question": "Întrebarea demo 5 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_006",
+    "question": "Întrebarea demo 6 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_007",
+    "question": "Întrebarea demo 7 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_008",
+    "question": "Întrebarea demo 8 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_009",
+    "question": "Întrebarea demo 9 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_010",
+    "question": "Întrebarea demo 10 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_011",
+    "question": "Întrebarea demo 11 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_012",
+    "question": "Întrebarea demo 12 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_013",
+    "question": "Întrebarea demo 13 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_014",
+    "question": "Întrebarea demo 14 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_015",
+    "question": "Întrebarea demo 15 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_016",
+    "question": "Întrebarea demo 16 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_017",
+    "question": "Întrebarea demo 17 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_018",
+    "question": "Întrebarea demo 18 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_019",
+    "question": "Întrebarea demo 19 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_020",
+    "question": "Întrebarea demo 20 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_021",
+    "question": "Întrebarea demo 21 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_022",
+    "question": "Întrebarea demo 22 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_023",
+    "question": "Întrebarea demo 23 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_024",
+    "question": "Întrebarea demo 24 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_025",
+    "question": "Întrebarea demo 25 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_026",
+    "question": "Întrebarea demo 26 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_027",
+    "question": "Întrebarea demo 27 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_028",
+    "question": "Întrebarea demo 28 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_029",
+    "question": "Întrebarea demo 29 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_030",
+    "question": "Întrebarea demo 30 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_031",
+    "question": "Întrebarea demo 31 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_032",
+    "question": "Întrebarea demo 32 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_033",
+    "question": "Întrebarea demo 33 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_034",
+    "question": "Întrebarea demo 34 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_035",
+    "question": "Întrebarea demo 35 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_036",
+    "question": "Întrebarea demo 36 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_037",
+    "question": "Întrebarea demo 37 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_038",
+    "question": "Întrebarea demo 38 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_039",
+    "question": "Întrebarea demo 39 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_040",
+    "question": "Întrebarea demo 40 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_041",
+    "question": "Întrebarea demo 41 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_042",
+    "question": "Întrebarea demo 42 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_043",
+    "question": "Întrebarea demo 43 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_044",
+    "question": "Întrebarea demo 44 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_045",
+    "question": "Întrebarea demo 45 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_046",
+    "question": "Întrebarea demo 46 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_047",
+    "question": "Întrebarea demo 47 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_048",
+    "question": "Întrebarea demo 48 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "c",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_049",
+    "question": "Întrebarea demo 49 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "a",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "SOF_I_PM_050",
+    "question": "Întrebarea demo 50 pentru Poliție Militară?",
+    "options": {
+      "a": "Răspuns A",
+      "b": "Răspuns B",
+      "c": "Răspuns C"
+    },
+    "answer": "b",
+    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Poliție Militară).",
+    "topic": "Poliție Militară"
+  }
+]
