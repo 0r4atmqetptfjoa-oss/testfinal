@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_AUTO_001",
+    "question": "Întrebare placeholder #1 pentru Auto (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Auto"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_AUTO_002",
+    "question": "Întrebare placeholder #2 pentru Auto (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Auto"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_AUTO_003",
+    "question": "Întrebare placeholder #3 pentru Auto (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Auto"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_AUTO_004",
+    "question": "Întrebare placeholder #4 pentru Auto (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Auto"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_AUTO_005",
+    "question": "Întrebare placeholder #5 pentru Auto (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Auto"
+  }
+]

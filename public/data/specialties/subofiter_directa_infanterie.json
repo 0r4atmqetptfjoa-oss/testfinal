@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PLACEHOLDER_SUBOFITER_DIRECTA_INFANTERIE_001",
+    "question": "Întrebare placeholder #1 pentru Infanterie (Subofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Infanterie"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_DIRECTA_INFANTERIE_002",
+    "question": "Întrebare placeholder #2 pentru Infanterie (Subofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Infanterie"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_DIRECTA_INFANTERIE_003",
+    "question": "Întrebare placeholder #3 pentru Infanterie (Subofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Infanterie"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_DIRECTA_INFANTERIE_004",
+    "question": "Întrebare placeholder #4 pentru Infanterie (Subofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Infanterie"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_DIRECTA_INFANTERIE_005",
+    "question": "Întrebare placeholder #5 pentru Infanterie (Subofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Infanterie"
+  }
+]

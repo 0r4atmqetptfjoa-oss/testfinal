@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_INTENDENTA_001",
+    "question": "Întrebare placeholder #1 pentru Intendență (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Intendență"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_INTENDENTA_002",
+    "question": "Întrebare placeholder #2 pentru Intendență (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Intendență"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_INTENDENTA_003",
+    "question": "Întrebare placeholder #3 pentru Intendență (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Intendență"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_INTENDENTA_004",
+    "question": "Întrebare placeholder #4 pentru Intendență (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Intendență"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_INTENDENTA_005",
+    "question": "Întrebare placeholder #5 pentru Intendență (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Intendență"
+  }
+]

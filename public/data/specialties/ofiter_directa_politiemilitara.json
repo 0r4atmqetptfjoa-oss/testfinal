@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_POLITIEMILITARA_001",
+    "question": "Întrebare placeholder #1 pentru Poliție Militară (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_POLITIEMILITARA_002",
+    "question": "Întrebare placeholder #2 pentru Poliție Militară (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_POLITIEMILITARA_003",
+    "question": "Întrebare placeholder #3 pentru Poliție Militară (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_POLITIEMILITARA_004",
+    "question": "Întrebare placeholder #4 pentru Poliție Militară (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Poliție Militară"
+  },
+  {
+    "id": "PLACEHOLDER_OFITER_DIRECTA_POLITIEMILITARA_005",
+    "question": "Întrebare placeholder #5 pentru Poliție Militară (Ofițeri, Filiera Directă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Poliție Militară"
+  }
+]

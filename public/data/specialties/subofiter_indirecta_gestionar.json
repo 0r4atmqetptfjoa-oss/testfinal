@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_GESTIONAR_001",
+    "question": "Întrebare placeholder #1 pentru Gestionar (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Gestionar"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_GESTIONAR_002",
+    "question": "Întrebare placeholder #2 pentru Gestionar (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Gestionar"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_GESTIONAR_003",
+    "question": "Întrebare placeholder #3 pentru Gestionar (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Gestionar"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_GESTIONAR_004",
+    "question": "Întrebare placeholder #4 pentru Gestionar (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Gestionar"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_GESTIONAR_005",
+    "question": "Întrebare placeholder #5 pentru Gestionar (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Gestionar"
+  }
+]

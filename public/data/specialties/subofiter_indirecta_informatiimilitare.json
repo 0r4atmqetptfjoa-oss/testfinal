@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_INFORMATIIMILITARE_001",
+    "question": "Întrebare placeholder #1 pentru Informații Militare (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Informații Militare"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_INFORMATIIMILITARE_002",
+    "question": "Întrebare placeholder #2 pentru Informații Militare (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Informații Militare"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_INFORMATIIMILITARE_003",
+    "question": "Întrebare placeholder #3 pentru Informații Militare (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Informații Militare"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_INFORMATIIMILITARE_004",
+    "question": "Întrebare placeholder #4 pentru Informații Militare (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Informații Militare"
+  },
+  {
+    "id": "PLACEHOLDER_SUBOFITER_INDIRECTA_INFORMATIIMILITARE_005",
+    "question": "Întrebare placeholder #5 pentru Informații Militare (Subofițeri, Filiera Indirectă). Conținutul real va fi adăugat ulterior.",
+    "options": {
+      "a": "Opțiune A",
+      "b": "Opțiune B",
+      "c": "Opțiune C"
+    },
+    "answer": "a",
+    "explanation": "Aceasta este o explicație placeholder. Detaliile și justificarea vor fi completate în versiunea finală.",
+    "topic": "Informații Militare"
+  }
+]
