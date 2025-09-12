@@ -8,11 +8,11 @@ export default function PageHeader({ title, subtitle, right }: { title: string; 
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.28 }}
-      className="mb-4 flex items-start justify-between gap-3"
+      className="mb-2 flex items-start justify-between gap-3"
     >
       <div className="space-y-1">
         <h1 className="text-2xl font-bold text-gray-200">{title}</h1>
-        {subtitle && <div className="text-sm text-gray-400">{subtitle}</div>}
+        {subtitle && <div className="text-sm text-gray-500">{subtitle}</div>}
       </div>
       {right}
     </motion.header>

@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import {
     Shield, User, ArrowRight, ChevronsRight, Footprints, Search, LocateFixed, Construction,
     Biohazard, Signal, UserCog, Plane, TowerControl, Rocket, Ship, Warehouse, Landmark,
-    Truck, Gavel, Building, Brain, Bike, Car, Archive, Database, Wrench, LucideIcon
-} from 'lucide-react';
+    Truck, Gavel, Building, Brain, Bike, Car, Archive, Database, Wrench, LucideIcon, Dna, Wind
+} from 'lucide-react'; // Am adăugat iconițe noi
 import { motion, AnimatePresence } from 'framer-motion';
 
 // --- Componenta UI reutilizabilă pentru cardurile de selecție ---
@@ -43,9 +43,10 @@ const branches: Record<Category, Record<Track, { name: string; icon: LucideIcon 
   ofiter: {
     directa: [
       { name: 'Infanterie', icon: Footprints }, { name: 'Cercetare', icon: Search },
-      { name: 'Artilerie și Rachete Terestre', icon: LocateFixed }, { name: 'Geniu', icon: Construction },
+      { name: 'Tancuri', icon: Dna }, { name: 'Parașutiști / Comandos', icon: Wind },
+      { name: 'Artilerie și Rachete', icon: LocateFixed }, { name: 'Geniu', icon: Construction },
       { name: 'Apărare CBRN', icon: Biohazard }, { name: 'Aviație Piloți', icon: Plane },
-      { name: 'Controlor Trafic Aerian', icon: TowerControl }, { name: 'Rachete și Artilerie Antiaeriană', icon: Rocket },
+      { name: 'Controlor Trafic Aerian', icon: TowerControl }, { name: 'Rachete Antiaeriene', icon: Rocket },
       { name: 'Forțe Navale', icon: Ship }, { name: 'Comunicații și Informatică', icon: Signal },
       { name: 'Intendență', icon: Warehouse }, { name: 'Finanțe-Contabilitate', icon: Landmark },
       { name: 'Logistică', icon: Truck }, { name: 'Poliție Militară', icon: UserCog },
@@ -60,6 +61,7 @@ const branches: Record<Category, Record<Track, { name: string; icon: LucideIcon 
   subofiter: {
     directa: [
         { name: 'Infanterie', icon: Footprints }, { name: 'Auto', icon: Car },
+        { name: 'Tancuri', icon: Dna }, { name: 'Parașutiști / Comandos', icon: Wind },
         { name: 'Geniu', icon: Construction }, { name: 'Apărare CBRN', icon: Biohazard },
         { name: 'Artilerie și Rachete', icon: LocateFixed }, { name: 'Comunicații și Informatică', icon: Signal },
         { name: 'Aeronave și Motoare', icon: Wrench }, { name: 'Forțe Navale', icon: Ship },
@@ -94,7 +96,7 @@ export default function Onboarding() {
         nav('/home');
     }
   };
-
+  
   const renderStepContent = () => {
     switch (step) {
       case 'category':
