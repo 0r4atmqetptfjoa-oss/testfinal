@@ -1,8 +1,9 @@
 
 import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Shield, Target, BookOpen, ChevronRight } from "lucide-react";
+import { Shield, Target, BookOpen } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import ProgressBar from "@/components/ProgressBar";
 
 type Selection = { category?: string; track?: string; branch?: string };
 const steps = ["Alege categoria", "Alege filiera", "Alege specialitatea"] as const;
@@ -13,19 +14,6 @@ const pageVariants = {
   center: { opacity: 1, y: 0, x: 0, transition: { type: "spring", stiffness: 320, damping: 26 } },
   exit: (dir: number) => ({ opacity: 0, y: 12, x: dir > 0 ? -40 : 40 }),
 };
-
-function ProgressBar({ percent }: { percent: number }){
-  return (
-    <div className="w-full h-2 bg-gray-800 rounded-full overflow-hidden border border-gray-700">
-      <motion.div
-        className="h-full bg-gradient-to-r from-violet-500 to-purple-500"
-        initial={{ width: 0 }}
-        animate={{ width: `${percent}%` }}
-        transition={{ type: "tween", duration: 0.35 }}
-      />
-    </div>
-  );
-}
 
 function SelectCard({
   selected, icon, title, subtitle, onClick
@@ -43,7 +31,6 @@ function SelectCard({
           <div className="text-gray-200 font-semibold text-lg">{title}</div>
           <div className="text-gray-400 text-sm">{subtitle}</div>
         </div>
-        <ChevronRight className="text-gray-500" />
       </div>
     </button>
   );

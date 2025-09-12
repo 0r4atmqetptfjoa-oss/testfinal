@@ -1,5 +1,6 @@
+
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ['./index.html','./src/**/*.{ts,tsx}'],
   theme: {
     extend: {
@@ -15,5 +16,5 @@ export default {
       borderRadius: { '2xl': '1.25rem' }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }

@@ -1,5 +1,4 @@
 
-// Simple WebAudio tones for correct/incorrect feedback
 export function playTone(freq: number = 880, durationMs: number = 140){
   try{
     const ctx = new (window.AudioContext || (window as any).webkitAudioContext)();
@@ -12,7 +11,7 @@ export function playTone(freq: number = 880, durationMs: number = 140){
     g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + durationMs/1000);
     o.connect(g); g.connect(ctx.destination);
     o.start(); o.stop(ctx.currentTime + durationMs/1000 + 0.02);
-  }catch{ /* ignore */ }
+  }catch{}
 }
 export const playCorrect = () => playTone(880, 150);
 export const playWrong   = () => playTone(220, 180);

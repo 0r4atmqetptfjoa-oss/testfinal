@@ -1,16 +1,11 @@
 
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle } from "lucide-react";
+import ProgressBar from "@/components/ProgressBar";
 import { playCorrect, playWrong } from "@/lib/sound";
 
-export type QuizItem = {
-  id: string;
-  question: string;
-  choices: string[];
-  answer: string; // exact match of one choice
-  why?: string;
-};
+export type QuizItem = { id: string; question: string; choices: string[]; answer: string; why?: string; };
 
 export default function QuizPlayer({ items, onFinish }: { items: QuizItem[]; onFinish?: (score: number, mistakes: QuizItem[]) => void }){
   const [index, setIndex] = useState(0);
@@ -18,35 +13,23 @@ export default function QuizPlayer({ items, onFinish }: { items: QuizItem[]; onF
   const [revealed, setRevealed] = useState(false);
   const [score, setScore] = useState(0);
   const [mistakes, setMistakes] = useState<QuizItem[]>([]);
+  const [view, setView] = useState<"play" | "summary">("play");
 
   const item = items[index];
   const progress = Math.round(((index)/items.length)*100);
 
-  const select = (choice: string) => {
-    if (revealed) return;
-    setSelected(choice);
-  };
-
+  const select = (c: string) => { if (!revealed) setSelected(c); };
   const check = () => {
     if (selected == null) return;
-    const isCorrect = selected === item.answer;
-    if (isCorrect) { setScore(s=>s+1); playCorrect(); }
-    else { setMistakes(m=>[...m, item]); playWrong(); }
+    const ok = selected === item.answer;
+    if (ok){ setScore(s=>s+1); playCorrect(); } else { setMistakes(m=>[...m, item]); playWrong(); }
     setRevealed(true);
   };
-
   const next = () => {
     if (index+1 < items.length){
-      setIndex(i=>i+1);
-      setSelected(null);
-      setRevealed(false);
-    } else {
-      onFinish?.(score, mistakes);
-      setView("summary");
-    }
+      setIndex(i=>i+1); setSelected(null); setRevealed(false);
+    } else { onFinish?.(score, mistakes); setView("summary"); }
   };
-
-  const [view, setView] = useState<"play" | "summary">("play");
 
   if (view === "summary"){
     return (
@@ -57,8 +40,7 @@ export default function QuizPlayer({ items, onFinish }: { items: QuizItem[]; onF
           <button onClick={()=>{ setIndex(0); setScore(0); setMistakes([]); setSelected(null); setRevealed(false); setView('play'); }}
             className="px-4 py-2 rounded-xl border border-gray-700 bg-gradient-to-r from-violet-500 to-purple-500 text-white">Încearcă din nou</button>
           {mistakes.length>0 && (
-            <button onClick={()=>{ /* navigate to review flow if needed */ }}
-              className="px-4 py-2 rounded-xl border border-gray-700 bg-gray-900 hover:border-violet-500 text-gray-200">Revizuiește Greșelile</button>
+            <button className="px-4 py-2 rounded-xl border border-gray-700 bg-gray-900 hover:border-violet-500 text-gray-200">Revizuiește Greșelile</button>
           )}
         </div>
         {mistakes.length>0 && (
@@ -79,15 +61,7 @@ export default function QuizPlayer({ items, onFinish }: { items: QuizItem[]; onF
 
   return (
     <div className="space-y-4">
-      {/* Progress bar */}
-      <div className="w-full h-2 bg-gray-800 rounded-full overflow-hidden border border-gray-700">
-        <motion.div
-          className="h-full bg-gradient-to-r from-violet-500 to-purple-500"
-          initial={{ width: 0 }}
-          animate={{ width: `${progress}%` }}
-          transition={{ type: "tween", duration: 0.3 }}
-        />
-      </div>
+      <ProgressBar percent={progress} />
 
       <div className="rounded-2xl border border-gray-700 bg-gray-900 p-4">
         <div className="text-sm text-gray-400 mb-2">Întrebarea {index+1} / {items.length}</div>
