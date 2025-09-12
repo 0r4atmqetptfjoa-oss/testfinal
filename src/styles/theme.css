@@ -1,0 +1,57 @@
+
+:root{
+  --accent:#8b5cf6; /* violet-500 */
+  --accent-rgb:139,92,246;
+  --accent-contrast:#ffffff;
+  --bg:#000000;
+  --card:#111827;       /* gray-900 */
+  --border:#1f2937;     /* gray-800 */
+  --text:#e5e7eb;       /* gray-200 */
+  --muted:#6b7280;      /* gray-500 */
+}
+
+/* Accent variants */
+.theme-accent-violet{ --accent:#8b5cf6; --accent-rgb:139,92,246; }
+.theme-accent-cyan{ --accent:#22d3ee; --accent-rgb:34,211,238; }
+.theme-accent-emerald{ --accent:#10b981; --accent-rgb:16,185,129; }
+
+/* Palettes (background / subtle textures via gradients) */
+.theme-palette-default{ --bg:#000000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#6b7280; }
+.theme-palette-desert{
+  --bg:#0a0906;
+  --card:#15120c;
+  --border:#2a261b;
+  --text:#f3f4f6;
+  --muted:#9ca3af;
+}
+.theme-palette-naval{
+  --bg:#020617;
+  --card:#0b1220;
+  --border:#162237;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+.theme-palette-alpine{
+  --bg:#020f0a;
+  --card:#0b1f17;
+  --border:#113528;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+
+/* Apply palette to body */
+body{
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Utils */
+.btn-accent{ background: var(--accent); color: var(--accent-contrast); }
+.text-accent{ color: var(--accent); }
+.border-accent{ border-color: var(--accent); }
+.glow-accent:hover{ box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.35); }
+.safe-bottom{ padding-bottom: env(safe-area-inset-bottom); }
+.safe-top{ padding-top: env(safe-area-inset-top); }
+.bg-card{ background: var(--card); }
+.border-ui{ border-color: var(--border); }
+.text-muted{ color: var(--muted); }

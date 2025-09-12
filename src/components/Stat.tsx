@@ -1,7 +1,7 @@
 
 import React from "react";
 
-export default function Stat({ label, value }: { label: string; value: string }){
+export default function Stat({ label, value }: { label: string; value: React.ReactNode }){
   return (
     <div className="rounded-xl border border-gray-800 bg-gray-900 p-3 text-center">
       <div className="text-xs text-gray-500">{label}</div>

@@ -1,17 +1,13 @@
 
-// src/lib/sound.ts
 function beep(freq=880, durMs=120, type: OscillatorType = "sine"){
   try{
     const ctx = new (window.AudioContext || (window as any).webkitAudioContext)();
-    const o = ctx.createOscillator();
-    const g = ctx.createGain();
-    o.type = type;
-    o.frequency.setValueAtTime(freq, ctx.currentTime);
+    const o = ctx.createOscillator(); const g = ctx.createGain();
+    o.type = type; o.frequency.setValueAtTime(freq, ctx.currentTime);
     g.gain.setValueAtTime(0.0001, ctx.currentTime);
     g.gain.exponentialRampToValueAtTime(0.2, ctx.currentTime + 0.01);
     g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + durMs/1000);
-    o.connect(g); g.connect(ctx.destination);
-    o.start(); o.stop(ctx.currentTime + durMs/1000 + 0.02);
+    o.connect(g); g.connect(ctx.destination); o.start(); o.stop(ctx.currentTime + durMs/1000 + 0.02);
   }catch{}
 }
 export const sfxCorrect = () => beep(880, 130, "triangle");
