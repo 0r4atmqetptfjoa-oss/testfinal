@@ -1,5 +1,6 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
+import { emit } from "@/lib/bus";
 
 type Accent = "violet" | "cyan" | "emerald";
 type Palette = "default" | "desert" | "naval" | "alpine";
@@ -15,14 +16,13 @@ const Ctx = createContext<ThemeCtx>({ accent: "violet", palette: "default", setA
 const KEY_ACCENT = "accent_theme"; const KEY_PALETTE = "palette_theme";
 
 async function postProfile(accent: Accent, palette: Palette){
-  // Stub: înlocuiește cu endpoint-ul tău real (ex: /api/profile)
   try{
     await fetch("/api/profile", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ accent, palette })
     });
-  }catch{ /* fallback no-op */ }
+  }catch{}
 }
 
 export function ThemeAccentProvider({ children }: { children: React.ReactNode }){
@@ -42,6 +42,7 @@ export function ThemeAccentProvider({ children }: { children: React.ReactNode })
     el.classList.remove("theme-accent-violet","theme-accent-cyan","theme-accent-emerald");
     el.classList.add(`theme-accent-${accent}`);
     try{ localStorage.setItem(KEY_ACCENT, accent); }catch{}
+    emit("theme:change", { accent, palette });
   }, [accent]);
 
   useEffect(()=>{
@@ -49,6 +50,7 @@ export function ThemeAccentProvider({ children }: { children: React.ReactNode })
     el.classList.remove("theme-palette-default","theme-palette-desert","theme-palette-naval","theme-palette-alpine");
     el.classList.add(`theme-palette-${palette}`);
     try{ localStorage.setItem(KEY_PALETTE, palette); }catch{}
+    emit("theme:change", { accent, palette });
   }, [palette]);
 
   const setAccent = (a: Accent)=> setAccentState(a);
