@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Data Importer</title>
+    <style>
+        body { font-family: sans-serif; padding: 2em; background-color: #1d232a; color: #a6adbb; }
+        h1 { color: #f8fafc; }
+        button { background-color: #7c3aed; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:disabled { background-color: #585e66; cursor: not-allowed; }
+        #log { white-space: pre-wrap; background-color: #111; padding: 1em; border-radius: 5px; margin-top: 1em; font-family: monospace; }
+        .success { color: #22c55e; }
+        .error { color: #ef4444; }
+    </style>
+</head>
+<body>
+    <h1>Panou de Import Date în Firestore</h1>
+    <p>Deschide consola (F12) pentru a vedea detalii. Apasă butonul de mai jos pentru a începe importul.</p>
+    <button id="importButton">Începe Importul</button>
+    <div id="log">Aștept comenzi...</div>
+
+    <script type="module">
+        // --- PASUL 1: ADAUGĂ CONFIGURAREA FIREBASE AICI ---
+        const firebaseConfig = {
+            // !!! ÎNLOCUIEȘTE ACEST OBIECT CU 'firebaseConfig' AL TĂU !!!
+            apiKey: "AIzaSyCbx6Ce5PTs_Np3_b04LiT_5IAzlA-l0dQ",
+  authDomain: "testfinal-razvan.firebaseapp.com",
+  projectId: "testfinal-razvan",
+  storageBucket: "testfinal-razvan.firebasestorage.app",
+  messagingSenderId: "343403548490",
+  appId: "1:343403548490:web:3f4b9e5731dc50d702fbb3"
+        };
+
+        // --- NU MODIFICA NIMIC SUB ACEST PUNCT ---
+
+        // Importăm SDK-urile necesare
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { getFirestore, collection, doc, setDoc, addDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+        const logElement = document.getElementById('log');
+        const importButton = document.getElementById('importButton');
+
+        function log(message, type = 'info') {
+            console.log(message);
+            const p = document.createElement('p');
+            p.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            if (type === 'success') p.classList.add('success');
+            if (type === 'error') p.classList.add('error');
+            logElement.appendChild(p);
+        }
+
+        // Lista fișierelor de importat (din folderul /public/data/specialties/)
+        const filesToImport = [
+            "ofiter_directa_infanterie.json", "ofiter_directa_cercetare.json", "ofiter_directa_artileriesiracheterestre.json",
+            "ofiter_directa_geniu.json", "ofiter_directa_apararecbrn.json", "ofiter_directa_aviatiepiloti.json",
+            "ofiter_directa_controlortraficaerian.json", "ofiter_directa_rachetesiartilerieantiaeriana.json",
+            "ofiter_directa_fortenavale.json", "ofiter_directa_comunicatiisiinformatica.json", "ofiter_directa_intendenta.json",
+            "ofiter_directa_finantecontabilitate.json", "ofiter_directa_logistica.json", "ofiter_directa_politiemilitara.json",
+            "ofiter_indirecta_finantecontabilitate.json", "ofiter_indirecta_justitiemilitara.json",
+            "ofiter_indirecta_constructii.json", "ofiter_indirecta_psihologie.json", "ofiter_indirecta_intendenta.json",
+            "ofiter_indirecta_educatiefizica.json", "ofiter_indirecta_comunicatiisiinformatica.json", "subofiter_directa_infanterie.json",
+            "subofiter_directa_auto.json", "subofiter_directa_geniu.json", "subofiter_directa_apararecbrn.json",
+            "subofiter_directa_artileriesirachete.json", "subofiter_directa_comunicatiisiinformatica.json",
+            "subofiter_directa_aeronavesimotoare.json", "subofiter_directa_fortenavale.json", "subofiter_directa_logistica.json",
+            "subofiter_indirecta_constructii.json", "subofiter_indirecta_auto.json", "subofiter_indirecta_geniu.json",
+            "subofiter_indirecta_gestionar.json", "subofiter_indirecta_apararecbrn.json", "subofiter_indirecta_infanterie.json",
+            "subofiter_indirecta_cercetare.json", "subofiter_indirecta_artileriesirachete.json",
+            "subofiter_indirecta_informatiimilitare.json", "subofiter_indirecta_politiemilitara.json"
+        ];
+
+        async function startImport() {
+            importButton.disabled = true;
+            log('Încep operațiunea de import...');
+
+            for (const file of filesToImport) {
+                try {
+                    const response = await fetch(`/public/data/specialties/${file}`);
+                    if (!response.ok) throw new Error(`Network response was not ok for ${file}`);
+                    const data = await response.json();
+
+                    const [category, track, ...branchParts] = file.replace('.json', '').split('_');
+                    const branch = branchParts.join(' ');
+                    const docId = `${category}_${track}_${branchParts.join('')}`;
+                    
+                    log(`Procesez: ${file}`);
+
+                    const specialtyRef = doc(db, 'specialties', docId);
+                    await setDoc(specialtyRef, {
+                        category, track, branch, lastUpdated: new Date()
+                    });
+
+                    if (data.questions && data.questions.length > 0) {
+                        const batch = writeBatch(db);
+                        const questionsCollectionRef = collection(db, 'specialties', docId, 'questions');
+                        data.questions.forEach(question => {
+                            const newQuestionRef = doc(questionsCollectionRef); // Firestore generates ID
+                            batch.set(newQuestionRef, question);
+                        });
+                        await batch.commit();
+                        log(`> SUCCES: Am adăugat ${data.questions.length} întrebări pentru ${branch}.`, 'success');
+                    } else {
+                        log(`> AVERTISMENT: Fișierul ${file} este gol sau nu are întrebări.`, 'info');
+                    }
+                } catch (error) {
+                    log(`> EROARE la procesarea fișierului ${file}: ${error.message}`, 'error');
+                }
+            }
+
+            log('*** IMPORT FINALIZAT! ***', 'success');
+            importButton.disabled = false;
+        }
+
+        importButton.addEventListener('click', startImport);
+
+    </script>
+</body>
+</html>
