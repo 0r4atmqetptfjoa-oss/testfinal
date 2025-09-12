@@ -1,602 +1,941 @@
-[
-  {
-    "id": "OF_D_GEN_001",
-    "question": "Întrebarea demo 1 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+{
+  "questions": [
+    {
+      "id": "OF_D_GEN_001",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Care este PRINCIPIUL cheie în alegerea amplasamentului unei tranșee într-o apărare în adâncime?",
+      "options": [
+        "Integrarea cu câmpurile de foc și acoperirea",
+        "Exclusiv distanța minimă față de PC",
+        "Prezența solului nisipos"
+      ],
+      "answer": 0,
+      "explanation": "Alegerea se face pentru interdependență cu sectoarele de tragere și acoperiri naturale; distanța față de PC/solul contează, dar nu sunt singurele criterii."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 1 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_002",
-    "question": "Întrebarea demo 2 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_002",
+      "module": "specialty",
+      "level": "hard",
+      "question": "Ce efect urmărește un baraj de mine ANTITANC plasat în fața unei căi de acces?",
+      "options": [
+        "Canalizare și încetinire pentru foc decisiv",
+        "Neutralizarea totală a infanteriei",
+        "Crearea unui vad pentru trecere rapidă"
+      ],
+      "answer": 0,
+      "explanation": "Barajele antitanc canalizează/încetinesc tehnica spre zone letale; nu vizează primar infanteria și nu facilitează trecerea."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 2 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_003",
-    "question": "Întrebarea demo 3 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_003",
+      "module": "specialty",
+      "level": "easy",
+      "question": "Ce parametru este CRITIC la proiectarea unui pod de pontoane pentru transportoare grele?",
+      "options": [
+        "Sarcina utilă și clasa de încărcare (MLC)",
+        "Camuflajul în infraroșu",
+        "Numărul de vehicule ușoare în coloană"
+      ],
+      "answer": 0,
+      "explanation": "MLC determină ce tonaj poate susține podul; camuflajul e important, dar prioritar este siguranța structurală."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 3 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_004",
-    "question": "Întrebarea demo 4 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_004",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 4 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_005",
-    "question": "Întrebarea demo 5 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_005",
+      "module": "specialty",
+      "level": "easy",
+      "question": "La trecerea unui râu cu curent puternic, care este ordinea CORECTĂ a priorităților?",
+      "options": [
+        "Forțe de acoperire → mijloace antiblindate → comandă și logistică",
+        "Logistica → forțe de acoperire → artilerie",
+        "PC → infanterie → ariergardă"
+      ],
+      "answer": 0,
+      "explanation": "Se asigură întâi protecția și focul, apoi se introduc mijloacele critice și logistica pentru menținere."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 5 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_006",
-    "question": "Întrebarea demo 6 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_006",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce indicație arată INSTABILITATEA unui taluz proaspăt săpat la o lucrare de fortificații?",
+      "options": [
+        "Fisuri și curgeri de material pe pantă",
+        "Vegetatie densă pe coronament",
+        "Umiditate scăzută în stratul de suprafață"
+      ],
+      "answer": 0,
+      "explanation": "Fisurile și materialul curgător indică risc de surpare; vegetația/umiditatea redusă nu sunt indicatori direcți imediat."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 6 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_007",
-    "question": "Întrebarea demo 7 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_007",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Care este regula de SIGURANȚĂ la lucru cu încărcături explozive?",
+      "options": [
+        "Distanțe minime, linii de comunicații dedicate, autorizare a focului",
+        "Depozitare lângă surse de căldură",
+        "Transport în containere deschise"
+      ],
+      "answer": 0,
+      "explanation": "Se respectă distanțe/zone de izolare, comunicații sigure și lanț de comandă; celelalte opțiuni încalcă normele."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 7 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_008",
-    "question": "Întrebarea demo 8 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_008",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce document OPERAȚIONAL corelează obstacolele cu focurile în planul de apărare?",
+      "options": [
+        "Anexa obstacole din OPORD",
+        "Registrul de minare (tehnic)",
+        "Harta administrativă a unității"
+      ],
+      "answer": 0,
+      "explanation": "Anexa de obstacole descrie amplasarea, scopul și corelarea cu focurile; registrul este tehnic, nu operațional."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 8 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_009",
-    "question": "Întrebarea demo 9 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_009",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În proiectarea culoarelor de trecere prin câmpuri minate proprii, factorul esențial este:",
+      "options": [
+        "Marcarea vizibilă pentru propriile trupe și controlul accesului",
+        "Mascarea totală pentru toți",
+        "Lățimea minimă de 1 m indiferent de tehnică"
+      ],
+      "answer": 0,
+      "explanation": "Culoarele sunt marcate pentru propriile trupe și controlate; lățimea depinde de mijloace, nu e fixă pentru orice."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 9 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_010",
-    "question": "Întrebarea demo 10 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_010",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce criteriu decide tipul de feribot în trecerea pe timp de noapte?",
+      "options": [
+        "MLC și ritm de trecere vs. amenințare și curent",
+        "Disponibilitatea plasei de camuflaj",
+        "Dimensiunea fanionului de ghidaj"
+      ],
+      "answer": 0,
+      "explanation": "Se echilibrează capacitatea (MLC/ritm) cu riscurile (amenințare/curent)."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 10 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_011",
-    "question": "Întrebarea demo 11 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_011",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce efect urmărește un baraj de mine ANTITANC plasat în fața unei căi de acces (situație aplicată)?",
+      "options": [
+        "Canalizare și încetinire pentru foc decisiv",
+        "Neutralizarea totală a infanteriei",
+        "Crearea unui vad pentru trecere rapidă"
+      ],
+      "answer": 0,
+      "explanation": "Barajele antitanc canalizează/încetinesc tehnica spre zone letale; nu vizează primar infanteria și nu facilitează trecerea."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 11 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_012",
-    "question": "Întrebarea demo 12 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_012",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Care este regula de SIGURANȚĂ la lucru cu încărcături explozive (situație aplicată)?",
+      "options": [
+        "Distanțe minime, linii de comunicații dedicate, autorizare a focului",
+        "Depozitare lângă surse de căldură",
+        "Transport în containere deschise"
+      ],
+      "answer": 0,
+      "explanation": "Se respectă distanțe/zone de izolare, comunicații sigure și lanț de comandă; celelalte opțiuni încalcă normele."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 12 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_013",
-    "question": "Întrebarea demo 13 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_013",
+      "module": "specialty",
+      "level": "easy",
+      "question": "La trecerea unui râu cu curent puternic, care este ordinea CORECTĂ a priorităților (situație aplicată)?",
+      "options": [
+        "Forțe de acoperire → mijloace antiblindate → comandă și logistică",
+        "Logistica → forțe de acoperire → artilerie",
+        "PC → infanterie → ariergardă"
+      ],
+      "answer": 0,
+      "explanation": "Se asigură întâi protecția și focul, apoi se introduc mijloacele critice și logistica pentru menținere."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 13 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_014",
-    "question": "Întrebarea demo 14 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_014",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce document OPERAȚIONAL corelează obstacolele cu focurile în planul de apărare (situație aplicată)?",
+      "options": [
+        "Anexa obstacole din OPORD",
+        "Registrul de minare (tehnic)",
+        "Harta administrativă a unității"
+      ],
+      "answer": 0,
+      "explanation": "Anexa de obstacole descrie amplasarea, scopul și corelarea cu focurile; registrul este tehnic, nu operațional."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 14 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_015",
-    "question": "Întrebarea demo 15 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_015",
+      "module": "specialty",
+      "level": "hard",
+      "question": "Ce indicație arată INSTABILITATEA unui taluz proaspăt săpat la o lucrare de fortificații (situație aplicată)?",
+      "options": [
+        "Fisuri și curgeri de material pe pantă",
+        "Vegetatie densă pe coronament",
+        "Umiditate scăzută în stratul de suprafață"
+      ],
+      "answer": 0,
+      "explanation": "Fisurile și materialul curgător indică risc de surpare; vegetația/umiditatea redusă nu sunt indicatori direcți imediat."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 15 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_016",
-    "question": "Întrebarea demo 16 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_016",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce parametru este CRITIC la proiectarea unui pod de pontoane pentru transportoare grele (situație aplicată)?",
+      "options": [
+        "Sarcina utilă și clasa de încărcare (MLC)",
+        "Camuflajul în infraroșu",
+        "Numărul de vehicule ușoare în coloană"
+      ],
+      "answer": 0,
+      "explanation": "MLC determină ce tonaj poate susține podul; camuflajul e important, dar prioritar este siguranța structurală."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 16 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_017",
-    "question": "Întrebarea demo 17 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_017",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce indicație arată INSTABILITATEA unui taluz proaspăt săpat la o lucrare de fortificații (situație aplicată)?",
+      "options": [
+        "Fisuri și curgeri de material pe pantă",
+        "Vegetatie densă pe coronament",
+        "Umiditate scăzută în stratul de suprafață"
+      ],
+      "answer": 0,
+      "explanation": "Fisurile și materialul curgător indică risc de surpare; vegetația/umiditatea redusă nu sunt indicatori direcți imediat."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 17 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_018",
-    "question": "Întrebarea demo 18 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_018",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce indicație arată INSTABILITATEA unui taluz proaspăt săpat la o lucrare de fortificații (situație aplicată)?",
+      "options": [
+        "Fisuri și curgeri de material pe pantă",
+        "Vegetatie densă pe coronament",
+        "Umiditate scăzută în stratul de suprafață"
+      ],
+      "answer": 0,
+      "explanation": "Fisurile și materialul curgător indică risc de surpare; vegetația/umiditatea redusă nu sunt indicatori direcți imediat."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 18 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_019",
-    "question": "Întrebarea demo 19 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_019",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe (situație aplicată)?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 19 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_020",
-    "question": "Întrebarea demo 20 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_020",
+      "module": "specialty",
+      "level": "medium",
+      "question": "La trecerea unui râu cu curent puternic, care este ordinea CORECTĂ a priorităților (situație aplicată)?",
+      "options": [
+        "Forțe de acoperire → mijloace antiblindate → comandă și logistică",
+        "Logistica → forțe de acoperire → artilerie",
+        "PC → infanterie → ariergardă"
+      ],
+      "answer": 0,
+      "explanation": "Se asigură întâi protecția și focul, apoi se introduc mijloacele critice și logistica pentru menținere."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 20 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_021",
-    "question": "Întrebarea demo 21 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_021",
+      "module": "specialty",
+      "level": "easy",
+      "question": "Ce efect urmărește un baraj de mine ANTITANC plasat în fața unei căi de acces (situație aplicată)?",
+      "options": [
+        "Canalizare și încetinire pentru foc decisiv",
+        "Neutralizarea totală a infanteriei",
+        "Crearea unui vad pentru trecere rapidă"
+      ],
+      "answer": 0,
+      "explanation": "Barajele antitanc canalizează/încetinesc tehnica spre zone letale; nu vizează primar infanteria și nu facilitează trecerea."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 21 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_022",
-    "question": "Întrebarea demo 22 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_022",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce criteriu decide tipul de feribot în trecerea pe timp de noapte (situație aplicată)?",
+      "options": [
+        "MLC și ritm de trecere vs. amenințare și curent",
+        "Disponibilitatea plasei de camuflaj",
+        "Dimensiunea fanionului de ghidaj"
+      ],
+      "answer": 0,
+      "explanation": "Se echilibrează capacitatea (MLC/ritm) cu riscurile (amenințare/curent)."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 22 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_023",
-    "question": "Întrebarea demo 23 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_023",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce parametru este CRITIC la proiectarea unui pod de pontoane pentru transportoare grele (situație aplicată)?",
+      "options": [
+        "Sarcina utilă și clasa de încărcare (MLC)",
+        "Camuflajul în infraroșu",
+        "Numărul de vehicule ușoare în coloană"
+      ],
+      "answer": 0,
+      "explanation": "MLC determină ce tonaj poate susține podul; camuflajul e important, dar prioritar este siguranța structurală."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 23 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_024",
-    "question": "Întrebarea demo 24 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_024",
+      "module": "specialty",
+      "level": "easy",
+      "question": "În proiectarea culoarelor de trecere prin câmpuri minate proprii, factorul esențial este:",
+      "options": [
+        "Marcarea vizibilă pentru propriile trupe și controlul accesului",
+        "Mascarea totală pentru toți",
+        "Lățimea minimă de 1 m indiferent de tehnică"
+      ],
+      "answer": 0,
+      "explanation": "Culoarele sunt marcate pentru propriile trupe și controlate; lățimea depinde de mijloace, nu e fixă pentru orice."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 24 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_025",
-    "question": "Întrebarea demo 25 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_025",
+      "module": "specialty",
+      "level": "hard",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe (situație aplicată)?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 25 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_026",
-    "question": "Întrebarea demo 26 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_026",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce parametru este CRITIC la proiectarea unui pod de pontoane pentru transportoare grele (situație aplicată)?",
+      "options": [
+        "Sarcina utilă și clasa de încărcare (MLC)",
+        "Camuflajul în infraroșu",
+        "Numărul de vehicule ușoare în coloană"
+      ],
+      "answer": 0,
+      "explanation": "MLC determină ce tonaj poate susține podul; camuflajul e important, dar prioritar este siguranța structurală."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 26 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_027",
-    "question": "Întrebarea demo 27 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_027",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce document OPERAȚIONAL corelează obstacolele cu focurile în planul de apărare (situație aplicată)?",
+      "options": [
+        "Anexa obstacole din OPORD",
+        "Registrul de minare (tehnic)",
+        "Harta administrativă a unității"
+      ],
+      "answer": 0,
+      "explanation": "Anexa de obstacole descrie amplasarea, scopul și corelarea cu focurile; registrul este tehnic, nu operațional."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 27 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_028",
-    "question": "Întrebarea demo 28 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_028",
+      "module": "specialty",
+      "level": "hard",
+      "question": "Care este regula de SIGURANȚĂ la lucru cu încărcături explozive (situație aplicată)?",
+      "options": [
+        "Distanțe minime, linii de comunicații dedicate, autorizare a focului",
+        "Depozitare lângă surse de căldură",
+        "Transport în containere deschise"
+      ],
+      "answer": 0,
+      "explanation": "Se respectă distanțe/zone de izolare, comunicații sigure și lanț de comandă; celelalte opțiuni încalcă normele."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 28 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_029",
-    "question": "Întrebarea demo 29 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_029",
+      "module": "specialty",
+      "level": "medium",
+      "question": "La trecerea unui râu cu curent puternic, care este ordinea CORECTĂ a priorităților (situație aplicată)?",
+      "options": [
+        "Forțe de acoperire → mijloace antiblindate → comandă și logistică",
+        "Logistica → forțe de acoperire → artilerie",
+        "PC → infanterie → ariergardă"
+      ],
+      "answer": 0,
+      "explanation": "Se asigură întâi protecția și focul, apoi se introduc mijloacele critice și logistica pentru menținere."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 29 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_030",
-    "question": "Întrebarea demo 30 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_030",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În proiectarea culoarelor de trecere prin câmpuri minate proprii, factorul esențial este:",
+      "options": [
+        "Marcarea vizibilă pentru propriile trupe și controlul accesului",
+        "Mascarea totală pentru toți",
+        "Lățimea minimă de 1 m indiferent de tehnică"
+      ],
+      "answer": 0,
+      "explanation": "Culoarele sunt marcate pentru propriile trupe și controlate; lățimea depinde de mijloace, nu e fixă pentru orice."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 30 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_031",
-    "question": "Întrebarea demo 31 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_031",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe (situație aplicată)?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 31 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_032",
-    "question": "Întrebarea demo 32 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_032",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce indicație arată INSTABILITATEA unui taluz proaspăt săpat la o lucrare de fortificații (situație aplicată)?",
+      "options": [
+        "Fisuri și curgeri de material pe pantă",
+        "Vegetatie densă pe coronament",
+        "Umiditate scăzută în stratul de suprafață"
+      ],
+      "answer": 0,
+      "explanation": "Fisurile și materialul curgător indică risc de surpare; vegetația/umiditatea redusă nu sunt indicatori direcți imediat."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 32 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_033",
-    "question": "Întrebarea demo 33 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_033",
+      "module": "specialty",
+      "level": "easy",
+      "question": "Care este PRINCIPIUL cheie în alegerea amplasamentului unei tranșee într-o apărare în adâncime (situație aplicată)?",
+      "options": [
+        "Integrarea cu câmpurile de foc și acoperirea",
+        "Exclusiv distanța minimă față de PC",
+        "Prezența solului nisipos"
+      ],
+      "answer": 0,
+      "explanation": "Alegerea se face pentru interdependență cu sectoarele de tragere și acoperiri naturale; distanța față de PC/solul contează, dar nu sunt singurele criterii."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 33 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_034",
-    "question": "Întrebarea demo 34 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_034",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe (situație aplicată)?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 34 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_035",
-    "question": "Întrebarea demo 35 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_035",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Care este PRINCIPIUL cheie în alegerea amplasamentului unei tranșee într-o apărare în adâncime (situație aplicată)?",
+      "options": [
+        "Integrarea cu câmpurile de foc și acoperirea",
+        "Exclusiv distanța minimă față de PC",
+        "Prezența solului nisipos"
+      ],
+      "answer": 0,
+      "explanation": "Alegerea se face pentru interdependență cu sectoarele de tragere și acoperiri naturale; distanța față de PC/solul contează, dar nu sunt singurele criterii."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 35 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_036",
-    "question": "Întrebarea demo 36 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_036",
+      "module": "specialty",
+      "level": "hard",
+      "question": "Ce indicație arată INSTABILITATEA unui taluz proaspăt săpat la o lucrare de fortificații (situație aplicată)?",
+      "options": [
+        "Fisuri și curgeri de material pe pantă",
+        "Vegetatie densă pe coronament",
+        "Umiditate scăzută în stratul de suprafață"
+      ],
+      "answer": 0,
+      "explanation": "Fisurile și materialul curgător indică risc de surpare; vegetația/umiditatea redusă nu sunt indicatori direcți imediat."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 36 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_037",
-    "question": "Întrebarea demo 37 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_037",
+      "module": "specialty",
+      "level": "easy",
+      "question": "Care este regula de SIGURANȚĂ la lucru cu încărcături explozive (situație aplicată)?",
+      "options": [
+        "Distanțe minime, linii de comunicații dedicate, autorizare a focului",
+        "Depozitare lângă surse de căldură",
+        "Transport în containere deschise"
+      ],
+      "answer": 0,
+      "explanation": "Se respectă distanțe/zone de izolare, comunicații sigure și lanț de comandă; celelalte opțiuni încalcă normele."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 37 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_038",
-    "question": "Întrebarea demo 38 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_038",
+      "module": "specialty",
+      "level": "easy",
+      "question": "La trecerea unui râu cu curent puternic, care este ordinea CORECTĂ a priorităților (situație aplicată)?",
+      "options": [
+        "Forțe de acoperire → mijloace antiblindate → comandă și logistică",
+        "Logistica → forțe de acoperire → artilerie",
+        "PC → infanterie → ariergardă"
+      ],
+      "answer": 0,
+      "explanation": "Se asigură întâi protecția și focul, apoi se introduc mijloacele critice și logistica pentru menținere."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 38 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_039",
-    "question": "Întrebarea demo 39 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_039",
+      "module": "specialty",
+      "level": "hard",
+      "question": "Ce efect urmărește un baraj de mine ANTITANC plasat în fața unei căi de acces (situație aplicată)?",
+      "options": [
+        "Canalizare și încetinire pentru foc decisiv",
+        "Neutralizarea totală a infanteriei",
+        "Crearea unui vad pentru trecere rapidă"
+      ],
+      "answer": 0,
+      "explanation": "Barajele antitanc canalizează/încetinesc tehnica spre zone letale; nu vizează primar infanteria și nu facilitează trecerea."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 39 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_040",
-    "question": "Întrebarea demo 40 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_040",
+      "module": "specialty",
+      "level": "hard",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe (situație aplicată)?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 40 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_041",
-    "question": "Întrebarea demo 41 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_041",
+      "module": "specialty",
+      "level": "hard",
+      "question": "Ce criteriu decide tipul de feribot în trecerea pe timp de noapte (situație aplicată)?",
+      "options": [
+        "MLC și ritm de trecere vs. amenințare și curent",
+        "Disponibilitatea plasei de camuflaj",
+        "Dimensiunea fanionului de ghidaj"
+      ],
+      "answer": 0,
+      "explanation": "Se echilibrează capacitatea (MLC/ritm) cu riscurile (amenințare/curent)."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 41 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_042",
-    "question": "Întrebarea demo 42 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_042",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce indicație arată INSTABILITATEA unui taluz proaspăt săpat la o lucrare de fortificații (situație aplicată)?",
+      "options": [
+        "Fisuri și curgeri de material pe pantă",
+        "Vegetatie densă pe coronament",
+        "Umiditate scăzută în stratul de suprafață"
+      ],
+      "answer": 0,
+      "explanation": "Fisurile și materialul curgător indică risc de surpare; vegetația/umiditatea redusă nu sunt indicatori direcți imediat."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 42 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_043",
-    "question": "Întrebarea demo 43 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_043",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe (situație aplicată)?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 43 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_044",
-    "question": "Întrebarea demo 44 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_044",
+      "module": "specialty",
+      "level": "hard",
+      "question": "Ce document OPERAȚIONAL corelează obstacolele cu focurile în planul de apărare (situație aplicată)?",
+      "options": [
+        "Anexa obstacole din OPORD",
+        "Registrul de minare (tehnic)",
+        "Harta administrativă a unității"
+      ],
+      "answer": 0,
+      "explanation": "Anexa de obstacole descrie amplasarea, scopul și corelarea cu focurile; registrul este tehnic, nu operațional."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 44 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_045",
-    "question": "Întrebarea demo 45 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_045",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Care este regula de SIGURANȚĂ la lucru cu încărcături explozive (situație aplicată)?",
+      "options": [
+        "Distanțe minime, linii de comunicații dedicate, autorizare a focului",
+        "Depozitare lângă surse de căldură",
+        "Transport în containere deschise"
+      ],
+      "answer": 0,
+      "explanation": "Se respectă distanțe/zone de izolare, comunicații sigure și lanț de comandă; celelalte opțiuni încalcă normele."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 45 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_046",
-    "question": "Întrebarea demo 46 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_046",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce document OPERAȚIONAL corelează obstacolele cu focurile în planul de apărare (situație aplicată)?",
+      "options": [
+        "Anexa obstacole din OPORD",
+        "Registrul de minare (tehnic)",
+        "Harta administrativă a unității"
+      ],
+      "answer": 0,
+      "explanation": "Anexa de obstacole descrie amplasarea, scopul și corelarea cu focurile; registrul este tehnic, nu operațional."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 46 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_047",
-    "question": "Întrebarea demo 47 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_047",
+      "module": "specialty",
+      "level": "easy",
+      "question": "Ce parametru este CRITIC la proiectarea unui pod de pontoane pentru transportoare grele (situație aplicată)?",
+      "options": [
+        "Sarcina utilă și clasa de încărcare (MLC)",
+        "Camuflajul în infraroșu",
+        "Numărul de vehicule ușoare în coloană"
+      ],
+      "answer": 0,
+      "explanation": "MLC determină ce tonaj poate susține podul; camuflajul e important, dar prioritar este siguranța structurală."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 47 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_048",
-    "question": "Întrebarea demo 48 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_048",
+      "module": "specialty",
+      "level": "hard",
+      "question": "La trecerea unui râu cu curent puternic, care este ordinea CORECTĂ a priorităților (situație aplicată)?",
+      "options": [
+        "Forțe de acoperire → mijloace antiblindate → comandă și logistică",
+        "Logistica → forțe de acoperire → artilerie",
+        "PC → infanterie → ariergardă"
+      ],
+      "answer": 0,
+      "explanation": "Se asigură întâi protecția și focul, apoi se introduc mijloacele critice și logistica pentru menținere."
     },
-    "answer": "c",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 48 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_049",
-    "question": "Întrebarea demo 49 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_049",
+      "module": "specialty",
+      "level": "medium",
+      "question": "Ce parametru este CRITIC la proiectarea unui pod de pontoane pentru transportoare grele (situație aplicată)?",
+      "options": [
+        "Sarcina utilă și clasa de încărcare (MLC)",
+        "Camuflajul în infraroșu",
+        "Numărul de vehicule ușoare în coloană"
+      ],
+      "answer": 0,
+      "explanation": "MLC determină ce tonaj poate susține podul; camuflajul e important, dar prioritar este siguranța structurală."
     },
-    "answer": "a",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 49 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  },
-  {
-    "id": "OF_D_GEN_050",
-    "question": "Întrebarea demo 50 pentru Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente?",
-    "options": {
-      "a": "Răspuns A",
-      "b": "Răspuns B",
-      "c": "Răspuns C"
+    {
+      "id": "OF_D_GEN_050",
+      "module": "specialty",
+      "level": "medium",
+      "question": "În mascarea multispectrală, ce măsură REDUCE semnătura termică la posturi fixe (situație aplicată)?",
+      "options": [
+        "Ecrane/țesături cu strat termo-reflectiv și disiparea surselor de căldură",
+        "Vopsirea în culori vii",
+        "Creșterea timpului de staționare în soare"
+      ],
+      "answer": 0,
+      "explanation": "Materialele termo-reflective și disiparea căldurii limitează detecția IR; culorile vii și expunerea la soare cresc semnătura."
     },
-    "answer": "b",
-    "explanation": "Explicația pentru răspunsul corect la întrebarea 50 (Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente).",
-    "topic": "Geniu - Fortificații/Mine/Mascare/Treceri apă/Echipamente"
-  }
-]
+    {
+      "id": "OF_D_GEN_051",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Conform SSM pe șantiere militare, care este OBLIGAȚIA minimă înaintea lucrărilor cu explozivi?",
+      "options": [
+        "Instruire specifică, autorizație scrisă și perimetru de siguranță",
+        "Doar perimetru de 10 m",
+        "Anunț verbal în pluton"
+      ],
+      "answer": 0,
+      "explanation": "Lucrările cu explozivi necesită instruire, autorizare formală și delimitare conform normelor SSM."
+    },
+    {
+      "id": "OF_D_GEN_052",
+      "module": "legislation",
+      "level": "hard",
+      "question": "Ce document stabilește responsabilitățile pentru evidența și marcarea CÂMPIILOR MINATE proprii?",
+      "options": [
+        "Registrele de minare și anexa operațională privind obstacolele",
+        "Planul de hrană",
+        "Jurnalul auto"
+      ],
+      "answer": 0,
+      "explanation": "Evidența tehnică se face în registre; corelarea în anexa de obstacole."
+    },
+    {
+      "id": "OF_D_GEN_053",
+      "module": "legislation",
+      "level": "hard",
+      "question": "În cazul lucrărilor de construcții militare, cine aprobă proiectele cu IMPACT asupra infrastructurii strategice?",
+      "options": [
+        "Comandantul eșalonului competent conform reglementărilor tehnice",
+        "Orice ofițer de serviciu",
+        "Șeful depozitului"
+      ],
+      "answer": 0,
+      "explanation": "Aprobarea aparține eșalonului prevăzut de reglementările tehnice/legislația specifică."
+    },
+    {
+      "id": "OF_D_GEN_054",
+      "module": "legislation",
+      "level": "hard",
+      "question": "Ce semnificație are marcajul standard pentru ZONĂ PERICULOASĂ CBRN în apropierea șantierelor de geniu?",
+      "options": [
+        "Interdicție de acces fără echipament și proceduri specifice",
+        "Punct de alimentare cu apă",
+        "Loc de odihnă"
+      ],
+      "answer": 0,
+      "explanation": "Marcajele CBRN indică interdicție/precauții speciale de protecție."
+    },
+    {
+      "id": "OF_D_GEN_055",
+      "module": "legislation",
+      "level": "easy",
+      "question": "Când este permisă instalarea unei capcane explozive?",
+      "options": [
+        "Este interzisă; se folosesc doar mijloace autorizate conform LOAC și ROE",
+        "Oricând pe timp de război",
+        "Doar la ordin verbal"
+      ],
+      "answer": 0,
+      "explanation": "Capcanele explozive sunt interzise; folosirea forței se supune LOAC/ROE și normelor naționale."
+    },
+    {
+      "id": "OF_D_GEN_056",
+      "module": "legislation",
+      "level": "easy",
+      "question": "Ce regulă se aplică la semnalizarea OBSTACOLELOR în zona de operații?",
+      "options": [
+        "Marcaje standardizate, vizibile pentru forțele proprii și registru actualizat",
+        "Marcaje improvizate pentru a păcăli inamicul",
+        "Fără marcaje pentru confidențialitate"
+      ],
+      "answer": 0,
+      "explanation": "Marcajele standard și registrele asigură siguranța propriilor trupe și trasabilitatea."
+    },
+    {
+      "id": "OF_D_GEN_057",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Care este limita privind depozitarea EXPLOZIVILOR lângă surse de căldură conform normelor?",
+      "options": [
+        "Interdicție; se menține distanța și ventilația conform fișelor tehnice",
+        "Permis până la 1 m",
+        "Permis dacă sunt în lăzi metalice"
+      ],
+      "answer": 0,
+      "explanation": "Depozitarea lângă căldură este interzisă; se respectă distanțe/ventilație specificate."
+    },
+    {
+      "id": "OF_D_GEN_058",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Ce solicită reglementările privind PROTECȚIA MUNCII la săpături adânci?",
+      "options": [
+        "Sprijiniri/taluzări adecvate și acces în siguranță",
+        "Doar supraveghere vizuală",
+        "Echipament audio de avertizare"
+      ],
+      "answer": 0,
+      "explanation": "Săpăturile necesită sprijiniri/taluzări și căi de acces conforme."
+    },
+    {
+      "id": "OF_D_GEN_059",
+      "module": "legislation",
+      "level": "easy",
+      "question": "Care este regula de raportare pentru un INCIDENT cu muniții neexplodate (UXO) la șantier?",
+      "options": [
+        "Raport imediat, izolarea zonei, suspendarea lucrărilor și apel EOD",
+        "Continuarea lucrului cu prudență",
+        "Marcaj minim și reluarea lucrului"
+      ],
+      "answer": 0,
+      "explanation": "UXO impune raportare, izolare și intervenția EOD."
+    },
+    {
+      "id": "OF_D_GEN_060",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Conform regulilor de mediu, ce se face cu SPOIL-ul contaminat rezultat din săpături?",
+      "options": [
+        "Se izolează, se identifică și se prelucrează conform procedurilor de decontaminare",
+        "Se folosește la umplere",
+        "Se depozitează lângă adăpost"
+      ],
+      "answer": 0,
+      "explanation": "Materialul contaminat se gestionează separat și conform procedurilor de mediu/CBRN."
+    },
+    {
+      "id": "OF_D_GEN_061",
+      "module": "legislation",
+      "level": "hard",
+      "question": "Conform SSM pe șantiere militare, care este OBLIGAȚIA minimă înaintea lucrărilor cu explozivi? (procedură standard)",
+      "options": [
+        "Instruire specifică, autorizație scrisă și perimetru de siguranță",
+        "Doar perimetru de 10 m",
+        "Anunț verbal în pluton"
+      ],
+      "answer": 0,
+      "explanation": "Lucrările cu explozivi necesită instruire, autorizare formală și delimitare conform normelor SSM."
+    },
+    {
+      "id": "OF_D_GEN_062",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Ce document stabilește responsabilitățile pentru evidența și marcarea CÂMPIILOR MINATE proprii? (procedură standard)",
+      "options": [
+        "Registrele de minare și anexa operațională privind obstacolele",
+        "Planul de hrană",
+        "Jurnalul auto"
+      ],
+      "answer": 0,
+      "explanation": "Evidența tehnică se face în registre; corelarea în anexa de obstacole."
+    },
+    {
+      "id": "OF_D_GEN_063",
+      "module": "legislation",
+      "level": "medium",
+      "question": "În cazul lucrărilor de construcții militare, cine aprobă proiectele cu IMPACT asupra infrastructurii strategice? (procedură standard)",
+      "options": [
+        "Comandantul eșalonului competent conform reglementărilor tehnice",
+        "Orice ofițer de serviciu",
+        "Șeful depozitului"
+      ],
+      "answer": 0,
+      "explanation": "Aprobarea aparține eșalonului prevăzut de reglementările tehnice/legislația specifică."
+    },
+    {
+      "id": "OF_D_GEN_064",
+      "module": "legislation",
+      "level": "easy",
+      "question": "Ce semnificație are marcajul standard pentru ZONĂ PERICULOASĂ CBRN în apropierea șantierelor de geniu? (procedură standard)",
+      "options": [
+        "Interdicție de acces fără echipament și proceduri specifice",
+        "Punct de alimentare cu apă",
+        "Loc de odihnă"
+      ],
+      "answer": 0,
+      "explanation": "Marcajele CBRN indică interdicție/precauții speciale de protecție."
+    },
+    {
+      "id": "OF_D_GEN_065",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Când este permisă instalarea unei capcane explozive? (procedură standard)",
+      "options": [
+        "Este interzisă; se folosesc doar mijloace autorizate conform LOAC și ROE",
+        "Oricând pe timp de război",
+        "Doar la ordin verbal"
+      ],
+      "answer": 0,
+      "explanation": "Capcanele explozive sunt interzise; folosirea forței se supune LOAC/ROE și normelor naționale."
+    },
+    {
+      "id": "OF_D_GEN_066",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Ce regulă se aplică la semnalizarea OBSTACOLELOR în zona de operații? (procedură standard)",
+      "options": [
+        "Marcaje standardizate, vizibile pentru forțele proprii și registru actualizat",
+        "Marcaje improvizate pentru a păcăli inamicul",
+        "Fără marcaje pentru confidențialitate"
+      ],
+      "answer": 0,
+      "explanation": "Marcajele standard și registrele asigură siguranța propriilor trupe și trasabilitatea."
+    },
+    {
+      "id": "OF_D_GEN_067",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Care este limita privind depozitarea EXPLOZIVILOR lângă surse de căldură conform normelor? (procedură standard)",
+      "options": [
+        "Interdicție; se menține distanța și ventilația conform fișelor tehnice",
+        "Permis până la 1 m",
+        "Permis dacă sunt în lăzi metalice"
+      ],
+      "answer": 0,
+      "explanation": "Depozitarea lângă căldură este interzisă; se respectă distanțe/ventilație specificate."
+    },
+    {
+      "id": "OF_D_GEN_068",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Ce solicită reglementările privind PROTECȚIA MUNCII la săpături adânci? (procedură standard)",
+      "options": [
+        "Sprijiniri/taluzări adecvate și acces în siguranță",
+        "Doar supraveghere vizuală",
+        "Echipament audio de avertizare"
+      ],
+      "answer": 0,
+      "explanation": "Săpăturile necesită sprijiniri/taluzări și căi de acces conforme."
+    },
+    {
+      "id": "OF_D_GEN_069",
+      "module": "legislation",
+      "level": "easy",
+      "question": "Care este regula de raportare pentru un INCIDENT cu muniții neexplodate (UXO) la șantier? (procedură standard)",
+      "options": [
+        "Raport imediat, izolarea zonei, suspendarea lucrărilor și apel EOD",
+        "Continuarea lucrului cu prudență",
+        "Marcaj minim și reluarea lucrului"
+      ],
+      "answer": 0,
+      "explanation": "UXO impune raportare, izolare și intervenția EOD."
+    },
+    {
+      "id": "OF_D_GEN_070",
+      "module": "legislation",
+      "level": "medium",
+      "question": "Conform regulilor de mediu, ce se face cu SPOIL-ul contaminat rezultat din săpături? (procedură standard)",
+      "options": [
+        "Se izolează, se identifică și se prelucrează conform procedurilor de decontaminare",
+        "Se folosește la umplere",
+        "Se depozitează lângă adăpost"
+      ],
+      "answer": 0,
+      "explanation": "Materialul contaminat se gestionează separat și conform procedurilor de mediu/CBRN."
+    }
+  ],
+  "summaries": [
+    {
+      "title": "Lucrări de fortificații",
+      "icon": "Construction",
+      "content": "### Scop și principii\nLucrările de fortificații cresc supraviețuirea forțelor proprii prin protecție, camuflare și canale de manevră controlate. Principiile includ: utilizarea terenului, zonarea în adâncime, redundanță și integrarea câmpurilor de foc cu obstacolele.\n\n### Tipuri de lucrări\nSe execută lucrări temporare (gropi de tragere, parapete, adăposturi ușoare) și semi-permanente (tranșee, adăposturi întărite, puncte de comandă îngropate). Materialele variază de la pământ și lemn la elemente prefabricate din beton.\n\n### Integrare tactică\nDispunerea fortificațiilor se corelează cu sectoarele de tragere, câmpurile de observare și culoarele de manevră. Obstacolele (mine, sârmă ghimpată, baraje antitanc) se așază pentru a canaliza inamicul în zone letale.\n\n### Siguranță și execuție\nSe respectă distanțele față de muniții, căi de evacuare și reguli de sprijin (geniu, logistică, sanitar). Controlul calității acoperă stabilitatea taluzurilor, drenajul și marcarea lucrărilor pe hărți.\n"
+    },
+    {
+      "title": "Baraje de mine și distrugeri",
+      "icon": "Shield",
+      "content": "### Concept operațional\nBarajele de mine și distrugerile încetinesc, canalizează sau opresc înaintarea inamicului. Se proiectează pentru efect tactic (întârziere, blocare, fixare) și se corelează cu planul de foc.\n\n### Planificare și marcaje\nPlanul conține hărți, coordonate UTM, tipuri de mine (antitanc/antipersonal), densități, declanșare (presiune, comandă, telecomandă), semnalizare în teren și scheme de foc asociate.\n\n### Proceduri de siguranță\nImplementarea include lanț de comandă autorizat, registre de minare, marcaje standard NATO/naționale și interdicții clare privind improvizațiile. Deplasarea în/în jurul barajelor se face doar pe culoare de trecere verificate.\n\n### Neutralizare și demontare\nEchipele EOD/GENIU folosesc proceduri standard de cercetare, marcare, izolare, neutralizare și distrugere controlată, cu management strict al riscului.\n"
+    },
+    {
+      "title": "Tehnica de mascare și protecția infrastructurii",
+      "icon": "ScanLine",
+      "content": "### Principii de mascare\nMascarea reduce probabilitatea de detecție vizuală, IR și radar. Principiile: rupturi de contur, imitarea mediului, disiparea semnăturilor termice, controlul emisiilor electromagnetice și disciplină în mișcare.\n\n### Mijloace și proceduri\nSe folosesc plase de camuflaj multispectrale, vopsele, ecrane de fum, cortine termice și amplasamente defazate. Logistica asigură kiturile de camuflaj și instruirea echipelor.\n\n### Protecția infrastructurii critice\nSe întăresc punctele vitale (poduri, noduri rutiere, PC-uri, depozite) cu adăposturi, balizări, bariere și redundanțe. Planurile includ continuarea funcționării și restaurarea rapidă.\n"
+    },
+    {
+      "title": "Trecerea cursurilor de apă",
+      "icon": "Waves",
+      "content": "### Evaluarea sitului de trecere\nSe evaluează lățimea, viteza curentului, adâncimea, capacitatea malurilor și accesul rutier. Se aleg puncte cu acoperire și posibilitate de mascarea pregătirilor.\n\n### Mijloace de trecere\nMijloacele includ poduri de pontoane, feriboturi, mijloace amfibii și vaduri pregătite. Inginerii proiectează sarcina utilă, ritmul de trecere și prioritățile (forțe de acoperire, mijloace de foc, logistică).\n\n### Securitate și control\nTrecerea este protejată de foc direct/indirect, fum, ECM și baraje antitrecere. Căile de acces și evacuare sunt marcate; se stabilesc puncte de control traficului.\n"
+    },
+    {
+      "title": "Organizarea și comanda unităților de geniu",
+      "icon": "Cog",
+      "content": "### Structuri și roluri\nSubunitățile de geniu sprijină mobilitatea, contramobilitatea și supraviețuirea forțelor. Comandantul integrează planurile de obstacole, lucrări de protecție și treceri.\n\n### Planificare și sincronizare\nMETT-TC ghidează alocarea resurselor. Se folosesc ordine în 5 paragrafe, anexe (obstacole, treceri, geniu), grafic de lucrări și ferestre de timp pentru execuție.\n\n### Interoperabilitate\nCoordonarea cu artileria, infanteria, transmisiuni și logistică este esențială pentru sprijinul de foc, comunicații și reconstituirea stocurilor de materiale de construcții.\n"
+    }
+  ]
+}

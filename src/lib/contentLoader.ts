@@ -1,10 +1,15 @@
-// src/lib/contentLoader.ts
+import { db } from './firebase';
+import { collection, getDocs, query, orderBy } from "firebase/firestore";
+import type { Item } from '@/lib/quizEngine';
 
-// ATENȚIE: Asigură-te că tipul 'Item' este importat corect.
-// S-ar putea să fie nevoie să ajustezi calea în funcție de structura ta.
-import { type Item } from '@/lib/quizEngine'; 
+// Definim tipurile de date pe care le vom folosi
+export interface Summary {
+  id: string;
+  title: string;
+  icon: string;
+  content: string; // Conținutul va fi direct aici
+}
 
-// O interfață simplă pentru selecția utilizatorului
 interface UserSelection {
   category: string;
   track: string;
@@ -12,47 +17,61 @@ interface UserSelection {
 }
 
 /**
- * Construiește calea către fișierul JSON pe baza selecției utilizatorului.
+ * Construiește ID-ul documentului de specialitate pe baza selecției.
  */
-function getQuestionFilePath(selection: UserSelection): string {
+function getSpecialtyDocId(selection: UserSelection): string {
   const normalizedBranch = selection.branch
     .toLowerCase()
     .replace(/ă/g, 'a').replace(/â/g, 'a').replace(/î/g, 'i').replace(/ș/g, 's').replace(/ț/g, 't')
-    .replace(/\s*și\s*/g, '') // Elimină "și" și spațiile din jur
-    .replace(/[\s-]+/g, '');   // Elimină spațiile și cratimele
-
-  const fileName = `${selection.category}_${selection.track}_${normalizedBranch}.json`;
+    .replace(/\s*și\s*/g, '')
+    .replace(/[\s-]+/g, '');
   
-  // Calea către noua noastră "arhivă de informații"
-  return `/data/specialties/${fileName}`; 
+  return `${selection.category}_${selection.track}_${normalizedBranch}`;
 }
 
 /**
- * Încarcă întrebările de specialitate pe baza selecției utilizatorului.
+ * Încarcă întrebările de specialitate direct din Firestore.
  */
 export const loadSpecialtyQuestions = async (): Promise<Item[]> => {
   const selectionString = localStorage.getItem('userSelection');
-  if (!selectionString) {
-    console.error("Nicio selecție a utilizatorului nu a fost găsită.");
-    return [];
-  }
+  if (!selectionString) return [];
 
   try {
     const selection: UserSelection = JSON.parse(selectionString);
-    const filePath = getQuestionFilePath(selection);
+    const docId = getSpecialtyDocId(selection);
     
-    console.log(`Solicitare de încărcare a informațiilor de la: ${filePath}`);
-    
-    const response = await fetch(filePath);
-    if (!response.ok) {
-      throw new Error(`Raport de eroare de la server: ${response.statusText}`);
-    }
-    
-    const data = await response.json();
-    // Presupunem că fișierele JSON au un array numit "questions"
-    return data.questions || []; 
+    const questionsCollectionRef = collection(db, "specialties", docId, "questions");
+    const querySnapshot = await getDocs(questionsCollectionRef);
+
+    if (querySnapshot.empty) return [];
+
+    return querySnapshot.docs.map(doc => ({ ...doc.data(), id: doc.id } as Item));
   } catch (error) {
-    console.error("Misiune eșuată! Eroare la încărcarea testelor de specialitate:", error);
+    console.error("Eroare la încărcarea întrebărilor din Firestore:", error);
+    return [];
+  }
+};
+
+/**
+ * Încarcă rezumatele de studiu pentru specialitatea selectată.
+ */
+export const loadSpecialtySummaries = async (): Promise<Summary[]> => {
+  const selectionString = localStorage.getItem('userSelection');
+  if (!selectionString) return [];
+
+  try {
+    const selection: UserSelection = JSON.parse(selectionString);
+    const docId = getSpecialtyDocId(selection);
+
+    const summariesCollectionRef = collection(db, "specialties", docId, "summaries");
+    const q = query(summariesCollectionRef, orderBy("title")); 
+    const querySnapshot = await getDocs(q);
+
+    if (querySnapshot.empty) return [];
+    
+    return querySnapshot.docs.map(doc => ({ ...doc.data(), id: doc.id } as Summary));
+  } catch (error) {
+    console.error("Eroare la încărcarea rezumatelor din Firestore:", error);
     return [];
   }
 };

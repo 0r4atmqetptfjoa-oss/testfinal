@@ -1,18 +1,50 @@
-import eng from '@/data/v12/english.json'
-import leg from '@/data/v12/legislation.json'
-import spec from '@/data/v12/logistics.json'
-import psy from '@/data/v12/psychology.json'
-import type { Question } from '@/data/v12/types'
+import type { Item } from '@/lib/quizEngine';
 
-const Q = {
-  english: eng.questions as Question[],
-  legislation: leg.questions as Question[],
-  logistics: spec.questions as Question[],
-  psychology: psy.questions as Question[]
+// Cache simplu pentru a nu reîncărca fișierele de fiecare dată
+let legislationCache: Item[] | null = null;
+let englishCache: Item[] | null = null;
+let psychologyCache: Item[] | null = null;
+
+/**
+ * O funcție generală pentru a încărca un fișier JSON de întrebări și a-l salva în cache.
+ */
+async function fetchQuestions(filePath: string, cache: Item[] | null): Promise<Item[]> {
+    if (cache) {
+        return cache;
+    }
+    try {
+        const response = await fetch(filePath);
+        if (!response.ok) {
+            throw new Error(`Eroare la încărcarea fișierului: ${filePath}`);
+        }
+        const data = await response.json();
+        const questions: Item[] = data.questions || [];
+        return questions;
+    } catch (error) {
+        console.error(`Nu am putut încărca întrebările de la ${filePath}:`, error);
+        return [];
+    }
 }
-export function getPool(mods: ('english'|'legislation'|'logistics'|'psychology')[], count: number){
-  const all = mods.flatMap(m=>Q[m])
-  return shuffle(all).slice(0, Math.min(count, all.length))
-}
-export function shuffle<T>(a:T[]){ const x=[...a]; for(let i=x.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [x[i],x[j]]=[x[j],x[i]] } return x }
-export type { Question }
+
+// Exportăm funcțiile de care paginile noastre au nevoie
+
+export const getLegislationQuestions = async (): Promise<Item[]> => {
+    if (!legislationCache) {
+        legislationCache = await fetchQuestions('/data/v12/legislation.json', legislationCache);
+    }
+    return legislationCache;
+};
+
+export const getEnglishQuestions = async (): Promise<Item[]> => {
+    if (!englishCache) {
+        englishCache = await fetchQuestions('/data/v12/english.json', englishCache);
+    }
+    return englishCache;
+};
+
+export const getPsychologyQuestions = async (): Promise<Item[]> => {
+    if (!psychologyCache) {
+        psychologyCache = await fetchQuestions('/data/v12/psychology.json', psychologyCache);
+    }
+    return psychologyCache;
+};
