@@ -25,7 +25,7 @@ function getSpecialtyDocId(selection: UserSelection): string {
     .replace(/ă/g, 'a').replace(/â/g, 'a').replace(/î/g, 'i').replace(/ș/g, 's').replace(/ț/g, 't')
     .replace(/\s*și\s*/g, '')
     .replace(/[\s-]+/g, '');
-  
+
   return `${selection.category}_${selection.track}_${normalizedBranch}`;
 }
 
@@ -39,7 +39,7 @@ export const loadSpecialtyQuestions = async (): Promise<Item[]> => {
   try {
     const selection: UserSelection = JSON.parse(selectionString);
     const docId = getSpecialtyDocId(selection);
-    
+
     const questionsCollectionRef = collection(db, "specialties", docId, "questions");
     const querySnapshot = await getDocs(questionsCollectionRef);
 
@@ -64,11 +64,11 @@ export const loadSpecialtySummaries = async (): Promise<Summary[]> => {
     const docId = getSpecialtyDocId(selection);
 
     const summariesCollectionRef = collection(db, "specialties", docId, "summaries");
-    const q = query(summariesCollectionRef, orderBy("title")); 
+    const q = query(summariesCollectionRef, orderBy("title"));
     const querySnapshot = await getDocs(q);
 
     if (querySnapshot.empty) return [];
-    
+
     return querySnapshot.docs.map(doc => ({ ...doc.data(), id: doc.id } as Summary));
   } catch (error) {
     console.error("Eroare la încărcarea rezumatelor din Firestore:", error);

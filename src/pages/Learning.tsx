@@ -37,7 +37,7 @@ export default function Learning() {
   if (!summaries && !error) {
     return <div className="p-4"><Skeleton count={8} /></div>;
   }
-  
+
   if (error) {
       return <div className="card text-center text-red-500">{error}</div>
   }
