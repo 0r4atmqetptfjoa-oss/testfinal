@@ -1,4 +1,8 @@
-import { Question } from '../public/data/v12/types';
+// src/lib/contentLoader.ts
+
+// ATENȚIE: Asigură-te că tipul 'Item' este importat corect.
+// S-ar putea să fie nevoie să ajustezi calea în funcție de structura ta.
+import { type Item } from '@/lib/quizEngine'; 
 
 // O interfață simplă pentru selecția utilizatorului
 interface UserSelection {
@@ -9,29 +13,24 @@ interface UserSelection {
 
 /**
  * Construiește calea către fișierul JSON pe baza selecției utilizatorului.
- * Numele fișierului este normalizat (litere mici, fără diacritice, spații înlocuite cu '_').
- * @param selection - Obiectul cu selecția utilizatorului.
- * @returns Calea către fișierul JSON relevant.
  */
 function getQuestionFilePath(selection: UserSelection): string {
-  // Normalizăm numele pentru a corespunde cu denumirea fișierelor
-  // Asigură-te că numele generate aici corespund exact cu numele fișierelor tale JSON
   const normalizedBranch = selection.branch
     .toLowerCase()
     .replace(/ă/g, 'a').replace(/â/g, 'a').replace(/î/g, 'i').replace(/ș/g, 's').replace(/ț/g, 't')
-    .replace(/\s+/g, '').replace(/și/g, ''); // Am scos spatiile si "si" pentru a se potrivi cu "comunicatiisiiinformatica"
+    .replace(/\s*și\s*/g, '') // Elimină "și" și spațiile din jur
+    .replace(/[\s-]+/g, '');   // Elimină spațiile și cratimele
 
   const fileName = `${selection.category}_${selection.track}_${normalizedBranch}.json`;
   
-  // IMPORTANT: Asigură-te că acest folder este corect!
+  // Calea către noua noastră "arhivă de informații"
   return `/data/specialties/${fileName}`; 
 }
 
 /**
  * Încarcă întrebările de specialitate pe baza selecției utilizatorului.
- * @returns Un array de întrebări sau un array gol în caz de eroare.
  */
-export const loadSpecialtyQuestions = async (): Promise<Question[]> => {
+export const loadSpecialtyQuestions = async (): Promise<Item[]> => {
   const selectionString = localStorage.getItem('userSelection');
   if (!selectionString) {
     console.error("Nicio selecție a utilizatorului nu a fost găsită.");
@@ -42,18 +41,18 @@ export const loadSpecialtyQuestions = async (): Promise<Question[]> => {
     const selection: UserSelection = JSON.parse(selectionString);
     const filePath = getQuestionFilePath(selection);
     
-    console.log(`Încerc să încarc întrebări de la: ${filePath}`);
+    console.log(`Solicitare de încărcare a informațiilor de la: ${filePath}`);
     
     const response = await fetch(filePath);
     if (!response.ok) {
-      throw new Error(`Fișierul de date nu a putut fi încărcat: ${response.statusText}`);
+      throw new Error(`Raport de eroare de la server: ${response.statusText}`);
     }
     
-    const data: Question[] = await response.json();
-    return data;
+    const data = await response.json();
+    // Presupunem că fișierele JSON au un array numit "questions"
+    return data.questions || []; 
   } catch (error) {
-    console.error("Eroare la încărcarea întrebărilor de specialitate:", error);
-    // Poți afișa un mesaj de eroare utilizatorului aici
+    console.error("Misiune eșuată! Eroare la încărcarea testelor de specialitate:", error);
     return [];
   }
 };
