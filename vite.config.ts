@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc' // <-- Aici este modificarea cheie
+import react from '@vitejs/plugin-react-swc'
 import { VitePWA } from 'vite-plugin-pwa'
 import path from 'path'
 
@@ -19,4 +19,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // --- ADAUGĂ ACEST BLOC ---
+  // Aici este magia!
+  server: {
+    fs: {
+      strict: false
+    }
+  }
 })

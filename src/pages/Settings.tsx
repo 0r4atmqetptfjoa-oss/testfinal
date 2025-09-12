@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useStore } from '@/store';
-import { haptics } from '@/lib/haptics';
+import { vibrate } from '@/lib/haptics'; // <-- MODIFICARE 1: Am importat "vibrate"
 import { Volume2, VolumeX } from 'lucide-react';
 
 type Counts = { legislation:number, logistics:number, psychology:number, englishTests:number };
@@ -58,7 +58,8 @@ export default function Settings(){
           </div>
           <div className="flex items-center justify-between">
             <span className="font-medium">Vibrații (Haptics)</span>
-            <button onClick={() => { setHaptics(!appHaptics); if(!appHaptics) haptics.light(); }}
+            {/* MODIFICARE 2: Am înlocuit "haptics.light()" cu "vibrate('light')" */}
+            <button onClick={() => { setHaptics(!appHaptics); if(!appHaptics) vibrate('light'); }}
               className={`btn btn-ghost w-24 ${appHaptics ? 'text-primary' : ''}`}>
               {appHaptics ? 'Activat' : 'Inactiv'}
             </button>
