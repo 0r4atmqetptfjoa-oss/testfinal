@@ -8,5 +8,7 @@
     "outDir": ".",
     "strict": true
   },
-  "include": ["importData.ts"]
+  "include": [
+    "importData.ts"
+  ]
 }
