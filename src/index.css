@@ -1,34 +1,10 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  min-height: 100vh;
-  background-color: hsl(var(--b1));
-  color: hsl(var(--bc));
-}
-
-.card {
-  /* Folosim variabile de culoare de la daisyUI */
-  background-color: hsl(var(--b2)); /* Fundal secundar */
-  border: 1px solid hsl(var(--b3)); /* O bordură subtilă */
-}
-
-/* Stil pentru item-urile din liste, pentru a fi consistent */
-.card-item {
-  background-color: hsl(var(--b2));
-  border: 1px solid transparent;
-  transition: all 0.2s ease-in-out;
-}
-
-.card-item:hover {
-  background-color: hsl(var(--b3));
-  border-color: hsl(var(--p)); /* Culoarea de accent la hover */
-}
+/* Fallback tiny reset in case Tailwind isn't built yet */
+button{ font: inherit; }
+button, input, select { color: inherit; background: transparent; }
+:root{ color-scheme: dark; }
+html, body, #root { min-height: 100%; }
