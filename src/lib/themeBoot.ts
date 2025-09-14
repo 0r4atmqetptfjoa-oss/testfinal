@@ -1,13 +1,10 @@
 
 export function themeBoot(){
-  try{
-    const a = (localStorage.getItem("accent_theme") as any) || "violet";
-    const p = (localStorage.getItem("palette_theme") as any) || "default";
-    const v = (localStorage.getItem("theme_variant") as any) || "night";
-    const el = document.documentElement;
-    el.classList.remove("theme-accent-violet","theme-accent-cyan","theme-accent-emerald");
-    el.classList.remove("theme-palette-default","theme-palette-desert","theme-palette-naval","theme-palette-alpine");
-    el.classList.remove("theme-variant-army","theme-variant-desert","theme-variant-naval","theme-variant-alpine","theme-variant-woodland","theme-variant-night");
-    el.classList.add(`theme-accent-${a}`, `theme-palette-${p}`, `theme-variant-${v}`);
-  }catch{}
+  const el = document.documentElement;
+  const a = localStorage.getItem("accent_theme") || "violet";
+  const p = localStorage.getItem("palette_theme") || "default";
+  const v = localStorage.getItem("theme_variant") || "night";
+  const scale = parseFloat(localStorage.getItem("ui_scale") || "1") || 1;
+  el.classList.add(`theme-accent-${a}`, `theme-palette-${p}`, `theme-variant-${v}`);
+  document.documentElement.style.setProperty("--scale", String(scale));
 }

@@ -1,7 +1,6 @@
 
 import React, { useEffect } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 import MobileNavBar from "./MobileNavBar";
 import ProfileSwitchButton from "./ProfileSwitchButton";
 
@@ -15,10 +14,8 @@ export default function Shell(){
   return (
     <div className="min-h-screen bg-black text-gray-200">
       {!isOnboarding && <ProfileSwitchButton/>}
-      <main className="max-w-2xl mx-auto">
-        <AnimatePresence mode="wait">
-          <Outlet key={loc.pathname} />
-        </AnimatePresence>
+      <main className="max-w-2xl mx-auto pb-24 px-4">
+        <Outlet/>
       </main>
       {!isOnboarding && <MobileNavBar/>}
     </div>

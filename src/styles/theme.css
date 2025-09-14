@@ -1,28 +1,32 @@
 
 :root{
   --accent:#8b5cf6; --accent-rgb:139,92,246;
-  --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#6b7280;
+  --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af;
+  --scale:1;
 }
 .theme-accent-violet{ --accent:#8b5cf6; --accent-rgb:139,92,246; }
 .theme-accent-cyan{ --accent:#22d3ee; --accent-rgb:34,211,238; }
 .theme-accent-emerald{ --accent:#10b981; --accent-rgb:16,185,129; }
-.theme-palette-default{ --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#6b7280; }
+
+.theme-palette-default{ --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af; }
 .theme-palette-desert{ --bg:#0f0d08; --card:#17140e; --border:#2b2418; --text:#f3f4f6; --muted:#a1a1aa; }
 .theme-palette-naval{ --bg:#020617; --card:#0b1220; --border:#162237; --text:#e5e7eb; --muted:#9ca3af; }
 .theme-palette-alpine{ --bg:#07150f; --card:#0c2119; --border:#163a2c; --text:#e5e7eb; --muted:#9ca3af; }
+
+.theme-variant-night{ --accent:#a78bfa; --accent-rgb:167,139,250; }
 .theme-variant-army{ --accent:#a3e635; --accent-rgb:163,230,53; }
 .theme-variant-desert{ --accent:#f59e0b; --accent-rgb:245,158,11; }
 .theme-variant-naval{ --accent:#60a5fa; --accent-rgb:96,165,250; }
 .theme-variant-alpine{ --accent:#34d399; --accent-rgb:52,211,153; }
 .theme-variant-woodland{ --accent:#84cc16; --accent-rgb:132,204,22; }
-.theme-variant-night{ --accent:#a78bfa; --accent-rgb:167,139,250; }
 
-body{ background:var(--bg); color:var(--text); }
-.bg-card{ background: var(--card); }
-.border-ui{ border-color: var(--border); }
-.text-muted{ color: var(--muted); }
-.text-accent{ color: var(--accent); }
-.btn-accent{ background: var(--accent); color: #0b0b0b; }
-.btn-accent:hover{ filter: brightness(1.05); }
-.btn-accent:active{ transform: scale(.98); }
-.safe-bottom{ padding-bottom: env(safe-area-inset-bottom); }
+html{ font-size: 16px; }
+body{ background:var(--bg); color:var(--text); transform: translateZ(0) scale(var(--scale)); transform-origin: top left; }
+.bg-card{ background:var(--card); }
+.border-ui{ border-color:var(--border); }
+.text-muted{ color:var(--muted); }
+.text-accent{ color:var(--accent); }
+.btn{ padding:.5rem .9rem; border-radius:.8rem; border:1px solid var(--border); }
+.btn-primary{ background:var(--accent); color:#0b0b0b; border-color:transparent; }
+.btn-ghost{ background:transparent; }
+.input{ background:transparent; border:1px solid var(--border); padding:.35rem .55rem; border-radius:.6rem; }

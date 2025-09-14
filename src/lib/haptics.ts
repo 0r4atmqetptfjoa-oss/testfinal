@@ -1,15 +1,7 @@
 
-export type HapticKind = "light"|"success"|"error"|"impact"|"perfect";
-export function vibrate(pattern: HapticKind = "light"){
-  try{
-    if (!("vibrate" in navigator)) return;
-    const map: Record<HapticKind, number[]> = {
-      light: [10],
-      success: [15,20,15],
-      error: [30,60,30],
-      impact: [20],
-      perfect: [15, 100, 15] // scurt-lung-scurt
-    };
-    navigator.vibrate(map[pattern] || [10]);
-  }catch{}
-}
+import { getHaptics } from "./prefs";
+export const haptics = {
+  light(){ if(!getHaptics()) return; try{ if('vibrate' in navigator) navigator.vibrate(10); }catch{} },
+  success(){ if(!getHaptics()) return; try{ navigator.vibrate([10,20,10]); }catch{} },
+  error(){ if(!getHaptics()) return; try{ navigator.vibrate([30,20,30]); }catch{} }
+};
