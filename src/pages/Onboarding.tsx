@@ -62,13 +62,13 @@ export default function Onboarding(){
         {step===1 && (
           <motion.div key="step1" initial={{ x: 40, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -40, opacity: 0 }} transition={{ type: "spring", stiffness: 320, damping: 28 }}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              <button onClick={()=> setRole("ofiter")} className={\`w-full rounded-2xl border p-4 text-left bg-card \${role==="ofiter" ? "border-accent":"border-ui"}\`}>
+              <button onClick={()=> setRole("ofiter")} className={`w-full rounded-2xl border p-4 text-left bg-card ${role==="ofiter" ? "border-accent":"border-ui"}`}>
                 <div className="flex items-center gap-3">
                   <div className="p-3 rounded-xl bg-gray-800 border border-gray-700"><Shield size={20}/></div>
                   <div><div className="font-semibold">Ofițer</div><div className="text-xs text-gray-500">Filieră directă/indirectă</div></div>
                 </div>
               </button>
-              <button onClick={()=> setRole("subofiter")} className={\`w-full rounded-2xl border p-4 text-left bg-card \${role==="subofiter" ? "border-accent":"border-ui"}\`}>
+              <button onClick={()=> setRole("subofiter")} className={`w-full rounded-2xl border p-4 text-left bg-card ${role==="subofiter" ? "border-accent":"border-ui"}`}>
                 <div className="flex items-center gap-3">
                   <div className="p-3 rounded-xl bg-gray-800 border border-gray-700"><Swords size={20}/></div>
                   <div><div className="font-semibold">Subofițer</div><div className="text-xs text-gray-500">Parcurs ghidat</div></div>
@@ -76,13 +76,13 @@ export default function Onboarding(){
               </button>
             </div>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
-              <button onClick={()=> setFiliera("directa")} className={\`w-full rounded-2xl border p-4 text-left bg-card \${filiera==="directa" ? "border-accent":"border-ui"}\`}>
+              <button onClick={()=> setFiliera("directa")} className={`w-full rounded-2xl border p-4 text-left bg-card ${filiera==="directa" ? "border-accent":"border-ui"}`}>
                 <div className="flex items-center gap-3">
                   <div className="p-3 rounded-xl bg-gray-800 border border-gray-700"><Target size={20}/></div>
                   <div><div className="font-semibold">Filieră directă</div><div className="text-xs text-gray-500">Concurs / admitere</div></div>
                 </div>
               </button>
-              <button onClick={()=> setFiliera("indirecta")} className={\`w-full rounded-2xl border p-4 text-left bg-card \${filiera==="indirecta" ? "border-accent":"border-ui"}\`}>
+              <button onClick={()=> setFiliera("indirecta")} className={`w-full rounded-2xl border p-4 text-left bg-card ${filiera==="indirecta" ? "border-accent":"border-ui"}`}>
                 <div className="flex items-center gap-3">
                   <div className="p-3 rounded-xl bg-gray-800 border border-gray-700"><BookOpenCheck size={20}/></div>
                   <div><div className="font-semibold">Filieră indirectă</div><div className="text-xs text-gray-500">Schimbare de armă / specializare</div></div>
@@ -91,7 +91,7 @@ export default function Onboarding(){
             </div>
             <div className="mt-5 text-xs text-gray-500">Pas 1/3</div>
             <div className="mt-3 flex gap-2 justify-end">
-              <button onClick={next} disabled={!role || !filiera} className={\`px-4 py-2 rounded-xl btn-accent \${(!role || !filiera) ? "opacity-40":""}\`}>Continuă</button>
+              <button onClick={next} disabled={!role || !filiera} className={`px-4 py-2 rounded-xl btn-accent ${(!role || !filiera) ? "opacity-40":""}`}>Continuă</button>
             </div>
           </motion.div>
         )}
@@ -101,7 +101,7 @@ export default function Onboarding(){
             <div className="text-sm text-gray-500 mb-2">Alege arma / specialitatea</div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {["Infanterie","Tancuri","Vânători de munte","Artilerie","Geniu","Comunicații","Logistică","Medical"].map((a)=> (
-                <button key={a} onClick={()=> setArma(a as any)} className={\`w-full rounded-2xl border p-4 text-left bg-card \${arma===a ? "border-accent":"border-ui"}\`}>
+                <button key={a} onClick={()=> setArma(a as any)} className={`w-full rounded-2xl border p-4 text-left bg-card ${arma===a ? "border-accent":"border-ui"}`}>
                   <div className="flex items-center gap-3">
                     <div className="p-3 rounded-xl bg-gray-800 border border-gray-700"><Target size={20}/></div>
                     <div><div className="font-semibold">{a}</div><div className="text-xs text-gray-500">Curriculum dedicat</div></div>
@@ -112,7 +112,7 @@ export default function Onboarding(){
             <div className="mt-5 text-xs text-gray-500">Pas 2/3</div>
             <div className="mt-3 flex gap-2 justify-between">
               <button onClick={back} className="px-4 py-2 rounded-xl border border-ui bg-card">Înapoi</button>
-              <button onClick={next} disabled={!arma} className={\`px-4 py-2 rounded-xl btn-accent \${!arma ? "opacity-40":""}\`}>Continuă</button>
+              <button onClick={next} disabled={!arma} className={`px-4 py-2 rounded-xl btn-accent ${!arma ? "opacity-40":""}`}>Continuă</button>
             </div>
           </motion.div>
         )}

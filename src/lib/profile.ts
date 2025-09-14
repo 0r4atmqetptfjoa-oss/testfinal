@@ -16,5 +16,5 @@ export function setFiliera(filiera: Filiera){ const p = getProfile(); p.filiera 
 
 export function branchSlug(branch?: Branch|null){
   const s = (branch || getProfile().branch || "").toString().toLowerCase();
-  return s.replace(/[ăâîșșţț]/g, "a").replace(/\s+/g, "-").replace(/[^a-z0-9\-]/g, "");
+  return s.replace(/[ăâîșșţț]/g, "a").replace(/ș|ş/g,"s").replace(/ț|ţ/g,"t").replace(/\s+/g, "-").replace(/[^a-z0-9\-]/g, "");
 }
