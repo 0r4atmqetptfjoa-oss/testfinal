@@ -1,14 +1,14 @@
 
 :root{
   --accent:#8b5cf6; --accent-rgb:139,92,246;
-  --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af;
+  --bg:#000; --card:#0b0f16; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af;
   --scale:1;
 }
 .theme-accent-violet{ --accent:#8b5cf6; --accent-rgb:139,92,246; }
 .theme-accent-cyan{ --accent:#22d3ee; --accent-rgb:34,211,238; }
 .theme-accent-emerald{ --accent:#10b981; --accent-rgb:16,185,129; }
 
-.theme-palette-default{ --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af; }
+.theme-palette-default{ --bg:#000; --card:#0b0f16; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af; }
 .theme-palette-desert{ --bg:#0f0d08; --card:#17140e; --border:#2b2418; --text:#f3f4f6; --muted:#a1a1aa; }
 .theme-palette-naval{ --bg:#020617; --card:#0b1220; --border:#162237; --text:#e5e7eb; --muted:#9ca3af; }
 .theme-palette-alpine{ --bg:#07150f; --card:#0c2119; --border:#163a2c; --text:#e5e7eb; --muted:#9ca3af; }
@@ -20,13 +20,15 @@
 .theme-variant-alpine{ --accent:#34d399; --accent-rgb:52,211,153; }
 .theme-variant-woodland{ --accent:#84cc16; --accent-rgb:132,204,22; }
 
-html{ font-size: 16px; }
+html{ font-size:16px; }
 body{ background:var(--bg); color:var(--text); transform: translateZ(0) scale(var(--scale)); transform-origin: top left; }
 .bg-card{ background:var(--card); }
 .border-ui{ border-color:var(--border); }
 .text-muted{ color:var(--muted); }
 .text-accent{ color:var(--accent); }
-.btn{ padding:.5rem .9rem; border-radius:.8rem; border:1px solid var(--border); }
+.btn{ padding:.6rem 1rem; border-radius:1rem; border:1px solid var(--border); }
 .btn-primary{ background:var(--accent); color:#0b0b0b; border-color:transparent; }
 .btn-ghost{ background:transparent; }
-.input{ background:transparent; border:1px solid var(--border); padding:.35rem .55rem; border-radius:.6rem; }
+.input{ background:transparent; border:1px solid var(--border); padding:.45rem .7rem; border-radius:.7rem; }
+.safe-bottom{ padding-bottom: env(safe-area-inset-bottom); }
+.header-ad-reserved{ height: 54px; } /* rezervă pentru banner viitor */

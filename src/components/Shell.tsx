@@ -6,7 +6,7 @@ import ProfileSwitchButton from "./ProfileSwitchButton";
 
 export default function Shell(){
   const loc = useLocation(); const nav = useNavigate();
-  const isOnboarding = /onboarding|unbordin/i.test(loc.pathname);
+  const isOnboarding = /onboarding/i.test(loc.pathname);
   useEffect(()=>{
     const done = localStorage.getItem("onboarding_completed") === "1";
     if (!done && !isOnboarding){ nav("/onboarding", { replace: true }); }

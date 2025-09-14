@@ -10,6 +10,6 @@ export default function Home(){
   }, []);
   return <div className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-24">
     <h1 className="text-xl font-bold mb-1">Acasă</h1>
-    <p className="text-sm text-muted">Alege un modul sau finalizează onboarding.</p>
+    <p className="text-sm text-muted">Finalizează onboarding sau alege modulul din profil.</p>
   </div>;
 }

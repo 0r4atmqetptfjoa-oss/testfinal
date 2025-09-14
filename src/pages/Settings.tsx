@@ -62,9 +62,7 @@ export default function Settings(){
       <section className="rounded-2xl border border-ui bg-card p-4">
         <h2 className="text-lg font-semibold mb-3">Scală UI</h2>
         <div className="flex gap-2">
-          {scales.map(s=>(
-            <button key={s} onClick={()=> sScale(s)} className={`btn flex-1 ${scale===s?"btn-primary":"btn-ghost"}`}>{Math.round(s*100)}%</button>
-          ))}
+          {scales.map(s=>(<button key={s} onClick={()=> sScale(s)} className={`btn flex-1 ${scale===s?"btn-primary":"btn-ghost"}`}>{Math.round(s*100)}%</button>))}
         </div>
       </section>
     </div>

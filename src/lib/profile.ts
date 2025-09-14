@@ -1,7 +1,7 @@
 
 export type Role = "ofiter"|"subofiter";
 export type Filiera = "directa"|"indirecta";
-export type Branch = "Infanterie"|"Tancuri"|"Vânători de munte"|"Artilerie"|"Geniu"|"Comunicații"|"Logistică"|"Medical";
+export type Branch = "Infanterie"|"Tancuri"|"Vânători de munte"|"Artilerie"|"Geniu"|"Comunicații"|"Logistică"|"Medical"|"Parașutiști";
 const KEY = "user_profile_v2";
 export type Profile = { role: Role|null; filiera: Filiera|null; branch: Branch|null };
 export function getProfile(): Profile { try{ return JSON.parse(localStorage.getItem(KEY) || "{}"); }catch{ return {} as any; } }

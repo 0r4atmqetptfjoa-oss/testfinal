@@ -19,7 +19,8 @@ export default function MobileNavBar(){
         {tabs.map(t => {
           const active = loc.pathname.startsWith(t.route);
           return (
-            <button key={t.route} onClick={()=> nav(t.route)} className={`py-2 text-[11px] flex flex-col items-center ${active ? "text-accent" : "text-muted"}`}>
+            <button key={t.route} onClick={()=> nav(t.route)}
+              className={`py-2 text-[11px] flex flex-col items-center ${active ? "text-accent" : "text-muted"}`}>
               <div className={`mb-1 ${active ? "text-accent" : ""}`}>{t.icon}</div>
               {t.label}
             </button>

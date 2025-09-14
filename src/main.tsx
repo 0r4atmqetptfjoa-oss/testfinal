@@ -9,6 +9,7 @@ import { router } from "./router";
 themeBoot();
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
+    <div className="header-ad-reserved" /> {/* rezervă pentru banner viitor */}
     <RouterProvider router={router} future={{ v7_startTransition: true }} />
   </React.StrictMode>
 );
