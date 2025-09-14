@@ -1,57 +1,28 @@
 
 :root{
-  --accent:#8b5cf6; /* violet-500 */
-  --accent-rgb:139,92,246;
-  --accent-contrast:#ffffff;
-  --bg:#000000;
-  --card:#111827;       /* gray-900 */
-  --border:#1f2937;     /* gray-800 */
-  --text:#e5e7eb;       /* gray-200 */
-  --muted:#6b7280;      /* gray-500 */
+  --accent:#8b5cf6; --accent-rgb:139,92,246;
+  --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#6b7280;
 }
-
-/* Accent variants */
 .theme-accent-violet{ --accent:#8b5cf6; --accent-rgb:139,92,246; }
 .theme-accent-cyan{ --accent:#22d3ee; --accent-rgb:34,211,238; }
 .theme-accent-emerald{ --accent:#10b981; --accent-rgb:16,185,129; }
+.theme-palette-default{ --bg:#000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#6b7280; }
+.theme-palette-desert{ --bg:#0f0d08; --card:#17140e; --border:#2b2418; --text:#f3f4f6; --muted:#a1a1aa; }
+.theme-palette-naval{ --bg:#020617; --card:#0b1220; --border:#162237; --text:#e5e7eb; --muted:#9ca3af; }
+.theme-palette-alpine{ --bg:#07150f; --card:#0c2119; --border:#163a2c; --text:#e5e7eb; --muted:#9ca3af; }
+.theme-variant-army{ --accent:#a3e635; --accent-rgb:163,230,53; }
+.theme-variant-desert{ --accent:#f59e0b; --accent-rgb:245,158,11; }
+.theme-variant-naval{ --accent:#60a5fa; --accent-rgb:96,165,250; }
+.theme-variant-alpine{ --accent:#34d399; --accent-rgb:52,211,153; }
+.theme-variant-woodland{ --accent:#84cc16; --accent-rgb:132,204,22; }
+.theme-variant-night{ --accent:#a78bfa; --accent-rgb:167,139,250; }
 
-/* Palettes (background / subtle textures via gradients) */
-.theme-palette-default{ --bg:#000000; --card:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#6b7280; }
-.theme-palette-desert{
-  --bg:#0a0906;
-  --card:#15120c;
-  --border:#2a261b;
-  --text:#f3f4f6;
-  --muted:#9ca3af;
-}
-.theme-palette-naval{
-  --bg:#020617;
-  --card:#0b1220;
-  --border:#162237;
-  --text:#e5e7eb;
-  --muted:#9ca3af;
-}
-.theme-palette-alpine{
-  --bg:#020f0a;
-  --card:#0b1f17;
-  --border:#113528;
-  --text:#e5e7eb;
-  --muted:#9ca3af;
-}
-
-/* Apply palette to body */
-body{
-  background: var(--bg);
-  color: var(--text);
-}
-
-/* Utils */
-.btn-accent{ background: var(--accent); color: var(--accent-contrast); }
-.text-accent{ color: var(--accent); }
-.border-accent{ border-color: var(--accent); }
-.glow-accent:hover{ box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.35); }
-.safe-bottom{ padding-bottom: env(safe-area-inset-bottom); }
-.safe-top{ padding-top: env(safe-area-inset-top); }
+body{ background:var(--bg); color:var(--text); }
 .bg-card{ background: var(--card); }
 .border-ui{ border-color: var(--border); }
 .text-muted{ color: var(--muted); }
+.text-accent{ color: var(--accent); }
+.btn-accent{ background: var(--accent); color: #0b0b0b; }
+.btn-accent:hover{ filter: brightness(1.05); }
+.btn-accent:active{ transform: scale(.98); }
+.safe-bottom{ padding-bottom: env(safe-area-inset-bottom); }
