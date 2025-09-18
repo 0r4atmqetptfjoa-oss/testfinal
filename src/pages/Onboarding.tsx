@@ -3,6 +3,7 @@
 // CHANGE: lock filiera to "indirecta" and expand arms list for filiera indirecta
 // ===============================================
 import React, { useEffect, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 // import decorative background image for onboarding
 import swirl from "@/assets/images/swirl.png";
 import { useNavigate } from "react-router-dom";
@@ -47,6 +48,9 @@ export default function Onboarding(){
   });
 
   useEffect(()=>{ setFiliera("indirecta"); },[]);
+
+  // Set page title
+  usePageTitle('Onboarding');
 
   function finish(){
     setProfile({ role, filiera, branch: arma } as any);

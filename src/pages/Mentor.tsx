@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 // import decorative AI image for mentor header
 import aiBrain from "@/assets/images/ai_brain.png";
 
@@ -16,6 +17,9 @@ export default function Mentor(){
     setMsgs(m=> [...m, me, { id: String(Date.now()+1), user:"ai", text: "Răspuns demo — integrează backend/LLM aici." }]);
     setQ("");
   };
+
+  // Set page title
+  usePageTitle('Mentor AI');
 
   return (
     <main className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-28">

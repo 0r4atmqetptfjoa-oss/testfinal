@@ -1,4 +1,5 @@
 import React from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 
 /**
  * Pagina Despre – descrie scopul și structura aplicației Mentor ANA.
@@ -6,6 +7,8 @@ import React from "react";
  * și cum sunt structurate modulele. Informațiile sunt prezentate într‑un limbaj accesibil.
  */
 export default function About() {
+  // Set page title
+  usePageTitle('Despre Mentor ANA');
   return (
     <div className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-24 space-y-6">
       <h1 className="text-2xl font-bold">Despre Mentor ANA</h1>

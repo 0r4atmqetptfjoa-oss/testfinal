@@ -1,5 +1,6 @@
 // src/pages/AdaptiveLearning.tsx
 import React, { useState, useEffect } from 'react';
+import usePageTitle from '@/hooks/usePageTitle';
 import { aiAdaptiveNextQuestion } from '@/lib/ai';
 import { Item } from '@/lib/quizEngine';
 import QuizPlayer from '@/components/QuizPlayer';
@@ -7,6 +8,8 @@ import { BrainCircuit } from 'lucide-react';
 import Skeleton from 'react-loading-skeleton';
 
 export default function AdaptiveLearning() {
+  // Set page title
+  usePageTitle('Învățare adaptivă');
   const [sessionItems, setSessionItems] = useState<Item[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

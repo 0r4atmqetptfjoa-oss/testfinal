@@ -3,6 +3,7 @@
 // CHANGE: dynamic exam subtitle per branch + 'Ghid Filiera Indirectă' card
 // ===============================================
 import React, { useMemo } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 import { useNavigate, useParams } from "react-router-dom";
 import { sound } from "../lib/sound";
 import { haptics } from "../lib/haptics";
@@ -43,6 +44,9 @@ export default function ModuleHome(){
     if (b.includes("logistic")) return "90 întrebări: 30 legislație + 60 specialitate";
     return "90 întrebări: 30 legislație + 60 specialitate";
   },[p?.branch]);
+
+  // Set the page title dynamically based on the module slug
+  usePageTitle(slug ? `Modul: ${slug}` : 'Modul');
 
   return (
     <div className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-24">

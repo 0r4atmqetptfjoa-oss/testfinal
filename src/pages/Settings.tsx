@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 import { applyAccent, applyPalette, applyVariant, readAccent, readPalette, readVariant, type Accent, type Palette, type Variant } from "../lib/themeEngine";
 import { getHaptics, setHaptics, getSounds, setSounds, getScale, setScale, type Scale } from "../lib/prefs";
 import { haptics } from "../lib/haptics";
@@ -26,6 +27,9 @@ export default function Settings(){
   useEffect(()=>{ setHaptics(useHaptics); if(useHaptics) haptics.light(); },[useHaptics]);
   useEffect(()=>{ setSounds(useSounds); if(useSounds) sound.ui(); },[useSounds]);
   useEffect(()=>{ setScale(scale); },[scale]);
+
+  // Set page title
+  usePageTitle('Setări');
 
   function resetProgress(){
     if (confirm('Sigur dorești să resetezi statisticile și progresul?')){

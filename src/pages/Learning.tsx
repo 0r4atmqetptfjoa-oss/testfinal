@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 
 // The learning index file groups units with topics and titles. We will fetch it and
 // display a list of topics and their associated sections. Selecting a unit could
@@ -17,6 +18,9 @@ type LearningUnit = {
 export default function Learning(){
   const [units, setUnits] = useState<LearningUnit[] | null>(null);
   const [query, setQuery] = useState<string>("");
+
+  // Update document title
+  usePageTitle('Învățare');
 
   useEffect(()=>{
     fetch("/db/learning_index.json").then(r => r.json()).then((data: { units: LearningUnit[] }) => {

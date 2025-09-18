@@ -3,6 +3,7 @@
 // CHANGE: dynamic exam composition per branch (conform ghidului)
 // ===============================================
 import { useEffect, useMemo, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 import QuizPlayer from "../components/QuizPlayer";
 import { buildExam, Item } from "../utils/quizEngine";
 import { loadSpecialtyQuestions } from "../utils/contentLoader";
@@ -47,6 +48,9 @@ export default function ExamSim(){
   const [started, setStarted] = useState(false);
 
   const cfg = examConfig();
+
+  // Set page title
+  usePageTitle('Simulare Examen');
 
   useEffect(()=>{ loadBank().then(setAllItems); },[]);
 

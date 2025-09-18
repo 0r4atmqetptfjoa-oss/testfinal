@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 
 export default function FitnessSimple(){
+  // Set page title
+  usePageTitle('Pregătire fizică');
   const [t, setT] = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(()=>{

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import usePageTitle from '@/hooks/usePageTitle';
 import { useNavigate } from 'react-router-dom';
 import QuizPlayer from '@/components/QuizPlayer';
 import { getLegislationQuestions, getEnglishQuestions, getPsychologyQuestions } from '@/lib/questions';
@@ -11,6 +12,8 @@ type Module = 'specialty' | 'legislation' | 'english' | 'psychology';
 
 export default function AllTopics() {
   const nav = useNavigate();
+  // Update page title
+  usePageTitle('Teste Generale');
   const [module, setModule] = useState<Module | null>(null);
   const [questions, setQuestions] = useState<Question[] | null>(null);
   const [isLoading, setIsLoading] = useState(false);

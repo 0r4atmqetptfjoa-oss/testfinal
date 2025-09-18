@@ -1,5 +1,6 @@
 
 import { useEffect, useMemo, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 import QuizPlayer from "../components/QuizPlayer";
 import type { Item } from "../utils/quizEngine";
 
@@ -23,6 +24,8 @@ type RawEngData = { tests: RawEngQuestion[][] };
  * question to the Item format expected by QuizPlayer (question/choices/answer).
  */
 export default function English(){
+  // Update document title
+  usePageTitle('Teste Engleză');
   const [tests, setTests] = useState<Item[][] | null>(null);
   const [idx, setIdx] = useState<number | null>(null);
   const [wrong, setWrong] = useState<Item[]>([]);

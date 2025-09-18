@@ -1,9 +1,12 @@
 
 import React, { useEffect } from "react";
+import usePageTitle from "../hooks/usePageTitle";
 import { useNavigate } from "react-router-dom";
 import { getProfile, branchSlug } from "../lib/profile";
 export default function Home(){
   const nav = useNavigate();
+  // Set the page title when this component mounts
+  usePageTitle("Acasă");
   useEffect(()=>{
     const p = getProfile();
     if (p?.branch){ nav(`/module/${branchSlug(p.branch)}`, { replace: true }); }

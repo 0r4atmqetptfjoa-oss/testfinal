@@ -1,5 +1,6 @@
 
 import { useEffect, useMemo, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 import QuizPlayer from "../components/QuizPlayer";
 import type { Item } from "../utils/quizEngine";
 
@@ -45,6 +46,9 @@ export default function Psychology(){
   },[]);
   const current = useMemo(()=> idx===null || !tests ? [] : (review ? wrong : tests[idx]), [idx, tests, review, wrong]);
   const done = (w: Item[]) => { setWrong(w); setReview(false); };
+
+  // Set page title
+  usePageTitle('Evaluare psihologică');
   if(!tests) return <div className="p-4">Se încarcă…</div>;
   if(idx===null) return (
     <main className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-24">

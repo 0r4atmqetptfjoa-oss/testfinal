@@ -2,9 +2,8 @@
 // FILE: src/pages/GuideIndirecta.tsx
 // NEW: pagină cu ghidul complet (placeholder pentru text complet)
 // ===============================================
-import React from "react";
-
 import React, { useEffect, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 
 /**
  * Ghidul complet pentru filiera indirectă este salvat într-un fișier Markdown
@@ -14,6 +13,9 @@ import React, { useEffect, useState } from "react";
  */
 export default function GuideIndirecta(){
   const [text, setText] = useState<string | null>(null);
+
+  // Update document title
+  usePageTitle('Ghid — Filiera Indirectă');
   useEffect(()=>{
     fetch("/data/guide/filiera_indirecta.md").then(r => {
       if(r.ok) return r.text();

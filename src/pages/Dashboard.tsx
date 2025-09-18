@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 import { loadGame, levelFromXP, last7DaysActivity } from "@/lib/game";
 
 /**
@@ -28,6 +29,9 @@ export default function Dashboard() {
     setLvl({ level: lvlInfo.level, pct: lvlInfo.pct });
     setActivity(last7DaysActivity());
   }, []);
+
+  // Set page title
+  usePageTitle('Dashboard');
 
   const accuracy = questions > 0 ? Math.round((correct / questions) * 100) : 0;
 

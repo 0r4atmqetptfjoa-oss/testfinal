@@ -1,4 +1,5 @@
 import React from "react";
+import usePageTitle from '@/hooks/usePageTitle';
 import { loadGame, BADGES } from "@/lib/game";
 
 /**
@@ -6,6 +7,8 @@ import { loadGame, BADGES } from "@/lib/game";
  * Utilizează structurile definite în lib/game.ts pentru a obține insignele câștigate.
  */
 export default function Badges(){
+  // Set page title
+  usePageTitle('Insigne');
   const game = loadGame();
   return (
     <div className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-24 space-y-4">
