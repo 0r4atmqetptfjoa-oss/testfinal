@@ -25,6 +25,7 @@ const AdaptiveLearning = React.lazy(() => import('@/pages/AdaptiveLearning'));
 const GuideIndirecta = React.lazy(() => import('@/pages/GuideIndirecta'));
 const Dashboard = React.lazy(() => import('@/pages/Dashboard'));
 const Badges = React.lazy(() => import('@/pages/Badges'));
+const About = React.lazy(() => import('@/pages/About'));
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Shell/>}>
@@ -43,6 +44,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='ghid' element={<GuideIndirecta/>}/>
     <Route path='dashboard' element={<Dashboard/>}/>
     <Route path='badges' element={<Badges/>}/>
+    <Route path='about' element={<About/>}/>
   </Route>
 ));
 

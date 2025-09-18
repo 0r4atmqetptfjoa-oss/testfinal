@@ -34,17 +34,17 @@ export default function ModuleHome(){
       <h1 className="text-xl font-bold mb-1 capitalize">Modul: {slug}</h1>
       <p className="text-sm text-muted mb-4">Selectează una dintre opțiuni.</p>
       <div className="grid grid-cols-1 gap-3">
-        <Card title="Ghid Filiera Indirectă" subtitle="Proces, criterii, selecție și admitere" icon={<FileText size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/ghid"); }} />
-        <Card title="Mod învățare" subtitle="Capitole & tematică" icon={<BookOpen size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/learning"); }} />
-        <Card title="Simulare Examen" subtitle={examSubtitle} icon={<Shield size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/exam"); }}/>
-        <Card title="Teste Engleză" subtitle="Proba eliminatorie – seturi oficiale" icon={<Globe size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/english"); }}/>
-        <Card title="Evaluare Psihologică" subtitle="Baterii generale" icon={<Brain size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/psychology"); }}/>
+        <Card title="Ghid Filiera Indirectă" subtitle="Proces, criterii, selecție și admitere" icon={<FileText size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/ghid"); }} />
+        <Card title="Mod învățare" subtitle="Capitole & tematică — studiază teoria pentru examene" icon={<BookOpen size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/learning"); }} />
+        <Card title="Simulare Examen" subtitle={examSubtitle} icon={<Shield size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/exam"); }}/>
+        <Card title="Teste Engleză" subtitle="Seturi oficiale — probă eliminatorie" icon={<Globe size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/english"); }}/>
+        <Card title="Evaluare Psihologică" subtitle="Teste de aptitudini generale" icon={<Brain size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/psychology"); }}/>
         {/* Teste generale – seturi de întrebări din toate tematicile */}
-        <Card title="Teste generale" subtitle="Simulează examene din toate tematicile" icon={<ListChecks size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/all-tests"); }} />
+        <Card title="Teste generale" subtitle="Examene mixte — întrebări din toate tematicile" icon={<ListChecks size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/all-tests"); }} />
         {/* Insigne (Badges) – mutat aici deoarece nu se mai află în bara de navigare */}
-        <Card title="Insigne" subtitle="Vezi insignele câștigate" icon={<Medal size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/badges"); }} />
+        <Card title="Insigne" subtitle="Badge‑uri & niveluri — vezi insignele câștigate" icon={<Medal size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/badges"); }} />
         {/* Învățare adaptivă – modul AI pentru antrenament adaptiv */}
-        <Card title="Învățare adaptivă" subtitle="Antrenament AI – întrebări adaptate" icon={<BrainCircuit size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/adaptive-learning"); }} />
+        <Card title="Învățare adaptivă" subtitle="Mod AI personalizat — întrebări adaptate răspunsurilor tale" icon={<BrainCircuit size={20}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/adaptive-learning"); }} />
       </div>
     </div>
   );

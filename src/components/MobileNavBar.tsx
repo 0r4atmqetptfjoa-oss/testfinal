@@ -10,10 +10,10 @@ export default function MobileNavBar(){
   // Afisăm doar patru elemente în bara de navigare: modul (acasă), Mentor AI, Dashboard și Setări.
   // Alte secțiuni, precum examenele, învățarea sau insignele, sunt accesibile direct din pagina modulului.
   const tabs = [
-    { icon: <Home size={18}/>, label: "Acasă", route: moduleRoute },
-    { icon: <Bot size={18}/>, label: "Mentor AI", route: "/mentor" },
-    { icon: <BarChart3 size={18}/>, label: "Dashboard", route: "/dashboard" },
-    { icon: <Settings size={18}/>, label: "Setări", route: "/settings" },
+    { icon: <Home size={24}/>, label: "Acasă", route: moduleRoute },
+    { icon: <Bot size={24}/>, label: "Mentor AI", route: "/mentor" },
+    { icon: <BarChart3 size={24}/>, label: "Dashboard", route: "/dashboard" },
+    { icon: <Settings size={24}/>, label: "Setări", route: "/settings" },
   ];
   return (
     <nav className="fixed bottom-0 left-0 right-0 border-t border-ui bg-black/80 backdrop-blur safe-bottom z-40">
