@@ -4,6 +4,10 @@ import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import MobileNavBar from "./MobileNavBar";
 import ProfileSwitchButton from "./ProfileSwitchButton";
 import { Info } from "lucide-react";
+// Import the command palette so it is available globally. It uses
+// a keyboard shortcut (Ctrl+K) to open. You can trigger it by
+// pressing Ctrl+K on your keyboard.
+import CommandPalette from './CommandPalette';
 // Import the toast provider from react-hot-toast. This will render a toaster
 // at the top of the page and can be used from anywhere in the app by calling
 // toast.success/ toast.error etc. (see README for usage examples)
@@ -20,6 +24,8 @@ export default function Shell(){
     <div className="min-h-screen bg-black text-gray-200">
       {/* Global toast provider; notifications can be triggered from anywhere */}
       <Toaster position="top-center" reverseOrder={false} />
+      {/* Command palette modal; opens with Ctrl+K */}
+      <CommandPalette />
       {!isOnboarding && <ProfileSwitchButton/>}
       <main className="max-w-2xl mx-auto pb-24 px-4">
         <Outlet/>

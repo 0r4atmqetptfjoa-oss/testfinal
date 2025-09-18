@@ -15,7 +15,11 @@ const firebaseConfig = {
 };
 
 // Inițializăm aplicația Firebase
-const app = initializeApp(firebaseConfig);
+// Exportăm și aplicația pentru ca modulele de autentificare
+// să poată folosi același context Firebase. Dacă ai deja o
+// aplicație existentă pe pagina web, initializeApp va returna
+// aceeași instanță.
+export const app = initializeApp(firebaseConfig);
 
 // Exportăm instanța bazei de date pentru a o folosi în alte părți ale aplicației
 export const db = getFirestore(app);

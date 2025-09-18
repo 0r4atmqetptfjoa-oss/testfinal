@@ -1,69 +1,58 @@
-// scripts/importData.ts
-import * as admin from 'firebase-admin';
-import * as fs from 'fs';
+// =======================================================
+// FILE: scripts/importData.ts
+// A utility for seeding Firestore with data from the local
+// JSON files. This script reads the JSON files from
+// `public/data/v12` and uploads their contents into
+// Firestore collections. To run this script, ensure you
+// have created a Firebase service account key and placed
+// it next to this file as `serviceAccountKey.json`. Run
+// `ts-node scripts/importData.ts` or compile to JS.
+// =======================================================
+
+import { initializeApp, cert } from 'firebase-admin/app';
+import { getFirestore } from 'firebase-admin/firestore';
+import * as fs from 'fs/promises';
 import * as path from 'path';
 
-// --- PASUL 1: CONFIGURAREA ---
-// Descarcă cheia privată din Firebase și pune-o în folderul 'scripts'
-// Vezi instrucțiunile de sub acest bloc de cod!
-import serviceAccount from './serviceAccountKey.json' with { type: 'json' };
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
+// NOTE: Do not commit your service account key to source
+// control. This import assumes that you have created
+// `serviceAccountKey.json` via the Firebase console and
+// saved it in the same directory as this script.
+import serviceAccount from './serviceAccountKey.json' assert { type: 'json' };
 
-const db = admin.firestore();
-const specialtiesDir = path.resolve(__dirname, '../public/data/specialties');
+// Initialize Firebase Admin with the service account
+initializeApp({ credential: cert(serviceAccount as any) });
 
-// --- PASUL 2: FUNCȚIA DE IMPORT ---
-async function importData() {
-  console.log('Încep operațiunea de import în Firestore...');
+const db = getFirestore();
 
-  try {
-    const files = fs.readdirSync(specialtiesDir);
-
-    for (const file of files) {
-      if (path.extname(file) === '.json') {
-        const filePath = path.join(specialtiesDir, file);
-        const fileContent = fs.readFileSync(filePath, 'utf-8');
-        const data = JSON.parse(fileContent);
-
-        // Extragem detaliile din numele fișierului
-        const [category, track, ...branchParts] = file.replace('.json', '').split('_');
-        const branch = branchParts.join(' '); // Refacem numele specialității dacă are spații
-
-        // Creăm un ID unic pentru document
-        const docId = `${category}_${track}_${branchParts.join('')}`;
-        
-        console.log(`Procesez: ${file} -> Document ID: ${docId}`);
-
-        const specialtyRef = db.collection('specialties').doc(docId);
-
-        // Setăm datele principale ale specialității
-        await specialtyRef.set({
-          category: category,
-          track: track,
-          branch: branch,
-          lastUpdated: new Date()
-        });
-
-        // Adăugăm întrebările în sub-colecția 'questions'
-        if (data.questions && Array.isArray(data.questions)) {
-          const questionsCollection = specialtyRef.collection('questions');
-          for (const question of data.questions) {
-            // Adăugăm fiecare întrebare ca un document separat
-            await questionsCollection.add(question);
-          }
-          console.log(`> Am adăugat ${data.questions.length} întrebări pentru ${branch}.`);
-        }
-
-        // Aici vom adăuga logica pentru rezumate (summaries) în viitor
-      }
-    }
-    console.log('Operațiunea de import a fost finalizată cu succes!');
-  } catch (error) {
-    console.error('Eroare critică în timpul importului:', error);
-  }
+/**
+ * Uploads an array of objects to the given collection. If
+ * an item has an `id` property, it will be used as the
+ * document ID; otherwise Firestore will generate one.
+ */
+async function uploadCollection(collectionName: string, data: any[]) {
+  const collectionRef = db.collection(collectionName);
+  const batch = db.batch();
+  data.forEach((item) => {
+    const docRef = item.id ? collectionRef.doc(item.id) : collectionRef.doc();
+    batch.set(docRef, item);
+  });
+  await batch.commit();
+  console.log(`✅ ${data.length} documente încărcate în colecția '${collectionName}'.`);
 }
 
-// --- PASUL 3: RULAREA SCRIPTULUI ---
-importData();
+async function main() {
+  console.log('🚀 Se pregătește încărcarea datelor în Firestore...');
+  // Example: import legislation questions
+  const legislationPath = path.resolve(__dirname, '../public/data/v12/legislation.json');
+  const legislationJson = JSON.parse(await fs.readFile(legislationPath, 'utf-8'));
+  if (legislationJson.questions) {
+    await uploadCollection('questions_legislation', legislationJson.questions);
+  }
+  // You can add additional collections here, such as
+  // specialties or learning content, by reading more
+  // files and calling uploadCollection().
+  console.log('✨ Operațiune finalizată!');
+}
+
+main().catch((err) => console.error(err));
