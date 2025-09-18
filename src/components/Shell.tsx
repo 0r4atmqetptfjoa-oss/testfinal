@@ -4,6 +4,10 @@ import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import MobileNavBar from "./MobileNavBar";
 import ProfileSwitchButton from "./ProfileSwitchButton";
 import { Info } from "lucide-react";
+// Import the toast provider from react-hot-toast. This will render a toaster
+// at the top of the page and can be used from anywhere in the app by calling
+// toast.success/ toast.error etc. (see README for usage examples)
+import { Toaster } from "react-hot-toast";
 
 export default function Shell(){
   const loc = useLocation(); const nav = useNavigate();
@@ -14,6 +18,8 @@ export default function Shell(){
   }, [loc.pathname]);
   return (
     <div className="min-h-screen bg-black text-gray-200">
+      {/* Global toast provider; notifications can be triggered from anywhere */}
+      <Toaster position="top-center" reverseOrder={false} />
       {!isOnboarding && <ProfileSwitchButton/>}
       <main className="max-w-2xl mx-auto pb-24 px-4">
         <Outlet/>

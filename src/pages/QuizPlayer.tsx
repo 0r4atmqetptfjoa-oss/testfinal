@@ -3,7 +3,8 @@ import React, { useRef, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { CheckCircle, XCircle, Award } from "lucide-react";
 import ProgressBar from "@/components/ProgressBar";
-import Toast from "@/components/Toast";
+// Import toast helper to trigger notifications
+import { toast } from 'react-hot-toast';
 import Lottie from "@/components/Lottie";
 import EdgeLighting from "@/components/EdgeLighting";
 import { awardXP } from "@/lib/game";
@@ -21,15 +22,15 @@ export default function QuizPlayer({ items, onFinish }: { items: QuizItem[]; onF
   const [revealed, setRevealed] = useState(false);
   const [score, setScore] = useState(0);
   const [xpGain, setXpGain] = useState(0);
-  const [toast, setToast] = useState<string>("");
-  const [showToast, setShowToast] = useState(false);
+  // no local toast state; notifications are handled by react-hot-toast
   const [view, setView] = useState<"play"|"summary">("play");
   const [edge, setEdge] = useState<"idle"|"correct"|"wrong"|"progress"|"done">("idle");
 
   const item = items[index];
   const progress = Math.round((index/items.length)*100);
 
-  const showXP = (txt: string) => { setToast(txt); setShowToast(true); setTimeout(()=> setShowToast(false), 900); };
+  // Show XP gain using the toast system
+  const showXP = (txt: string) => { toast.success(txt); };
   const select = (c: string) => { if (!revealed) setSelected(c); };
 
   const check = () => {
@@ -154,7 +155,7 @@ export default function QuizPlayer({ items, onFinish }: { items: QuizItem[]; onF
           )}
         </div>
       </motion.div>
-      <Toast text={toast} show={showToast} />
+      {/* Toast notifications handled globally via react-hot-toast */}
     </div>
   );
 }
