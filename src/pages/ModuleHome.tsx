@@ -11,9 +11,18 @@ import { getProfile } from "../lib/profile";
 
 function Card({ title, subtitle, onClick, icon }:{title:string; subtitle:string; onClick:()=>void; icon:React.ReactNode}){
   return (
-    <button onClick={onClick} className="rounded-2xl border border-ui bg-card p-4 text-left active:scale-[0.99] flex items-center gap-3 w-full hover:border-accent">
-      <div className="p-2 rounded-lg bg-black/40 border border-ui">{icon}</div>
-      <div className="flex-1"><div className="text-sm font-medium">{title}</div><div className="text-xs text-muted">{subtitle}</div></div>
+    <button
+      onClick={onClick}
+      className="rounded-2xl border border-ui bg-card p-4 text-left active:scale-[0.98] flex items-center gap-3 w-full hover:border-accent transition-transform transform hover:scale-[1.02] hover:shadow-lg"
+    >
+      {/* Animated icon */}
+      <div className="p-2 rounded-lg bg-black/40 border border-ui animate-pulse">
+        {icon}
+      </div>
+      <div className="flex-1">
+        <div className="text-sm font-medium">{title}</div>
+        <div className="text-xs text-muted">{subtitle}</div>
+      </div>
     </button>
   );
 }

@@ -3,9 +3,17 @@
 // CHANGE: lock filiera to "indirecta" and expand arms list for filiera indirecta
 // ===============================================
 import React, { useEffect, useState } from "react";
+// import decorative background image for onboarding
+import swirl from "@/assets/images/swirl.png";
 import { useNavigate } from "react-router-dom";
 import { setProfile, branchSlug, setFiliera } from "../lib/profile";
 import { Shield, Mountain, Hammer, Radio, Truck, Cross, Building2, Swords } from "lucide-react";
+
+// import custom abstract icons for certain arms. These neon artworks evoke the essence
+// of heavy armour, mobility and artillery without depicting specific real‑world vehicles.
+import tankIcon from "@/assets/arm_icons/tank.png";
+import autoIcon from "@/assets/arm_icons/auto.png";
+import artilleryIcon from "@/assets/arm_icons/artillery.png";
 
 type Step = 0|1|2|3;
 export default function Onboarding(){
@@ -33,30 +41,37 @@ export default function Onboarding(){
     nav(`/module/${branchSlug(arma as any)}`, { replace: true });
   }
   const ARMS: {label:string, icon:React.ReactNode}[] = [
-    { label:"Infanterie", icon:<Swords className="w-4 h-4" /> },
-    { label:"Vânători de munte", icon:<Mountain className="w-4 h-4" /> },
-    { label:"Tancuri", icon:<Shield className="w-4 h-4" /> },
-    { label:"Artilerie & rachete (terestre)", icon:<Shield className="w-4 h-4" /> },
-    { label:"Rachete și artilerie antiaeriană", icon:<Shield className="w-4 h-4" /> },
-    { label:"Geniu", icon:<Hammer className="w-4 h-4" /> },
-    { label:"Apărare CBRN", icon:<Shield className="w-4 h-4" /> },
-    { label:"Cercetare", icon:<Shield className="w-4 h-4" /> },
-    { label:"Cercetare CBRN", icon:<Shield className="w-4 h-4" /> },
-    { label:"Informații militare", icon:<Shield className="w-4 h-4" /> },
-    { label:"Poliție militară", icon:<Shield className="w-4 h-4" /> },
-    { label:"Forțe speciale", icon:<Shield className="w-4 h-4" /> },
-    { label:"Comunicații", icon:<Radio className="w-4 h-4" /> },
-    { label:"Auto", icon:<Truck className="w-4 h-4" /> },
-    { label:"Administrație", icon:<Building2 className="w-4 h-4" /> },
-    { label:"Construcții", icon:<Building2 className="w-4 h-4" /> },
-    { label:"Căi ferate", icon:<Building2 className="w-4 h-4" /> },
-    { label:"Muzici militare", icon:<Shield className="w-4 h-4" /> },
-    { label:"Infanterie marină", icon:<Swords className="w-4 h-4" /> },
-    { label:"Logistică", icon:<Truck className="w-4 h-4" /> },
-    { label:"Medical (Sanitar)", icon:<Cross className="w-4 h-4" /> },
+    // Standard arms use Lucide icons. Selected arms override the default with
+    // custom abstract artwork. Each image is wrapped in an <img> tag with fixed
+    // dimensions to match the other icons.
+    { label: "Infanterie", icon: <Swords className="w-4 h-4" /> },
+    { label: "Vânători de munte", icon: <Mountain className="w-4 h-4" /> },
+    { label: "Tancuri", icon: <img src={tankIcon} alt="Tancuri icon" className="w-6 h-6" /> },
+    { label: "Artilerie & rachete (terestre)", icon: <img src={artilleryIcon} alt="Artilerie icon" className="w-6 h-6" /> },
+    { label: "Rachete și artilerie antiaeriană", icon: <img src={artilleryIcon} alt="Artilerie antiaeriană icon" className="w-6 h-6" /> },
+    { label: "Geniu", icon: <Hammer className="w-4 h-4" /> },
+    { label: "Apărare CBRN", icon: <Shield className="w-4 h-4" /> },
+    { label: "Cercetare", icon: <Shield className="w-4 h-4" /> },
+    { label: "Cercetare CBRN", icon: <Shield className="w-4 h-4" /> },
+    { label: "Informații militare", icon: <Shield className="w-4 h-4" /> },
+    { label: "Poliție militară", icon: <Shield className="w-4 h-4" /> },
+    { label: "Forțe speciale", icon: <Shield className="w-4 h-4" /> },
+    { label: "Comunicații", icon: <Radio className="w-4 h-4" /> },
+    { label: "Auto", icon: <img src={autoIcon} alt="Auto icon" className="w-6 h-6" /> },
+    { label: "Administrație", icon: <Building2 className="w-4 h-4" /> },
+    { label: "Construcții", icon: <Building2 className="w-4 h-4" /> },
+    { label: "Căi ferate", icon: <Building2 className="w-4 h-4" /> },
+    { label: "Muzici militare", icon: <Shield className="w-4 h-4" /> },
+    { label: "Infanterie marină", icon: <Swords className="w-4 h-4" /> },
+    { label: "Logistică", icon: <Truck className="w-4 h-4" /> },
+    { label: "Medical (Sanitar)", icon: <Cross className="w-4 h-4" /> },
   ];
   return (
     <div className="min-h-screen bg-black text-gray-200 px-4 pt-6 pb-10 max-w-xl mx-auto relative">
+      {/* Decorative hero image for onboarding */}
+      <div className="mb-4">
+        <img src={swirl} alt="Decorative neon swirl" className="w-full h-40 object-cover rounded-xl shadow-md" />
+      </div>
       {step>0 && (<button onClick={back} className="fixed top-3 left-3 z-40 rounded-full border border-ui bg-black/70 px-3 py-1 text-xs">Înapoi</button>)}
       <div className="fixed top-0 left-0 right-0 h-1.5 bg-black/60"><div className="h-full" style={{ background:"var(--accent)", width:`${pct}%` }} /></div>
       <div className="text-center mt-6 mb-6"><div className="text-2xl font-bold">Bun venit!</div><div className="text-sm text-gray-500">Profil pentru filiera indirectă</div></div>
@@ -89,10 +104,13 @@ export default function Onboarding(){
           <div className="text-sm text-gray-500">Alege arma / specialitatea</div>
           <div className="grid grid-cols-2 gap-3">
             {ARMS.map(({label,icon})=> (
-              <button key={label} onClick={()=> setArma(label)} className={`rounded-2xl border p-4 text-left bg-card ${arma===label?"border-accent":"border-ui"}`}>
+              <button key={label} onClick={()=> setArma(label)} className={`rounded-2xl border p-4 text-left bg-card ${arma===label?"border-accent":"border-ui"} transition-transform transform hover:scale-[1.03] hover:shadow-md`}>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-lg bg-black/40 border border-ui text-accent">{icon}</div>
-                  <div>
+                  {/* Animated icon container */}
+                  <div className="p-2 rounded-lg bg-black/40 border border-ui text-accent animate-pulse">
+                    {icon}
+                  </div>
+                  <div className="flex-1">
                     <div className="font-semibold">{label}</div>
                     <div className="text-xs text-gray-500">Curriculum dedicat</div>
                   </div>
