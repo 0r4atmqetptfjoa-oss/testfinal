@@ -9,6 +9,19 @@ import { useNavigate } from "react-router-dom";
 import { setProfile, branchSlug, setFiliera } from "../lib/profile";
 import { Shield, Mountain, Hammer, Radio, Truck, Cross, Building2, Swords } from "lucide-react";
 
+// import high‑definition icons for non‑combat arms and modules.  These images were
+// generated offline and stored in src/assets/icons.  We avoid depicting real
+// weapons or vehicles by using abstract or stylised motifs (e.g. gears for
+// engineering, lab flasks for CBRN) and support roles (e.g. crates for
+// logistics).  Feel free to swap these images with your own custom artwork.
+import LogisticsIcon from "@/assets/icons/logistics.png";
+import AdministrationIcon from "@/assets/icons/administration.png";
+import CBRNIcon from "@/assets/icons/cbrn.png";
+import EngineeringIcon from "@/assets/icons/engineering.png";
+import RailwayIcon from "@/assets/icons/railway.png";
+import MarineIcon from "@/assets/icons/marine.png";
+import InformationIcon from "@/assets/icons/information.png";
+
 // import custom abstract icons for certain arms. These neon artworks evoke the essence
 // of heavy armour, mobility and artillery without depicting specific real‑world vehicles.
 import tankIcon from "@/assets/arm_icons/tank.png";
@@ -40,30 +53,40 @@ export default function Onboarding(){
     localStorage.setItem("onboarding_completed","1");
     nav(`/module/${branchSlug(arma as any)}`, { replace: true });
   }
-  const ARMS: {label:string, icon:React.ReactNode}[] = [
+  const ARMS: { label: string; icon: React.ReactNode }[] = [
     // Standard arms use Lucide icons. Selected arms override the default with
-    // custom abstract artwork. Each image is wrapped in an <img> tag with fixed
-    // dimensions to match the other icons.
+    // high‑definition artwork imported from src/assets/icons.  Each custom
+    // image is wrapped in an <img> tag with consistent sizing to match the
+    // vector icons.  Only non‑combat branches are represented here; combat
+    // specialties (Infanterie, Vânători de munte, Tancuri, Artilerie, RAA,
+    // Forțe speciale etc.) continue to use vector icons until appropriate
+    // artwork is provided by the user.
     { label: "Infanterie", icon: <Swords className="w-4 h-4" /> },
     { label: "Vânători de munte", icon: <Mountain className="w-4 h-4" /> },
     { label: "Tancuri", icon: <img src={tankIcon} alt="Tancuri icon" className="w-6 h-6" /> },
     { label: "Artilerie & rachete (terestre)", icon: <img src={artilleryIcon} alt="Artilerie icon" className="w-6 h-6" /> },
     { label: "Rachete și artilerie antiaeriană", icon: <img src={artilleryIcon} alt="Artilerie antiaeriană icon" className="w-6 h-6" /> },
-    { label: "Geniu", icon: <Hammer className="w-4 h-4" /> },
-    { label: "Apărare CBRN", icon: <Shield className="w-4 h-4" /> },
-    { label: "Cercetare", icon: <Shield className="w-4 h-4" /> },
-    { label: "Cercetare CBRN", icon: <Shield className="w-4 h-4" /> },
-    { label: "Informații militare", icon: <Shield className="w-4 h-4" /> },
+    // Engineering (Geniu) uses the cogwheel artwork
+    { label: "Geniu", icon: <img src={EngineeringIcon} alt="Geniu icon" className="w-6 h-6" /> },
+    // CBRN defence uses laboratory flasks icon
+    { label: "Apărare CBRN", icon: <img src={CBRNIcon} alt="CBRN icon" className="w-6 h-6" /> },
+    // Research and information share the eye/network icon until a dedicated
+    // research icon is provided
+    { label: "Cercetare", icon: <img src={InformationIcon} alt="Cercetare icon" className="w-6 h-6" /> },
+    { label: "Cercetare CBRN", icon: <img src={CBRNIcon} alt="Cercetare CBRN icon" className="w-6 h-6" /> },
+    { label: "Informații militare", icon: <img src={InformationIcon} alt="Informații icon" className="w-6 h-6" /> },
     { label: "Poliție militară", icon: <Shield className="w-4 h-4" /> },
     { label: "Forțe speciale", icon: <Shield className="w-4 h-4" /> },
     { label: "Comunicații", icon: <Radio className="w-4 h-4" /> },
     { label: "Auto", icon: <img src={autoIcon} alt="Auto icon" className="w-6 h-6" /> },
-    { label: "Administrație", icon: <Building2 className="w-4 h-4" /> },
+    { label: "Administrație", icon: <img src={AdministrationIcon} alt="Administrație icon" className="w-6 h-6" /> },
     { label: "Construcții", icon: <Building2 className="w-4 h-4" /> },
-    { label: "Căi ferate", icon: <Building2 className="w-4 h-4" /> },
+    { label: "Căi ferate", icon: <img src={RailwayIcon} alt="Căi ferate icon" className="w-6 h-6" /> },
     { label: "Muzici militare", icon: <Shield className="w-4 h-4" /> },
-    { label: "Infanterie marină", icon: <Swords className="w-4 h-4" /> },
-    { label: "Logistică", icon: <Truck className="w-4 h-4" /> },
+    { label: "Infanterie marină", icon: <img src={MarineIcon} alt="Infanterie marină icon" className="w-6 h-6" /> },
+    { label: "Logistică", icon: <img src={LogisticsIcon} alt="Logistică icon" className="w-6 h-6" /> },
+    // Intendență este o specialitate înrudită cu Logistica; folosim aceeași pictogramă
+    { label: "Intendență", icon: <img src={LogisticsIcon} alt="Intendență icon" className="w-6 h-6" /> },
     { label: "Medical (Sanitar)", icon: <Cross className="w-4 h-4" /> },
   ];
   return (
