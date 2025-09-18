@@ -1,0 +1,384 @@
+{
+  "questions": [
+    {
+      "id": "MED-0001",
+      "module": "specialty",
+      "question": "Care este primul pas în evaluarea primară (ABC)?",
+      "choices": [
+        "Airway",
+        "Breathing",
+        "Circulation",
+        "Disability"
+      ],
+      "answer": 0,
+      "options": [
+        "Airway",
+        "Breathing",
+        "Circulation",
+        "Disability"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "MED-0002",
+      "module": "specialty",
+      "question": "Semn cardinal al șocului hipovolemic este:",
+      "choices": [
+        "Hipertensiune",
+        "Tahicardie",
+        "Bradicardie",
+        "Hipotermie severă"
+      ],
+      "answer": 1,
+      "options": [
+        "Hipertensiune",
+        "Tahicardie",
+        "Bradicardie",
+        "Hipotermie severă"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "MED-0003",
+      "module": "specialty",
+      "question": "În hemoragia externă masivă, gestul corect imediat este:",
+      "choices": [
+        "Aplicarea garoului/compresiei directe",
+        "Administrarea de antibiotic",
+        "Imobilizarea membrului",
+        "Administrarea de analgezic"
+      ],
+      "answer": 0,
+      "options": [
+        "Aplicarea garoului/compresiei directe",
+        "Administrarea de antibiotic",
+        "Imobilizarea membrului",
+        "Administrarea de analgezic"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "MED-0004",
+      "module": "specialty",
+      "question": "În resuscitarea adulților, raportul compresii:ventilații (fără cale aeriană avansată) este:",
+      "choices": [
+        "15:2",
+        "30:2",
+        "5:1",
+        "10:1"
+      ],
+      "answer": 1,
+      "options": [
+        "15:2",
+        "30:2",
+        "5:1",
+        "10:1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "MED-0005",
+      "module": "specialty",
+      "question": "Semn de sepsis sever:",
+      "choices": [
+        "Afebrilitate constantă",
+        "Lactat crescut",
+        "Hiperglicemie tranzitorie",
+        "Hipertensiune persistentă"
+      ],
+      "answer": 1,
+      "options": [
+        "Afebrilitate constantă",
+        "Lactat crescut",
+        "Hiperglicemie tranzitorie",
+        "Hipertensiune persistentă"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "MED-0006",
+      "module": "specialty",
+      "question": "Cea mai eficientă metodă de decontaminare în expunerea CBRN lichidă pe piele este:",
+      "choices": [
+        "Ștergere uscată cu material sorbant",
+        "Spălare cu apă sub presiune la temperatură înaltă",
+        "Solvenți organici",
+        "Nu se intervine"
+      ],
+      "answer": 0,
+      "options": [
+        "Ștergere uscată cu material sorbant",
+        "Spălare cu apă sub presiune la temperatură înaltă",
+        "Solvenți organici",
+        "Nu se intervine"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "MED-0007",
+      "module": "specialty",
+      "question": "În TCCC, ce categorie primează pentru evacuare?",
+      "choices": [
+        "Expectant",
+        "Minimal",
+        "Delayed",
+        "Immediate"
+      ],
+      "answer": 3,
+      "options": [
+        "Expectant",
+        "Minimal",
+        "Delayed",
+        "Immediate"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "MED-0008",
+      "module": "specialty",
+      "question": "În intubația orotraheală, poziția corectă a capului este:",
+      "choices": [
+        "Flexie maximă",
+        "Extensie neutră (sniffing position)",
+        "Rotire laterală",
+        "Hiperextensie"
+      ],
+      "answer": 1,
+      "options": [
+        "Flexie maximă",
+        "Extensie neutră (sniffing position)",
+        "Rotire laterală",
+        "Hiperextensie"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "MED-0009",
+      "module": "specialty",
+      "question": "Semn clinic de pneumotorax hipertensiv:",
+      "choices": [
+        "Venă jugulară colabată",
+        "Mur-mur vezicular accentuat",
+        "Deviație traheală",
+        "Hipertensiune"
+      ],
+      "answer": 2,
+      "options": [
+        "Venă jugulară colabată",
+        "Mur-mur vezicular accentuat",
+        "Deviație traheală",
+        "Hipertensiune"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "MED-0010",
+      "module": "specialty",
+      "question": "Antibiotic de primă linie în profilaxia plăgilor contaminate (fără alergii):",
+      "choices": [
+        "Penicilină benzatină",
+        "Oxacilină",
+        "Amoxicilină/clavulanat",
+        "Vancomicină"
+      ],
+      "answer": 2,
+      "options": [
+        "Penicilină benzatină",
+        "Oxacilină",
+        "Amoxicilină/clavulanat",
+        "Vancomicină"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "MED-0011",
+      "module": "specialty",
+      "question": "În hipotermie moderată, conduita corectă este:",
+      "choices": [
+        "Încălzire activă externă + lichide calde",
+        "Duș fierbinte",
+        "Masaj viguros al membrelor",
+        "Sedare profundă"
+      ],
+      "answer": 0,
+      "options": [
+        "Încălzire activă externă + lichide calde",
+        "Duș fierbinte",
+        "Masaj viguros al membrelor",
+        "Sedare profundă"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "MED-0012",
+      "module": "specialty",
+      "question": "Cel mai sensibil semn pentru deshidratare severă la adult:",
+      "choices": [
+        "Mucoase umede",
+        "Turgor cutanat normal",
+        "TA crescută",
+        "Oligurie"
+      ],
+      "answer": 3,
+      "options": [
+        "Mucoase umede",
+        "Turgor cutanat normal",
+        "TA crescută",
+        "Oligurie"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "MED-0013",
+      "module": "specialty",
+      "question": "Antidot specific în intoxicația cu organofosforice:",
+      "choices": [
+        "Naloxonă",
+        "Atropină + pralidoxim",
+        "Flumazenil",
+        "N-acetilcisteină"
+      ],
+      "answer": 1,
+      "options": [
+        "Naloxonă",
+        "Atropină + pralidoxim",
+        "Flumazenil",
+        "N-acetilcisteină"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "MED-0014",
+      "module": "specialty",
+      "question": "Scala de evaluare a conștienței utilizată curent:",
+      "choices": [
+        "APGAR",
+        "CHA2DS2-VASc",
+        "Glasgow Coma Scale",
+        "SOFA"
+      ],
+      "answer": 2,
+      "options": [
+        "APGAR",
+        "CHA2DS2-VASc",
+        "Glasgow Coma Scale",
+        "SOFA"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "MED-0015",
+      "module": "specialty",
+      "question": "Prim-ajutor în anafilaxie severă:",
+      "choices": [
+        "Antihistaminic oral",
+        "Adrenalină IM",
+        "Corticosteroid topic",
+        "Nu se administrează nimic"
+      ],
+      "answer": 1,
+      "options": [
+        "Antihistaminic oral",
+        "Adrenalină IM",
+        "Corticosteroid topic",
+        "Nu se administrează nimic"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "MED-0016",
+      "module": "specialty",
+      "question": "ECG: tahicardie ventriculară monomorfă – prima măsură la pacient instabil:",
+      "choices": [
+        "Adenozină rapid",
+        "Cardioversie sincronizată",
+        "Masaj carotidian",
+        "Observație"
+      ],
+      "answer": 1,
+      "options": [
+        "Adenozină rapid",
+        "Cardioversie sincronizată",
+        "Masaj carotidian",
+        "Observație"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "MED-0017",
+      "module": "specialty",
+      "question": "Criteriu major în sepsis (qSOFA):",
+      "choices": [
+        "FR ≥ 22/min",
+        "TA sistolică ≥ 120 mmHg",
+        "Glicemie ≥ 200 mg/dl",
+        "Temperatură ≥ 39°C"
+      ],
+      "answer": 0,
+      "options": [
+        "FR ≥ 22/min",
+        "TA sistolică ≥ 120 mmHg",
+        "Glicemie ≥ 200 mg/dl",
+        "Temperatură ≥ 39°C"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "MED-0018",
+      "module": "specialty",
+      "question": "Tratamentul inițial în hiperkaliemie severă cu schimbări ECG:",
+      "choices": [
+        "Gluconat de calciu IV",
+        "Furosemid oral",
+        "Diete hipopotasice",
+        "Beta-blocant"
+      ],
+      "answer": 0,
+      "options": [
+        "Gluconat de calciu IV",
+        "Furosemid oral",
+        "Diete hipopotasice",
+        "Beta-blocant"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "MED-0019",
+      "module": "specialty",
+      "question": "Semn de fractură deschisă la membru:",
+      "choices": [
+        "Edem discret",
+        "Durere absentă",
+        "Os expus",
+        "Echimoză ușoară"
+      ],
+      "answer": 2,
+      "options": [
+        "Edem discret",
+        "Durere absentă",
+        "Os expus",
+        "Echimoză ușoară"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "MED-0020",
+      "module": "specialty",
+      "question": "Parametru-cheie în triajul START pentru adult:",
+      "choices": [
+        "Saturație O2",
+        "Răspuns la comenzi simple",
+        "Puls periferic slab",
+        "Culoarea tegumentelor"
+      ],
+      "answer": 1,
+      "options": [
+        "Saturație O2",
+        "Răspuns la comenzi simple",
+        "Puls periferic slab",
+        "Culoarea tegumentelor"
+      ],
+      "answerIndex": 1
+    }
+  ]
+}

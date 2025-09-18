@@ -1,3 +1,7 @@
+// ===============================================
+// FILE: src/App.tsx
+// CHANGE: add /ghid route
+// ===============================================
 import React, { Suspense } from 'react';
 import { createBrowserRouter, RouterProvider, Route, createRoutesFromElements } from 'react-router-dom';
 import Shell from '@/components/Shell';
@@ -5,8 +9,7 @@ import InstallPrompt from '@/components/InstallPrompt';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 
-// --- LAZY LOADING PENTRU PERFORMANȚĂ ---
-const Onboarding = React.lazy(() => import('@/pages/Onboarding')); // Pagina noua, unica
+const Onboarding = React.lazy(() => import('@/pages/Onboarding'));
 const Home = React.lazy(() => import('@/pages/Home'));
 const Learning = React.lazy(() => import('@/pages/Learning'));
 const English = React.lazy(() => import('@/pages/English'));
@@ -18,11 +21,11 @@ const Fitness = React.lazy(() => import('@/pages/Fitness'));
 const Mentor = React.lazy(() => import('@/pages/Mentor'));
 const Progress = React.lazy(() => import('@/pages/Progress'));
 const AdaptiveLearning = React.lazy(() => import('@/pages/AdaptiveLearning'));
+const GuideIndirecta = React.lazy(() => import('@/pages/GuideIndirecta'));
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Shell/>}>
-    {/* Onboarding este acum ruta principală dacă utilizatorul nu a făcut o selecție */}
-    <Route index element={<Onboarding/>}/> 
+    <Route index element={<Onboarding/>}/>
     <Route path='home' element={<Home/>}/>
     <Route path='learning' element={<Learning/>}/>
     <Route path='english' element={<English/>}/>
@@ -34,6 +37,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='mentor' element={<Mentor/>}/>
     <Route path='progress' element={<Progress/>}/>
     <Route path='adaptive-learning' element={<AdaptiveLearning/>}/>
+    <Route path='ghid' element={<GuideIndirecta/>}/>
   </Route>
 ));
 
