@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Procesul de informații include:",
+      "choices": [
+        "Culegere, procesare, diseminare",
+        "Diseminare, angajare, retragere",
+        "Recrutare, instruire, evaluare",
+        "Planificare, ordine, control"
+      ],
+      "answer": 0
+    }
+  ]
+}

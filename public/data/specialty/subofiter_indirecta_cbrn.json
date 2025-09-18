@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Ce prioritate are detecția CBRN pe câmpul de luptă?",
+      "choices": [
+        "Scăzută",
+        "Medie",
+        "Înaltă",
+        "Neimportantă"
+      ],
+      "answer": 2
+    }
+  ]
+}

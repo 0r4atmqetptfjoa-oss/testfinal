@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Ce tip de misiune este asociată cu SOF?",
+      "choices": [
+        "Luptă antitanc",
+        "Acțiuni directe/recunoaștere specială",
+        "Apărare AA",
+        "Operații de minare navală"
+      ],
+      "answer": 1
+    }
+  ]
+}

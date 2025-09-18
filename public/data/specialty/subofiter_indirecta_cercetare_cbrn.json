@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Care este primul pas în recunoașterea CBRN?",
+      "choices": [
+        "Prelevare probe",
+        "Raportare CBRN 1",
+        "Decontaminare",
+        "Izolare zonă"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Rolul muzicilor militare include:",
+      "choices": [
+        "Asistență medicală",
+        "Sprijin ceremonial și moral-trupelor",
+        "Sprijin geniu",
+        "C2"
+      ],
+      "answer": 1
+    }
+  ]
+}

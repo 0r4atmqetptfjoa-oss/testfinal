@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Un element de bază într-o rețea de comunicații tactice este:",
+      "choices": [
+        "PUO",
+        "Radio-releu / nod BN",
+        "Punct de frontieră",
+        "Piesă AA"
+      ],
+      "answer": 1
+    }
+  ]
+}

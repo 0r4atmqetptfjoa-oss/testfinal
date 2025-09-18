@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Care este prioritatea în exploatarea tehnicii auto militare?",
+      "choices": [
+        "Viteza maximă",
+        "Întreținerea preventivă și disponibilitatea",
+        "Vopsirea",
+        "Utilizare pe timp scurt"
+      ],
+      "answer": 1
+    }
+  ]
+}

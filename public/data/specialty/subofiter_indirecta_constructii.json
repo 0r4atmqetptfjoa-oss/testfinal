@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Exemplu de lucrare militară de construcții:",
+      "choices": [
+        "Post de observare fortificat",
+        "Antrenament CBRN",
+        "Rețea radio",
+        "Program de psihologie"
+      ],
+      "answer": 0
+    }
+  ]
+}

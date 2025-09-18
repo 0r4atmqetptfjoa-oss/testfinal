@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Ce particularitate tactică este esențială în teren muntos?",
+      "choices": [
+        "Mișcare strânsă",
+        "Itinerarii pe creste și văi",
+        "Echipament minim",
+        "Evitarea punctelor dominante"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Misiunea principală a subunității RAA este:",
+      "choices": [
+        "Sprijin de geniu",
+        "Apărarea AA a obiectivelor/forțelor",
+        "EOD",
+        "Cercetare în adâncime"
+      ],
+      "answer": 1
+    }
+  ]
+}

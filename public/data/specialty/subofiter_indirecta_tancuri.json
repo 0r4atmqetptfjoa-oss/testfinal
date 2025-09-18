@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Elementul principal al plutonului de tancuri este:",
+      "choices": [
+        "Secția reco",
+        "Tancul comandantului",
+        "Bateria AA",
+        "Secția geniu"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Caracteristica specifică infanteriei marine:",
+      "choices": [
+        "Operații exclusiv aeropurtate",
+        "Capabilități amfibii (uscat/apă)",
+        "Doar operații montane",
+        "Doar operații urbane"
+      ],
+      "answer": 1
+    }
+  ]
+}

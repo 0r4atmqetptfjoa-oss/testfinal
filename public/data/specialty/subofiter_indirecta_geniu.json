@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Una dintre misiunile de bază ale genistului este:",
+      "choices": [
+        "Război electronic",
+        "Deplasare aeromobilă",
+        "Amenajarea trecerilor",
+        "Control trafic aerian"
+      ],
+      "answer": 2
+    }
+  ]
+}

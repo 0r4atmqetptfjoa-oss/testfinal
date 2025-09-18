@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "O atribuție specifică PM în TO este:",
+      "choices": [
+        "Neutralizarea IED",
+        "Management trafic și ordine militară",
+        "Coordonarea tirului",
+        "Operații navale"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Scopul cercetării terestre este:",
+      "choices": [
+        "Engagement decisiv",
+        "Obținerea informațiilor despre inamic și teren",
+        "Apărarea AA",
+        "Război psihologic"
+      ],
+      "answer": 1
+    }
+  ]
+}

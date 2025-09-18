@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Ce indicator este esențial pentru capacitatea unei linii ferate?",
+      "choices": [
+        "Tonajul pe osie",
+        "Numărul de poduri",
+        "Culoarea vagoanelor",
+        "Tipul semnalelor"
+      ],
+      "answer": 0
+    }
+  ]
+}

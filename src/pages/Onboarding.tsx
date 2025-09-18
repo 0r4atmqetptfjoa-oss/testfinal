@@ -1,10 +1,10 @@
 // ===============================================
 // FILE: src/pages/Onboarding.tsx
-// CHANGE: lock filiera to "indirecta" and simplify flow
+// CHANGE: lock filiera to "indirecta" and expand arms list for filiera indirecta
 // ===============================================
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { setProfile, Branch, branchSlug, setFiliera } from "../lib/profile";
+import { setProfile, branchSlug, setFiliera } from "../lib/profile";
 import { Shield, Mountain, Hammer, Radio, Truck, Cross, Building2, Swords } from "lucide-react";
 
 type Step = 0|1|2|3;
@@ -14,7 +14,7 @@ export default function Onboarding(){
   const [role, setRole] = useState<"ofiter"|"subofiter"|null>(null);
   // filiera este forțată pe "indirecta"
   const filiera: "indirecta" = "indirecta";
-  const [arma, setArma] = useState<Branch|null>(null);
+  const [arma, setArma] = useState<string|null>(null);
   const pct = step===0 ? 10 : step===1 ? 60 : step===2 ? 100 : 100;
   const next = ()=> setStep(s=> Math.min(2, (s+1) as Step));
   const back = ()=> setStep(s=> Math.max(0, (s-1) as Step));
@@ -26,15 +26,28 @@ export default function Onboarding(){
     localStorage.setItem("onboarding_completed","1");
     nav(`/module/${branchSlug(arma as any)}`, { replace: true });
   }
-  const ARMS: {label:Branch, icon:React.ReactNode}[] = [
+  const ARMS: {label:string, icon:React.ReactNode}[] = [
     { label:"Infanterie", icon:<Swords className="w-4 h-4" /> },
-    { label:"Tancuri", icon:<Shield className="w-4 h-4" /> },
     { label:"Vânători de munte", icon:<Mountain className="w-4 h-4" /> },
-    { label:"Artilerie", icon:<Shield className="w-4 h-4" /> },
+    { label:"Tancuri", icon:<Shield className="w-4 h-4" /> },
+    { label:"Artilerie & rachete (terestre)", icon:<Shield className="w-4 h-4" /> },
+    { label:"Rachete și artilerie antiaeriană", icon:<Shield className="w-4 h-4" /> },
     { label:"Geniu", icon:<Hammer className="w-4 h-4" /> },
+    { label:"Apărare CBRN", icon:<Shield className="w-4 h-4" /> },
+    { label:"Cercetare", icon:<Shield className="w-4 h-4" /> },
+    { label:"Cercetare CBRN", icon:<Shield className="w-4 h-4" /> },
+    { label:"Informații militare", icon:<Shield className="w-4 h-4" /> },
+    { label:"Poliție militară", icon:<Shield className="w-4 h-4" /> },
+    { label:"Forțe speciale", icon:<Shield className="w-4 h-4" /> },
     { label:"Comunicații", icon:<Radio className="w-4 h-4" /> },
+    { label:"Auto", icon:<Truck className="w-4 h-4" /> },
+    { label:"Administrație", icon:<Building2 className="w-4 h-4" /> },
+    { label:"Construcții", icon:<Building2 className="w-4 h-4" /> },
+    { label:"Căi ferate", icon:<Building2 className="w-4 h-4" /> },
+    { label:"Muzici militare", icon:<Shield className="w-4 h-4" /> },
+    { label:"Infanterie marină", icon:<Swords className="w-4 h-4" /> },
     { label:"Logistică", icon:<Truck className="w-4 h-4" /> },
-    { label:"Medical", icon:<Cross className="w-4 h-4" /> },
+    { label:"Medical (Sanitar)", icon:<Cross className="w-4 h-4" /> },
   ];
   return (
     <div className="min-h-screen bg-black text-gray-200 px-4 pt-6 pb-10 max-w-xl mx-auto relative">

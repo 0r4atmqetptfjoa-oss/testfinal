@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "spec-001",
+      "module": "specialty",
+      "question": "Care este misiunea de bază a plutonului de infanterie în ofensivă?",
+      "choices": [
+        "Fixarea inamicului",
+        "Cucerirea obiectivului",
+        "Apărarea în adâncime",
+        "Interzicerea spațiului aerian"
+      ],
+      "answer": 1
+    }
+  ]
+}
