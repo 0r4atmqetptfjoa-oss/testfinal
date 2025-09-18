@@ -8,10 +8,20 @@
 .theme-accent-cyan{ --accent:#22d3ee; --accent-rgb:34,211,238; }
 .theme-accent-emerald{ --accent:#10b981; --accent-rgb:16,185,129; }
 
+/* Accente suplimentare pentru personalizare */
+.theme-accent-rose{ --accent:#f43f5e; --accent-rgb:244,63,94; }
+.theme-accent-blue{ --accent:#3b82f6; --accent-rgb:59,130,246; }
+.theme-accent-orange{ --accent:#f97316; --accent-rgb:249,115,22; }
+
 .theme-palette-default{ --bg:#000; --card:#0b0f16; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af; }
 .theme-palette-desert{ --bg:#0f0d08; --card:#17140e; --border:#2b2418; --text:#f3f4f6; --muted:#a1a1aa; }
 .theme-palette-naval{ --bg:#020617; --card:#0b1220; --border:#162237; --text:#e5e7eb; --muted:#9ca3af; }
 .theme-palette-alpine{ --bg:#07150f; --card:#0c2119; --border:#163a2c; --text:#e5e7eb; --muted:#9ca3af; }
+
+/* Palete suplimentare */
+.theme-palette-forest{ --bg:#031d10; --card:#0a3020; --border:#0f4525; --text:#e5e7eb; --muted:#9ca3af; }
+.theme-palette-ocean{ --bg:#011627; --card:#072043; --border:#0b2c60; --text:#e5e7eb; --muted:#9ca3af; }
+.theme-palette-sunset{ --bg:#1f0a24; --card:#2d1132; --border:#431d4c; --text:#f3f4f6; --muted:#d8b4fe; }
 
 .theme-variant-night{ --accent:#a78bfa; --accent-rgb:167,139,250; }
 .theme-variant-army{ --accent:#a3e635; --accent-rgb:163,230,53; }
@@ -19,6 +29,11 @@
 .theme-variant-naval{ --accent:#60a5fa; --accent-rgb:96,165,250; }
 .theme-variant-alpine{ --accent:#34d399; --accent-rgb:52,211,153; }
 .theme-variant-woodland{ --accent:#84cc16; --accent-rgb:132,204,22; }
+
+/* Variante suplimentare */
+.theme-variant-dawn{ --accent:#fda4af; --accent-rgb:253,164,175; }
+.theme-variant-twilight{ --accent:#c084fc; --accent-rgb:192,132,252; }
+.theme-variant-midnight{ --accent:#38bdf8; --accent-rgb:56,189,248; }
 
 html{ font-size:16px; }
 body{ background:var(--bg); color:var(--text); transform: translateZ(0) scale(var(--scale)); transform-origin: top left; }

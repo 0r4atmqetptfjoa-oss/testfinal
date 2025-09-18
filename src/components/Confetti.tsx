@@ -29,14 +29,17 @@ export default function useConfetti(){
     const start = performance.now();
     function tick(t: number){
       const dt = t - start;
-      ctx.clearRect(0,0,w,h);
+      // Using optional chaining to satisfy TypeScript that ctx may be null
+      ctx?.clearRect(0,0,w,h);
       parts.forEach(p=>{
         p.x += p.vx;
         p.y += p.vy;
         p.vy += 0.03;
         p.a = Math.max(0, 1 - (dt/durationMs));
-        ctx.fillStyle = `hsla(${p.hue}, 90%, 60%, ${p.a})`;
-        ctx.fillRect(p.x, p.y, p.s, p.s);
+        if(ctx){
+          ctx.fillStyle = `hsla(${p.hue}, 90%, 60%, ${p.a})`;
+          ctx.fillRect(p.x, p.y, p.s, p.s);
+        }
       });
       if (dt < durationMs) requestAnimationFrame(tick);
     }

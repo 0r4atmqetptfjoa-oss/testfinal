@@ -5,6 +5,7 @@
 import React, { Suspense } from 'react';
 import { createBrowserRouter, RouterProvider, Route, createRoutesFromElements } from 'react-router-dom';
 import Shell from '@/components/Shell';
+import ErrorBoundary from '@/components/ErrorBoundary';
 import InstallPrompt from '@/components/InstallPrompt';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
@@ -22,6 +23,8 @@ const Mentor = React.lazy(() => import('@/pages/Mentor'));
 const Progress = React.lazy(() => import('@/pages/Progress'));
 const AdaptiveLearning = React.lazy(() => import('@/pages/AdaptiveLearning'));
 const GuideIndirecta = React.lazy(() => import('@/pages/GuideIndirecta'));
+const Dashboard = React.lazy(() => import('@/pages/Dashboard'));
+const Badges = React.lazy(() => import('@/pages/Badges'));
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Shell/>}>
@@ -38,6 +41,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='progress' element={<Progress/>}/>
     <Route path='adaptive-learning' element={<AdaptiveLearning/>}/>
     <Route path='ghid' element={<GuideIndirecta/>}/>
+    <Route path='dashboard' element={<Dashboard/>}/>
+    <Route path='badges' element={<Badges/>}/>
   </Route>
 ));
 
@@ -48,7 +53,10 @@ const AppLoader = () => (
 export default function App(){
   return (
     <Suspense fallback={<AppLoader />}>
-      <RouterProvider router={router}/>
+      {/* Wrap router in an error boundary so runtime errors render a user friendly message */}
+      <ErrorBoundary>
+        <RouterProvider router={router}/>
+      </ErrorBoundary>
       <InstallPrompt/>
     </Suspense>
   );

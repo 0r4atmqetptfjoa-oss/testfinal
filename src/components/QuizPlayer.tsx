@@ -11,7 +11,25 @@ export default function QuizPlayer({ items, moduleName, onTestFinished }:{ items
   const q = items[i];
   const progress = Math.round(((i)/Math.max(1, items.length))*100);
   const select = (idx:number)=>{ if(choice!==null) return; setChoice(idx); if(idx !== q.answer) setWrong(w => [...w, q]); };
-  const next = ()=> { if (i+1 >= items.length){ onTestFinished(wrong); } else { setI(i+1); setChoice(null); } };
+  const next = ()=> {
+    if (i+1 >= items.length){
+      // Înregistrăm statistici în localStorage: număr de teste, întrebări, răspunsuri corecte
+      try {
+        const total = items.length;
+        const wrongCount = wrong.length;
+        const correctCount = total - wrongCount;
+        const exams = parseInt(localStorage.getItem('dashboard_exams') || '0', 10) + 1;
+        const qAns = parseInt(localStorage.getItem('dashboard_questions_answered') || '0', 10) + total;
+        const qCorr = parseInt(localStorage.getItem('dashboard_correct_answers') || '0', 10) + correctCount;
+        localStorage.setItem('dashboard_exams', exams.toString());
+        localStorage.setItem('dashboard_questions_answered', qAns.toString());
+        localStorage.setItem('dashboard_correct_answers', qCorr.toString());
+      } catch {}
+      onTestFinished(wrong);
+    } else {
+      setI(i+1); setChoice(null);
+    }
+  };
   if(!items || items.length===0){ return <div className="rounded-2xl border border-ui bg-card p-4 text-center">Nu există întrebări pentru acest set.</div>; }
   return (
     <div className="space-y-4">

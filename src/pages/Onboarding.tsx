@@ -16,8 +16,14 @@ export default function Onboarding(){
   const filiera: "indirecta" = "indirecta";
   const [arma, setArma] = useState<string|null>(null);
   const pct = step===0 ? 10 : step===1 ? 60 : step===2 ? 100 : 100;
-  const next = ()=> setStep(s=> Math.min(2, (s+1) as Step));
-  const back = ()=> setStep(s=> Math.max(0, (s-1) as Step));
+  const next = ()=> setStep(prev => {
+    const n = prev + 1;
+    return (n > 2 ? 2 : n) as Step;
+  });
+  const back = ()=> setStep(prev => {
+    const n = prev - 1;
+    return (n < 0 ? 0 : n) as Step;
+  });
 
   useEffect(()=>{ setFiliera("indirecta"); },[]);
 

@@ -1,0 +1,4 @@
+# Git quick help (PowerShell)
+git add -A
+git commit -m "cleanup: windows scripts + TS fixes"
+git push

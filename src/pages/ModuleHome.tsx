@@ -6,7 +6,7 @@ import React, { useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { sound } from "../lib/sound";
 import { haptics } from "../lib/haptics";
-import { BookOpen, Shield, Globe, Brain, FileText } from "lucide-react";
+import { BookOpen, Shield, Globe, Brain, FileText, Medal, BrainCircuit, ListChecks } from "lucide-react";
 import { getProfile } from "../lib/profile";
 
 function Card({ title, subtitle, onClick, icon }:{title:string; subtitle:string; onClick:()=>void; icon:React.ReactNode}){
@@ -39,6 +39,12 @@ export default function ModuleHome(){
         <Card title="Simulare Examen" subtitle={examSubtitle} icon={<Shield size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/exam"); }}/>
         <Card title="Teste Engleză" subtitle="Proba eliminatorie – seturi oficiale" icon={<Globe size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/english"); }}/>
         <Card title="Evaluare Psihologică" subtitle="Baterii generale" icon={<Brain size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/psychology"); }}/>
+        {/* Teste generale – seturi de întrebări din toate tematicile */}
+        <Card title="Teste generale" subtitle="Simulează examene din toate tematicile" icon={<ListChecks size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/all-tests"); }} />
+        {/* Insigne (Badges) – mutat aici deoarece nu se mai află în bara de navigare */}
+        <Card title="Insigne" subtitle="Vezi insignele câștigate" icon={<Medal size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/badges"); }} />
+        {/* Învățare adaptivă – modul AI pentru antrenament adaptiv */}
+        <Card title="Învățare adaptivă" subtitle="Antrenament AI – întrebări adaptate" icon={<BrainCircuit size={18}/>} onClick={()=> { haptics.light(); sound.ui(); (nav as any)("/adaptive-learning"); }} />
       </div>
     </div>
   );

@@ -5,9 +5,11 @@ import { getHaptics, setHaptics, getSounds, setSounds, getScale, setScale, type 
 import { haptics } from "../lib/haptics";
 import { sound } from "../lib/sound";
 
-const accents: Accent[] = ["violet","cyan","emerald"];
-const palettes: Palette[] = ["default","desert","naval","alpine"];
-const variants: Variant[] = ["night","army","desert","naval","alpine","woodland"];
+// Am extins setul de opțiuni pentru teme. Utilizatorii pot alege din mai multe accente,
+// palete și variante pentru a personaliza aspectul aplicației.
+const accents: Accent[] = ["violet","cyan","emerald","rose","blue","orange"];
+const palettes: Palette[] = ["default","desert","naval","alpine","forest","ocean","sunset"];
+const variants: Variant[] = ["night","army","desert","naval","alpine","woodland","dawn","twilight","midnight"];
 const scales: Scale[] = [0.9, 1, 1.1, 1.2];
 
 export default function Settings(){
@@ -25,6 +27,15 @@ export default function Settings(){
   useEffect(()=>{ setSounds(useSounds); if(useSounds) sound.ui(); },[useSounds]);
   useEffect(()=>{ setScale(scale); },[scale]);
 
+  function resetProgress(){
+    if (confirm('Sigur dorești să resetezi statisticile și progresul?')){
+      localStorage.removeItem('dashboard_exams');
+      localStorage.removeItem('dashboard_questions_answered');
+      localStorage.removeItem('dashboard_correct_answers');
+      alert('Progres resetat.');
+    }
+  }
+
   return (
     <div className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-24 space-y-6">
       <h1 className="text-xl font-bold">Setări</h1>
@@ -34,7 +45,22 @@ export default function Settings(){
         <div className="flex gap-2">
           {accents.map(a=>(
             <button key={a} onClick={()=> setA(a)} className={`h-8 w-8 rounded-full border ${accent===a?"border-accent":"border-ui"}`}
-              style={{ background: a==="violet"?"#8b5cf6": a==="cyan"?"#22d3ee":"#10b981" }} aria-label={`accent ${a}`} />
+              style={{
+                background:
+                  a === "violet"
+                    ? "#8b5cf6"
+                    : a === "cyan"
+                    ? "#22d3ee"
+                    : a === "emerald"
+                    ? "#10b981"
+                    : a === "rose"
+                    ? "#f43f5e"
+                    : a === "blue"
+                    ? "#3b82f6"
+                    : a === "orange"
+                    ? "#f97316"
+                    : "#8b5cf6",
+              }} aria-label={`accent ${a}`} />
           ))}
         </div>
         <div className="text-sm text-muted mt-3">Paletă</div>
@@ -44,6 +70,21 @@ export default function Settings(){
         <div className="text-sm text-muted mt-3">Variant (temă „armă”)</div>
         <div className="grid grid-cols-3 gap-2">
           {variants.map(v=>(<button key={v} onClick={()=> setV(v)} className={`px-3 py-2 rounded-xl border ${variant===v?"border-accent":"border-ui"}`}>{v}</button>))}
+        </div>
+        <div className="flex justify-end mt-3">
+          <button
+            onClick={() => {
+              const randA = accents[Math.floor(Math.random() * accents.length)];
+              const randP = palettes[Math.floor(Math.random() * palettes.length)];
+              const randV = variants[Math.floor(Math.random() * variants.length)];
+              setA(randA);
+              setP(randP);
+              setV(randV);
+            }}
+            className="btn btn-primary"
+          >
+            Temă aleatoare
+          </button>
         </div>
       </section>
 
@@ -64,6 +105,12 @@ export default function Settings(){
         <div className="flex gap-2">
           {scales.map(s=>(<button key={s} onClick={()=> sScale(s)} className={`btn flex-1 ${scale===s?"btn-primary":"btn-ghost"}`}>{Math.round(s*100)}%</button>))}
         </div>
+      </section>
+
+      <section className="rounded-2xl border border-ui bg-card p-4">
+        <h2 className="text-lg font-semibold mb-3">Gestionare progres</h2>
+        <p className="text-sm text-muted mb-3">Poți reseta statisticile salvate pentru dashboard (număr de teste, întrebări etc.).</p>
+        <button onClick={resetProgress} className="btn btn-error">Resetează progres</button>
       </section>
     </div>
   );

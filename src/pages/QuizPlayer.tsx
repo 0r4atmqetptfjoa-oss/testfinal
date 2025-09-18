@@ -57,6 +57,18 @@ export default function QuizPlayer({ items, onFinish }: { items: QuizItem[]; onF
     const perfect = score === items.length;
     if (perfect){ awardXP(20, "test_perfect"); setXpGain(x=>x+20); vibrate("perfect"); }
     awardXP(10, "test_complete_first"); setXpGain(x=>x+10);
+    // Înregistrăm statistici în localStorage (dashboard)
+    try {
+      const total = items.length;
+      const correctCount = score;
+      const wrongCount = total - correctCount;
+      const exams = parseInt(localStorage.getItem('dashboard_exams') || '0', 10) + 1;
+      const qAns = parseInt(localStorage.getItem('dashboard_questions_answered') || '0', 10) + total;
+      const qCorr = parseInt(localStorage.getItem('dashboard_correct_answers') || '0', 10) + correctCount;
+      localStorage.setItem('dashboard_exams', exams.toString());
+      localStorage.setItem('dashboard_questions_answered', qAns.toString());
+      localStorage.setItem('dashboard_correct_answers', qCorr.toString());
+    } catch {}
     sfxFinish(); setEdge("done");
     setView("summary"); onFinish?.(score);
   };

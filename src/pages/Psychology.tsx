@@ -2,21 +2,55 @@
 import { useEffect, useMemo, useState } from "react";
 import QuizPlayer from "../components/QuizPlayer";
 import type { Item } from "../utils/quizEngine";
-type PsyData = { tests: Item[][] };
+
+// Shape of a raw psychology question from the JSON file
+type RawPsyQuestion = {
+  id: string;
+  question: string;
+  options: string[];
+  answerIndex: number;
+  explanation?: string;
+  rationales?: string[];
+  topic?: string;
+  module?: string;
+  difficulty?: string;
+};
+
+/**
+ * Psychology page. Loads the raw psychology questions and groups them into
+ * multiple sets. Each set contains up to 20 questions for easier review.
+ */
 export default function Psychology(){
-  const [data, setData] = useState<PsyData | null>(null);
+  const [tests, setTests] = useState<Item[][] | null>(null);
   const [idx, setIdx] = useState<number | null>(null);
   const [wrong, setWrong] = useState<Item[]>([]);
   const [review, setReview] = useState(false);
-  useEffect(()=>{ fetch("/data/v12/psychology.json").then(r => r.json()).then(setData); },[]);
-  const current = useMemo(()=> idx===null || !data ? [] : (review ? wrong : data.tests[idx]), [idx, data, review, wrong]);
+  useEffect(()=>{
+    fetch("/data/v12/psychology.json").then(r => r.json()).then((raw: { questions: RawPsyQuestion[] }) => {
+      const mapped: Item[] = raw.questions.map(q => ({
+        id: q.id,
+        module: 'psychology',
+        question: q.question,
+        choices: q.options,
+        answer: q.answerIndex,
+      }));
+      // Split into chunks of 20 questions. Adjust chunk size as needed.
+      const chunkSize = 20;
+      const sets: Item[][] = [];
+      for(let i=0;i<mapped.length;i+=chunkSize){
+        sets.push(mapped.slice(i,i+chunkSize));
+      }
+      setTests(sets);
+    });
+  },[]);
+  const current = useMemo(()=> idx===null || !tests ? [] : (review ? wrong : tests[idx]), [idx, tests, review, wrong]);
   const done = (w: Item[]) => { setWrong(w); setReview(false); };
-  if(!data) return <div className="p-4">Se încarcă…</div>;
+  if(!tests) return <div className="p-4">Se încarcă…</div>;
   if(idx===null) return (
     <main className="min-h-screen bg-black text-gray-200 p-4 max-w-2xl mx-auto pb-24">
-      <div className="text-lg font-semibold mb-2">Evaluare Psihologică — {data.tests.length} baterii</div>
+      <div className="text-lg font-semibold mb-2">Evaluare Psihologică — {tests.length} seturi</div>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-        {data.tests.map((_,i)=>(<button key={i} className="py-3 px-4 rounded-xl bg-card hover:border-accent border border-ui" onClick={()=>{ setIdx(i); setWrong([]); }}>Set {i+1}</button>))}
+        {tests.map((_,i)=>(<button key={i} className="py-3 px-4 rounded-xl bg-card hover:border-accent border border-ui" onClick={()=>{ setIdx(i); setWrong([]); }}>Set {i+1}</button>))}
       </div>
     </main>
   );
